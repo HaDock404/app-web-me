@@ -1,22 +1,64 @@
+import { useState, useEffect } from 'react';
 import '../styles/footer.css'
+import { Link } from 'react-router-dom';
 
 function Footer() {
+    const [textIndex, setTextIndex] = useState(0);
+    const texts = [
+        '🎵 Listening : Fred again',
+        '🎵 Listening : Justice - Heavy Metal',
+        '🎮 Playing : Fortnite - BR',
+        '👨🏼‍💻 Beep boop boop',
+        '📺 Watching : Clouds Atlas',
+        '📖 Reading : Isaac Asimov',
+        '🎵 Listening : Frank Sinatra - My Way',
+        '🎮 Playing : DayZ',
+        '📺 Watching: The Game',
+        '📺 Watching : From',
+        '🎵 Listening : Tom Petty',
+    ];
+
+    useEffect(() => {
+        const interval = setInterval(() => {
+            setTextIndex((prevIndex) => (prevIndex + 1) % texts.length);
+        }, 5000); // Change every 5 seconds
+
+        return () => clearInterval(interval); // Cleanup interval on component unmount
+    }, []);
+
     return (
-        <footer>
-            <div>
-            <div>test texte</div>
-            <hr />
-            <h1>Gael Delescluse</h1>
-            <hr />
-            <nav>
-                <ul>
-                    <li>Github</li>
-                    <li>LinkedIn</li>
-                </ul>
-            </nav>
+        <header>
+            <div id='header'>
+                <div id='part1'>
+                    <div id='hobbies'>{texts[textIndex]}</div>
+
+                    <hr id='hr_black1'/>
+                </div>
+                
+
+                <div id='title_GD'>
+                    <div id='h1_GD'>Gael Delescluse</div>
+                </div>
+
+                <div id='part3'>
+                    <hr id='hr_black2'/>
+
+                    <nav id='nav_link'>
+                        <ul>
+                            <li>
+                                <Link to="https://github.com/HaDock404" className='link'>Github</Link>
+                            </li>
+                            <hr className='small_hr'/>
+                            <li>
+                                <Link to="https://www.linkedin.com/in/gael-d-044b34304/" className='link'>LinkedIn</Link>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                
             </div>
             
-        </footer>
+        </header>
     )
 }
 
