@@ -113,4 +113,71 @@ ul {
 
 .link {
     color: black;
+    position: relative;
+    display: inline-block;
+    color: inherit; /* Pour garder la couleur de texte initiale */
+    overflow: hidden; /* Nécessaire pour cacher le fond avant l'animation */
+}
+  
+.link::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(255, 251, 0, 0.689) 0%, rgba(255, 251, 0, 0.689) 100%);
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+    z-index: -1; /* Placer le fond derrière le texte */
+}
+  
+.link:hover::before {
+    transform: translateX(0);
+}
+
+.link_header {
+    font-size: 15px;
+}
+
+@media screen and (max-width: 767px) {
+    #header {
+        width: 100%;
+        max-width: 1300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+        padding-top: 100px;
+    }
+    #part1 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #part3 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #hr_black1 {
+        background-color: black;
+        height: 1px;
+        border: none;
+        width: 100%;
+        min-width: 10px;
+        flex: 0 0 auto;
+        margin: 15px;
+    }
+    
+    #hr_black2 {
+        background-color: black;
+        height: 1px;
+        border: none;
+        width: 100%;
+        margin: 15px;
+    }
 }

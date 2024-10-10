@@ -6,6 +6,10 @@ const StyledGlobalStyle = createGlobalStyle`
         max-width: 100%;
         overflow-x: hidden;
     }
+    ::selection {
+        background-color: black;
+        color: white;
+    }
 `
 
 function GlobalStyle() {

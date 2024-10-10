@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
-import '../styles/footer.css'
+import '../styles/header.css'
 import { Link } from 'react-router-dom';
 
-function Footer() {
+function Header() {
     const [textIndex, setTextIndex] = useState(0);
     const texts = [
         '🎵 Listening : Fred again',
@@ -13,7 +13,7 @@ function Footer() {
         '📖 Reading : Isaac Asimov',
         '🎵 Listening : Frank Sinatra - My Way',
         '🎮 Playing : DayZ',
-        '📺 Watching: The Game',
+        '📺 Watching : The Game',
         '📺 Watching : From',
         '🎵 Listening : Tom Petty',
     ];
@@ -46,11 +46,11 @@ function Footer() {
                     <nav id='nav_link'>
                         <ul>
                             <li>
-                                <Link to="https://github.com/HaDock404" className='link'>Github</Link>
+                                <Link to="https://github.com/HaDock404" className='link link_header'>Github</Link>
                             </li>
                             <hr className='small_hr'/>
                             <li>
-                                <Link to="https://www.linkedin.com/in/gael-d-044b34304/" className='link'>LinkedIn</Link>
+                                <Link to="https://www.linkedin.com/in/gael-d-044b34304/" className='link link_header'>LinkedIn</Link>
                             </li>
                         </ul>
                     </nav>
@@ -62,4 +62,4 @@ function Footer() {
     )
 }
 
-export default Footer
+export default Header
