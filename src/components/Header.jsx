@@ -14,8 +14,8 @@ function Header() {
         '🎵 Listening : Frank Sinatra - My Way',
         '🎮 Playing : DayZ',
         '📺 Watching : The Game',
-        '📺 Watching : From',
         '🎵 Listening : Tom Petty',
+        '📺 Watching : From',
     ];
 
     useEffect(() => {

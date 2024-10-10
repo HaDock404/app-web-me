@@ -1,0 +1,40 @@
+#username_diplay {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#username {
+    width: 100%;
+    height: 20px;
+    padding: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 1300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#hr_username {
+    background-color: black;
+    height: 4px;
+    border: none;
+    width: 100%;
+}
+
+#username_element {
+    position: absolute;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 12px;
+    background-color: white;
+    border: solid 1px black;
+    padding: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
