@@ -5,6 +5,7 @@ function Separation1() {
         <div id="separation1_display">
             <div id='separation1'>
                 <hr id='separation1_0'/>
+                <hr id='separation2_0'/>
             </div>
         </div>
     )
