@@ -25,12 +25,18 @@
 
 #hadock {
     width: 100%;
+    height: 100%;
     filter: grayscale(100%);
     transition: filter 0.5s ease;
 }
 
 #element1 {
     width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 #element2 {
@@ -42,4 +48,77 @@
     font-style: normal;
     font-size: 35px;
     text-align: left;
+}
+
+@media screen and (max-width: 999px) and (min-width: 930px) {
+    #element2 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 929px) and (min-width: 768px) {
+    #element2 {
+        font-size: 30px;
+    }
+    #hadock {
+        height: auto;
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width: 767px) and (min-width: 700px) {
+    #element1 {
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    #element2 {
+        font-size: 35px;
+        width: 100%;
+    }
+    #hadock {
+        height: 100%;
+    }
+    #intro {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+        padding-top: 30px;
+    }
+}
+
+@media screen and (max-width: 699px) {
+    #element1 {
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    #element2 {
+        font-size: 23px;
+        width: 95%;
+        line-height: 1.5;
+    }
+    #hadock {
+        height: 100%;
+    }
+    #intro {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+        padding-top: 30px;
+    }
 }
