@@ -1,0 +1,26 @@
+#separation1_display {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#separation1 {
+    width: 100%;
+    height: 20px;
+    padding: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 1300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#separation1_0 {
+    background-color: black;
+    height: 2px;
+    border: none;
+    width: 100%;
+}
