@@ -1,0 +1,32 @@
+#contribution_title_display {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#contribution_title {
+    width: 100%;
+    max-width: 1300px;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 15px;
+    padding-top: 5px;
+}
+
+#contribution_title_icon {
+    width: auto;
+    height: 100%;
+    margin-right: 10px;
+}
+
+#contribution_title_text {
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+}

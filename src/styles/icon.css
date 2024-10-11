@@ -1,0 +1,19 @@
+#icon1 {
+    width: auto;
+    height: 100%;
+}
+
+#puzzle {
+    transform-origin: 60% 25%;
+    transform-origin: 204px 82px;
+    animation: infiniteRotation 6s linear infinite;
+}
+
+@keyframes infiniteRotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }

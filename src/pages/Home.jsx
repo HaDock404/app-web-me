@@ -2,6 +2,7 @@ import Header from '../components/Header'
 import Username from '../components/Username'
 import Intro from '../components/Intro'
 import Separation2 from '../components/Separation2'
+import ContributionTitle from '../components/ContributionTitle'
 
 function Home() {
     return (
@@ -10,6 +11,7 @@ function Home() {
             <Username />
             <Intro />
             <Separation2 />
+            <ContributionTitle />
         </>
     )
 }
