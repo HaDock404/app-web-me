@@ -116,7 +116,7 @@ ul {
     display: inline-block;
     color: inherit; /* Pour garder la couleur de texte initiale */
     overflow: hidden; /* Nécessaire pour cacher le fond avant l'animation */
-    vertical-align: middle;
+    vertical-align: top;
 }
   
 .link::before {
