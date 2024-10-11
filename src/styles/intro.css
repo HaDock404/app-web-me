@@ -21,6 +21,20 @@
 }
 
 #hadock {
-    width: 320px;
-    height: 320px;
+    width: 100%;
+}
+
+#element1 {
+    width: 25%;
+}
+
+#element2 {
+    width: 75%;
+    padding: 35px;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 35px;
+    text-align: left;
 }
