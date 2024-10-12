@@ -1,0 +1,43 @@
+#articles_display {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#articles {
+    width: 100%;
+    max-width: 1300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.article {
+    height: 380px;
+}
+
+.vertical_hr {
+    background-color: black;
+    width: 1px;
+    border: none;
+    height: 100%;
+}
+
+.content_article {
+    width: calc(100% - 24px);
+    height: 100%;
+    background-color: blue;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.content_box_image_article {
+    width: 100%;
+    background-color: red;
+    height: 180px;
+}
