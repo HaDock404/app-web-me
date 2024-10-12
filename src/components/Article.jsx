@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import Logo from '../assets/logo.png'
 
 function Article(props) {
 
@@ -41,9 +42,21 @@ function Article(props) {
                     marginLeft: `${MarginLeft}px`,
                     marginRight: `${MarginRight}px`
                 }}>
-                <div className='content_box_image_article'>
-
+                <div className='content_box'>
+                    <div className='content_box_image_article'>
+                        <img className='Logotest' src={Logo} alt="" />
+                    </div>
+                    <div className='content_box_title'>
+                        Example text for title
+                    </div>
+                    <div className='content_box_text'>
+                        Example text for text disposition and test this is a test just a test read my test it's a test.
+                    </div>
                 </div>
+                <div className='link_box'>
+                    Link
+                </div>
+                
             </div>
         </article>
     );

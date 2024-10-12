@@ -21,7 +21,7 @@
 
 #intro:hover #hadock {
     filter: grayscale(0%);
-  }
+}
 
 #hadock {
     width: 100%;
