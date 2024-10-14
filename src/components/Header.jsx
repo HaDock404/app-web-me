@@ -46,11 +46,11 @@ function Header() {
                     <nav id='nav_link'>
                         <ul>
                             <li>
-                                <Link to="https://github.com/HaDock404" className='link link_header'>Github</Link>
+                                <Link to="https://github.com/HaDock404" className='link link_header' target="_blank" rel="noopener noreferrer">Github</Link>
                             </li>
                             <hr className='small_hr'/>
                             <li>
-                                <Link to="https://www.linkedin.com/in/gael-d-044b34304/" className='link link_header'>LinkedIn</Link>
+                                <Link to="https://www.linkedin.com/in/gael-d-044b34304/" className='link link_header' target="_blank" rel="noopener noreferrer">LinkedIn</Link>
                             </li>
                         </ul>
                     </nav>
