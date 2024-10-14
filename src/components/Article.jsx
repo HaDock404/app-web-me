@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react';
 import Logo from '../assets/logo.png'
+import Icon2 from './Icon2';
+import { Link } from 'react-router-dom';
 
 function Article(props) {
 
@@ -44,7 +46,7 @@ function Article(props) {
                 }}>
                 <div className='content_box'>
                     <div className='content_box_image_article'>
-                        <img className='Logotest' src={Logo} alt="" />
+                        <img className='Logotest' src={props.image} alt="" />
                     </div>
                     <div className='content_box_title'>
                         Example text for title
@@ -54,7 +56,12 @@ function Article(props) {
                     </div>
                 </div>
                 <div className='link_box'>
-                    Link
+                    <div className='icon_box_link'>
+                        <Icon2 />
+                    </div>
+                    <Link to="/" className='link text_box_link'>Read more about</Link>
+                    
+                    
                 </div>
                 
             </div>

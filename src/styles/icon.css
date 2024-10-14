@@ -16,4 +16,9 @@
     to {
       transform: rotate(360deg);
     }
-  }
+}
+
+#icon2 {
+  width: auto;
+  height: 100%;
+}
