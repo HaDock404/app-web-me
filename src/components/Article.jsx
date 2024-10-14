@@ -10,6 +10,8 @@ function Article(props) {
     const [MarginRight, setMarginRight] = useState(10);
     const [TotalWidth, setTotalWidth] = useState(0)
 
+    const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
     const placement_article = props.placement;
 
     useEffect(() => {
@@ -27,22 +29,31 @@ function Article(props) {
             setMarginRight(10);
             setTotalWidth(0)
         }
+        const handleResize = () => setWindowWidth(window.innerWidth);
+    
+        window.addEventListener('resize', handleResize);
+    
+        // Cleanup the event listener on component unmount
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
     }, [placement_article]); // Exécuter ce code lorsque `center_article` change
 
     return (
         <article 
             className="article"
             style={{
-                width: `calc(25% - ${TotalWidth}px)`
+                width: window.innerWidth > 800 ? `calc(25% - ${TotalWidth}px)` : '100%'
             }}
             
             >
             <div 
                 className="content_article"
                 style={{
-                    width: `calc(100% - ${WidthContent}px)`,
-                    marginLeft: `${MarginLeft}px`,
-                    marginRight: `${MarginRight}px`
+                    width: window.innerWidth > 800 ? `calc(100% - ${WidthContent}px)` : '100%',
+                    marginLeft: window.innerWidth > 800 ? `${MarginLeft}px` : '0px',
+                    marginRight: window.innerWidth > 800 ? `${MarginRight}px` : '0px',
+
                 }}>
                 <div className='content_box'>
                     <div className='content_box_image_article'>
