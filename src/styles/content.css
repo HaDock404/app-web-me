@@ -1,0 +1,27 @@
+.content_section_display {
+    background-color: red;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    overscroll-behavior: none;
+    touch-action: none;
+    overflow: hidden;
+}
+
+.content_article_left {
+    width: 50%;
+    height: 100vh; /* Hauteur sur tout l'écran */
+    background-color: yellow;
+    overflow-y: none;
+    overscroll-behavior: none;
+}
+
+.content_article_right {
+    width: 50%;
+    height: 100vh; /* La hauteur de l'élément droit est également sur tout l'écran */
+    background-color: blue;
+    flex: 3;
+    overflow-y: auto; /* Le contenu interne défile */
+    overscroll-behavior: none;
+}

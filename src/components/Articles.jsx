@@ -15,7 +15,7 @@ const text2 = "My experience at TotalEnergie made me discover the administrative
 const text3 = "Why ? Because it's fashionable but not only that: 10 uses of AI in my jobs."
 const text4 = "How to quantify improvements? Using the right indicators and ensuring effective maintenance."
 
-const link1 = "/"
+const link1 = "/article_01"
 const link2 = "/"
 const link3 = "/"
 const link4 = "/"

@@ -5,6 +5,7 @@ const StyledGlobalStyle = createGlobalStyle`
         width: 100%
         max-width: 100%;
         overflow-x: hidden;
+        overscroll-behavior: none;
     }
     ::selection {
         background-color: black;

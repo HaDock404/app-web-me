@@ -70,7 +70,7 @@ function Article(props) {
                     <div className='icon_box_link'>
                         <Icon2 />
                     </div>
-                    <Link to={props.link} className='link text_box_link' target="_blank" rel="noopener noreferrer">Read more about</Link>
+                    <Link to={props.link} className='link text_box_link' target="" rel="noopener noreferrer">Read more about</Link>
                     
                     
                 </div>
