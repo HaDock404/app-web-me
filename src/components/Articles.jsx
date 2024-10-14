@@ -10,7 +10,7 @@ const title2 = "How to improve exchanges ?"
 const title3 = "AI everywhere"
 const title4 = "Concrete & Quantified improvement"
 
-const text1 = "Presentation of my journey through an interactive page using different animations."
+const text1 = "I tried to present my journey through an interactive page using differents animations."
 const text2 = "My experience at TotalEnergie made me discover the administrative burden and how to remedy it."
 const text3 = "Why ? Because it's fashionable but not only that: 10 uses of AI in my jobs."
 const text4 = "How to quantify improvements? Using the right indicators and ensuring effective maintenance."
