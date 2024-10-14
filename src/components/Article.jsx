@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
-import Logo from '../assets/logo.png'
 import Icon2 from './Icon2';
+import Icon5 from './Icon5';
 import { Link } from 'react-router-dom';
 
 function Article(props) {
