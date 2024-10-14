@@ -49,17 +49,17 @@ function Article(props) {
                         <img className='Logotest' src={props.image} alt="" />
                     </div>
                     <div className='content_box_title'>
-                        Example text for title
+                        {props.title}
                     </div>
                     <div className='content_box_text'>
-                        Example text for text disposition and test this is a test just a test read my test it's a test.
+                        {props.text}
                     </div>
                 </div>
                 <div className='link_box'>
                     <div className='icon_box_link'>
                         <Icon2 />
                     </div>
-                    <Link to="/" className='link text_box_link'>Read more about</Link>
+                    <Link to={props.link} className='link text_box_link'>Read more about</Link>
                     
                     
                 </div>
