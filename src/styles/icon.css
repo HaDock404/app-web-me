@@ -33,6 +33,11 @@
   height: 100%;
 }
 
+#icon6 {
+  width: auto;
+  height: 100%;
+}
+
 #gear_test {
   transform-origin: 141px 75px;
   animation: infiniteRotation2 6s linear infinite;
