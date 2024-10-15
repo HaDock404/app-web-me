@@ -8,21 +8,24 @@ function Article01() {
         <>
             <section className="content_section_display">
                 <article className='content_article_left'>
-                    <div className='content_article_left_icon'>
+                    <Link to="/" className='content_article_left_icon'>
                         <Icon6 />
-                    </div>
+                    </Link>
                     <div className='content_article_left_placement'>
-                        <div className='content_article_left_title'>
-                            Interactivity to support the user
-                        </div>
-                        <div className='content_article_left_link'>
-                            My About Me <Icon8 />
+                        <div className='content_article_left_placement2'>
+                            <div className='content_article_left_title'>
+                                Interactivity to support the user
+                            </div>
+                            <div className='content_article_left_link'>
+                                My About Me <Icon8 />
+                            </div>
                         </div>
                         <div className='content_article_left_date'>
                             2020
                         </div>
                     </div>
                 </article>
+
                 <article className='content_article_right'>
                     <div className='content_article_right_placement'>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet explicabo repellendus in quos fuga, ratione officia rerum corrupti quam aperiam eligendi ipsum magni expedita quo iusto nihil? Harum, dignissimos iusto?

@@ -36,6 +36,9 @@
     height: 50px;
     margin-left: 50px;
     margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .content_article_left_placement {
     position: absolute;
@@ -47,8 +50,15 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: space-around;
+    justify-content: space-between;
+}
 
+.content_article_left_placement2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .content_article_left_title {
@@ -58,6 +68,7 @@
     font-size: 50px;
     line-height: 1.3;
     color: white;
+    margin-bottom: 15px;
 }
 
 .content_article_left_link {
@@ -75,4 +86,5 @@
     font-style: normal;
     font-size: 25px;
     color: white;
+    margin-bottom: 20px;
 }
