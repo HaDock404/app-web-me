@@ -1,5 +1,6 @@
 import '../styles/content.css'
 import Icon6 from '../components/Icon6'
+import Icon8 from '../components/Icon8'
 import { Link } from 'react-router-dom'
 
 function Article01() {
@@ -15,7 +16,7 @@ function Article01() {
                             Interactivity to support the user
                         </div>
                         <div className='content_article_left_link'>
-                            My About Me
+                            My About Me <Icon8 />
                         </div>
                         <div className='content_article_left_date'>
                             2020

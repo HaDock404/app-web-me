@@ -41,6 +41,13 @@
 #icon7 {
   width: auto;
   height: 100%;
+  vertical-align: middle;
+}
+
+#icon8 {
+  width: auto;
+  height: 100%;
+
 }
 
 #gear_test {
