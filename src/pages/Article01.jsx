@@ -17,7 +17,10 @@ function Article01() {
                                 Interactivity to support the user
                             </div>
                             <div className='content_article_left_link'>
-                                My About Me <Icon8 />
+                                <Link to="https://hadock404.github.io/app-bio-about_me/" className='content_title_link' target="_blank" rel="noopener noreferrer">
+                                    My About Me
+                                </Link>
+                                <Icon8 />
                             </div>
                         </div>
                         <div className='content_article_left_date'>
