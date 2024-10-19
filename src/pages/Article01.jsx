@@ -3,6 +3,8 @@ import Icon6 from '../components/Icon6'
 import Icon8 from '../components/Icon8'
 import { Link } from 'react-router-dom'
 
+import animation from '../assets/animation.mp4'
+
 function Article01() {
     return (
         <>
@@ -45,6 +47,10 @@ function Article01() {
                         </div>
                         <div className='content_article_right_text'>
                             My goal was simple: to tell my story through a web page. This story needed to be concise, and the navigation had to be as smooth and intuitive as possible. The target user was a human resources director looking for talented profiles to recruit.
+                        </div>
+
+                        <div className='content_article_right_video'>
+                            <video src={animation} autoPlay loop muted playsInline preload="auto" />
                         </div>
 
                         <div className='content_article_right_title'>
