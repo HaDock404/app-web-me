@@ -90,7 +90,7 @@
 .content_title_link {
     color: white;
     text-decoration: none;
-    margin-right: 5px;
+    margin-right: 15px;
 }
 
 .content_title_link:hover {
@@ -104,4 +104,24 @@
     font-size: 25px;
     color: white;
     margin-bottom: 20px;
+}
+
+.content_article_right_title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1.3;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.content_article_right_text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    color: black;
+    margin-bottom: 15px;
 }

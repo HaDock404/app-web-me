@@ -1,0 +1,31 @@
+Ce projet n'était à la base qu'un prétexte pour présenter mon expérience professionnel, mais j'ai décidé de  pousser ma réflexion afin d'en tirer des enseignements.
+Cette réflexion est tiré de ma passion pour les sites internet présenté sur la plateforme awwwesome. 
+
+Je suis loin d'avoir les compétences des artistes qui réalisent les sites qui trônent aux premières places chaque semaine, mais j'ai du temps pour les analyser.
+
+Chaque site réalisé accompagne l'utilisateur dans sa navigation pour lui faire vivre une expérience ou une histoire afin de lui faire acheter un produit (qu'importe le produit).
+
+Mon objectif était très simple, raconter mon histoire à travers une page web. Il fallait que cette histoire soit courte et que la navigation de l'utilisateur soit la plus simple possible. L'utilisateur était supposé être une DRH à la recherche de profils talentueux à embaucher.  
+
+Qui est l'utilisateur 
+
+Avant de parler d'intéractivité, il est important de comprendre à qui on s'adresse. Il existe plétore de site intéractif, et les meilleurs sont pour les enfants. Dans ces sites il y a toujours un animal marrant qui accompagne l'enfant dans sa navigation, je ne pense pas être le seul a avoir joué à Adibou et ce jeu était une mine d'idées d'intéractivité. 
+Moi je devais parler à des DRH, pressées, pas intéressées, et qui ont l'habitude du scroll intepestif sur instagram. 
+
+J'ai alors opté pour une navigation très simple par le scroll avec différentes animations qui viendraient imager mon histoire et qui serait accompagné de texte explicatif. 
+
+Parler du code simple.
+
+
+
+Les SVG
+
+Les SVG sont un outil que j'ai utilisé durant tout le projet. Ce sont des dessins par ordinateur que j'ai réalisé et qui une fois exporté au bon format, permettent de manipuler le dessin en ligne de code. Cela permet de conserver la qualité d'image qu'importe la dimension de l'écran, et de conserver les proportions des animations.
+
+Exemple d'animation pour SVG
+
+
+Le résultat
+
+Mon site était loin d'être parfait, il manquait certainement de contenu et il aurait pu être plus interactif, mais .. il a reçu un certain succès auprès des DRH qui ont toujours paru intéressé par mon profil après avoir parcouru mon expérience de cette manière. Je ne recommande pas à tous le monde de réaliser ce type de site, mais bien travailler l'intéractivité de l'utilisateur pour lui vendre quelque chose (en l'occurence mon profil) est toujours gagnant.
+
