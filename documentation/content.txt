@@ -29,3 +29,23 @@ Le résultat
 
 Mon site était loin d'être parfait, il manquait certainement de contenu et il aurait pu être plus interactif, mais .. il a reçu un certain succès auprès des DRH qui ont toujours paru intéressé par mon profil après avoir parcouru mon expérience de cette manière. Je ne recommande pas à tous le monde de réaliser ce type de site, mais bien travailler l'intéractivité de l'utilisateur pour lui vendre quelque chose (en l'occurence mon profil) est toujours gagnant.
 
+
+________________________________________________
+
+Ce projet, à l'origine, n'était qu'un prétexte pour mettre en avant mon parcours professionnel. Cependant, j'ai décidé d'aller plus loin dans ma réflexion pour en tirer des enseignements. Cette démarche s'inspire de ma passion pour les sites web présentés sur la plateforme Awwwards.
+
+Je suis bien loin d'avoir le talent des créateurs dont les sites figurent en tête chaque semaine, mais j'ai pris le temps de les analyser en profondeur.
+
+Ces sites accompagnent l'utilisateur dans une navigation immersive, racontant une histoire ou offrant une expérience qui mène subtilement à l'achat d'un produit (peu importe lequel).
+
+Mon objectif était simple : raconter mon histoire à travers une page web. Il fallait que cette histoire soit concise et que la navigation soit aussi fluide et intuitive que possible. L'utilisateur cible était une directrice des ressources humaines, à la recherche de talents à recruter.
+
+This project was initially just an excuse to showcase my professional experience, but I decided to push my thinking further and draw some valuable lessons from it. This reflection stems from my passion for the websites featured on the Awwwards platform.
+
+I am far from having the skills of the artists whose sites grace the top spots every week, but I have taken the time to analyze them.
+
+Each of these websites guides the user through an immersive experience or tells a story, ultimately aiming to lead them to purchase a product (whatever the product may be).
+
+My goal was simple: to tell my story through a web page. This story needed to be concise, and the navigation had to be as smooth and intuitive as possible. The target user was a human resources director looking for talented profiles to recruit.
+
+________________________________________________
