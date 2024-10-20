@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom'
 import animation from '../assets/animation.mp4'
 import total from '../assets/total.mp4'
 import scroll from '../assets/scroll.png'
+import total_figure from '../assets/total_figure.png'
 
 function Article01() {
     return (
@@ -21,7 +22,7 @@ function Article01() {
                                 Improve exchanges
                             </div>
                             <div className='content_article_left_link'>
-                                <Link to="" className='content_title_link' target="_blank" rel="noopener noreferrer">
+                                <Link to="https://pro.totalenergies.fr/?_gl=1*1bibh94*_ga*MjE5OTY3NDcuMTcyOTQzOTA1MQ..*_gcl_au*MTcyMDMyMTMzMy4xNzI5NDM5MDUw*_ga_P34FSMP2N5*MTcyOTQzOTA1MS4xLjEuMTcyOTQzOTA1Mi41OS4wLjA." className='content_title_link' target="_blank" rel="noopener noreferrer">
                                     Form
                                 </Link>
                                 <Icon8 />
@@ -42,7 +43,7 @@ function Article01() {
                             In France, the electricity and gas markets were opened to competition for all customers on July 1, 2007. Today, they are governed by Directives <Link to="https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2009:211:0055:0093:fr:PDF" className='content_article_right_text_link'  target="_blank" rel="noopener noreferrer">2009/72/EC</Link> and <Link to="https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2009:211:0094:0136:fr:PDF" className='content_article_right_text_link'  target="_blank" rel="noopener noreferrer">2009/73/EC</Link> of July 13, 2009. The goal was to transition from several independent national markets to a single, integrated European market. This measure aimed to dismantle the state monopoly on energy and allow private companies to thrive in the European market.
                         </div>
                         <div className='content_article_right_text'>
-                            By the end of 2021, TotalEnergies had no fewer than 5 million customers. I worked in the Key Accounts department, which dealt exclusively with public sector markets. Various organizations grouped together numerous French administrations to negotiate more favorable electricity supply prices. TotalEnergies had won the largest contract: <Link to="https://www.ugap.fr/" className='content_article_right_text_link'  target="_blank" rel="noopener noreferrer">UGAP</Link>.
+                            By the end of 2021, <Link to="https://www.totalenergies.fr/" className='content_article_right_text_link'  target="_blank" rel="noopener noreferrer">TotalEnergies</Link> had no fewer than 5 million customers. I worked in the Key Accounts department, which dealt exclusively with public sector markets. Various organizations grouped together numerous French administrations to negotiate more favorable electricity supply prices. TotalEnergies had won the largest contract: <Link to="https://www.ugap.fr/" className='content_article_right_text_link'  target="_blank" rel="noopener noreferrer">UGAP</Link>.
                         </div>
                         <div className='content_article_right_text'>
                             Unfortunately, at that time, TotalEnergies lacked the necessary tools to process and analyze the thousands of energy supply points associated with public sector contracts. Handling this crucial information, which was essential to optimize electricity supply, proved to be extremely complicated and led to some rather unusual situations.
@@ -51,46 +52,26 @@ function Article01() {
                             <video src={total} autoPlay loop muted playsInline preload="auto" />
                         </div>
                         <div className='content_article_right_subtitle'>
-                            TotalErnergie becomes an electricity and gas supplier.
+                            TotalEnergies becomes an electricity and gas supplier.
                         </div>
 
                         <div className='content_article_right_title'>
-                            The user
+                            An observation
                         </div>
                         <div className='content_article_right_text'>
-                            Before talking about interactivity, it's crucial to understand who the audience is. There are countless interactive websites, and the best ones are often aimed at children. These sites usually feature a fun animal character that guides the child through the navigation. I’m sure I’m not the only one who played Adibou, a game full of creative ideas for interactivity.
+                            My data team and I quickly identified this issue when processing data from previous, smaller public sector contracts. But when TotalEnergies won the largest French contract, we had to take action.
                         </div>
                         <div className='content_article_right_text'>
-                            In my case, I was speaking to HR managers—busy, uninterested, and accustomed to fast scrolling through Instagram feeds.
+                            These data were essential, as they allowed the sales department to adjust market prices and the Trading department to purchase sufficient quantities of energy on the European market at the best price, ensuring a profitable outcome for the company.
                         </div>
                         <div className='content_article_right_text'>
-                            So, I opted for a very simple navigation via scrolling, with various animations to illustrate my story, accompanied by explanatory text.
-                        </div>
-
-                        <div className='content_article_right_title'>
-                            The method
-                        </div>
-                        <div className='content_article_right_text'>
-                            Two variables are initialized to 0. They are used to adjust the start and end point of the scroll calculation and an event listener fires every time the user scrolls the page.
-                        </div>
-                        <div className='content_article_right_text'>
-                            The --scroll CSS variable updates in real time, allowing animations to be triggered based on the user's location on the page.
+                            I was tasked by the business-to-business managers, <Link to="https://fr.linkedin.com/in/benjamin-salmeron-29ba783a" className='content_article_right_text_link'  target="_blank" rel="noopener noreferrer">Benjamin Salmeron</Link> and <Link to="https://fr.linkedin.com/in/ikrame-farssi-ba639ab1" className='content_article_right_text_link'  target="_blank" rel="noopener noreferrer">Ikram Farssi</Link>, with developing a tool to accurately retrieve delivery point data and store it on a server, allowing my team to access and analyze it.
                         </div>
                         <div className='content_article_right_text_bis'>
-                            <img src={scroll} alt="image" className='content_article_right_text_image'/>
+                            <img src={total_figure} alt="image" className='content_article_right_text_image'/>
                         </div>
                         <div className='content_article_right_subtitle_bis'>
-                            Function to retrieve the user's location in the web page.
-                        </div>
-
-                        <div className='content_article_right_title'>
-                            The result
-                        </div>
-                        <div className='content_article_right_text'>
-                            My website was far from perfect. It likely lacked content, and it could have been more interactive. However, it still found some success with HR managers, who consistently seemed interested in my profile after browsing through my experience in this format. I wouldn’t necessarily recommend this type of website to everyone, but focusing on user interactivity to sell something (in my case, my profile) is always a winning strategy.
-                        </div>
-                        <div className='content_article_right_text'>
-                            After that, this project gave me a lot of ideas on how to best interact with users in order to offer them an enriching experience that would lead to success in other applications.
+                            My project data architecture diagram.
                         </div>
 
                         <div className='content_article_right_title'>
