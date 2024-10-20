@@ -11,10 +11,17 @@
 .content_article_left {
     width: 50%;
     height: 100vh; /* Hauteur sur tout l'écran */
-    background-color: #479aff;
     overflow-y: none;
     overscroll-behavior: none;
     position: relative;
+}
+
+#article_01 {
+    background-color: #479aff;
+}
+
+#article_02 {
+    background-color: #fd5f72;
 }
 
 .content_article_right {

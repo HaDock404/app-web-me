@@ -10,24 +10,24 @@ function Article01() {
     return (
         <>
             <section className="content_section_display">
-                <article className='content_article_left' id='article_01'>
+                <article className='content_article_left' id='article_02'>
                     <Link to="/" className='content_article_left_icon'>
                         <Icon6 />
                     </Link>
                     <div className='content_article_left_placement'>
                         <div className='content_article_left_placement2'>
                             <div className='content_article_left_title'>
-                                Interactivity to support the user
+                                Improve exchanges
                             </div>
                             <div className='content_article_left_link'>
-                                <Link to="https://hadock404.github.io/app-bio-about_me/" className='content_title_link' target="_blank" rel="noopener noreferrer">
-                                    My About Me
+                                <Link to="" className='content_title_link' target="_blank" rel="noopener noreferrer">
+                                    Form
                                 </Link>
                                 <Icon8 />
                             </div>
                         </div>
                         <div className='content_article_left_date'>
-                            2020
+                            2021
                         </div>
                     </div>
                 </article>
@@ -35,7 +35,7 @@ function Article01() {
                 <article className='content_article_right'>
                     <div className='content_article_right_placement'>
                         <div className='content_article_right_title'>
-                            The project
+                            Context
                         </div>
                         <div className='content_article_right_text'>
                             This project was initially just an excuse to showcase my professional experience, but I decided to push my thinking further and draw some valuable lessons from it. This reflection stems from my passion for the websites featured on the <Link to="https://www.awwwards.com/" className='content_article_right_text_link'  target="_blank" rel="noopener noreferrer">Awwwards.com</Link> platform.
