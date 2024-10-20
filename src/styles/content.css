@@ -134,7 +134,7 @@
     width: 100%;
     position: relative;
     overflow: hidden;
-    padding-bottom: 67%; /* Ratio de 16:9 (hauteur / largeur) */
+    padding-bottom: 69%;
 }
 
 .content_article_right_video video {
@@ -144,4 +144,27 @@
     position: absolute;
     top: 0;
     left: 0;
+}
+
+.content_article_right_subtitle {
+    width: 100%;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 11px;
+    line-height: 1.5;
+    color: black;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.content_article_right_text_footer {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    color: black;
+    margin-bottom: 100px;
 }

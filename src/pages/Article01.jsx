@@ -48,33 +48,33 @@ function Article01() {
                         <div className='content_article_right_text'>
                             My goal was simple: to tell my story through a <Link to="https://hadock404.github.io/app-bio-about_me/" className='content_article_right_text_link'  target="_blank" rel="noopener noreferrer">web page</Link>. This story needed to be concise, and the navigation had to be as smooth and intuitive as possible. The target user was a human resources director looking for talented profiles to recruit.
                         </div>
-
                         <div className='content_article_right_video'>
                             <video src={animation} autoPlay loop muted playsInline preload="auto" />
                         </div>
-
-                        <div className='content_article_right_title'>
-                            The gap
-                        </div>
-                        <div className='content_article_right_text'>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est doloribus, reprehenderit dicta eius quasi harum quis beatae quibusdam! Error, corrupti cupiditate! Libero repellat illum minima iste quod saepe est amet!
+                        <div className='content_article_right_subtitle'>
+                            Explanation of the navigation method to the user
                         </div>
 
                         <div className='content_article_right_title'>
-                            The gap
+                            The user
                         </div>
                         <div className='content_article_right_text'>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est doloribus, reprehenderit dicta eius quasi harum quis beatae quibusdam! Error, corrupti cupiditate! Libero repellat illum minima iste quod saepe est amet!
+                            Before talking about interactivity, it's crucial to understand who the audience is. There are countless interactive websites, and the best ones are often aimed at children. These sites usually feature a fun animal character that guides the child through the navigation. I’m sure I’m not the only one who played Adibou, a game full of creative ideas for interactivity.
                         </div>
                         <div className='content_article_right_text'>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est doloribus, reprehenderit dicta eius quasi harum quis beatae quibusdam! Error, corrupti cupiditate! Libero repellat illum minima iste quod saepe est amet!
+                            In my case, I was speaking to HR managers—busy, uninterested, and accustomed to fast scrolling through Instagram feeds.
+                        </div>
+                        <div className='content_article_right_text'>
+                            So, I opted for a very simple navigation via scrolling, with various animations to illustrate my story, accompanied by explanatory text.
                         </div>
 
                         <div className='content_article_right_title'>
-                            The gap
+                            Footnotes
                         </div>
-                        <div className='content_article_right_text'>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est doloribus, reprehenderit dicta eius quasi harum quis beatae quibusdam! Error, corrupti cupiditate! Libero repellat illum minima iste quod saepe est amet!
+                        <div className='content_article_right_text_footer'>
+                            <ol>
+                                <li>Not always [<Link to="https://www.youtube.com/watch?v=dQw4w9WgXcQ" className='content_article_right_text_link'  target="_blank" rel="noopener noreferrer">ref</Link>]</li>
+                            </ol>
                         </div>
                     </div>
                    

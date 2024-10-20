@@ -49,3 +49,16 @@ Each of these websites guides the user through an immersive experience or tells 
 My goal was simple: to tell my story through a web page. This story needed to be concise, and the navigation had to be as smooth and intuitive as possible. The target user was a human resources director looking for talented profiles to recruit.
 
 ________________________________________________
+
+Avant de parler d’interactivité, il est essentiel de comprendre à qui l’on s’adresse. Il existe une multitude de sites interactifs, et les plus réussis s’adressent souvent aux enfants. Ces sites sont généralement animés par un personnage amusant, souvent un animal, qui guide l'enfant tout au long de sa navigation. Je ne pense pas être le seul à avoir joué à Adibou, un jeu qui regorgeait d’idées en matière d’interactivité.
+
+Pour ma part, je m’adressais à des responsables des ressources humaines, souvent pressés, peu enclins à s’intéresser à des contenus longs, et habitués au défilement rapide des publications sur Instagram.
+
+J’ai donc choisi une navigation très simple, basée sur le scroll, avec des animations visuelles illustrant mon parcours, accompagnées de textes explicatifs.
+
+
+Before talking about interactivity, it's crucial to understand who the audience is. There are countless interactive websites, and the best ones are often aimed at children. These sites usually feature a fun animal character that guides the child through the navigation. I’m sure I’m not the only one who played Adibou, a game full of creative ideas for interactivity.
+
+In my case, I was speaking to HR managers—busy, uninterested, and accustomed to fast scrolling through Instagram feeds.
+
+So, I opted for a very simple navigation via scrolling, with various animations to illustrate my story, accompanied by explanatory text.
