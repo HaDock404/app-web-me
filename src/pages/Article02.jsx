@@ -4,6 +4,7 @@ import Icon8 from '../components/Icon8'
 import { Link } from 'react-router-dom'
 
 import animation from '../assets/animation.mp4'
+import total from '../assets/total.mp4'
 import scroll from '../assets/scroll.png'
 
 function Article01() {
@@ -38,22 +39,19 @@ function Article01() {
                             Context
                         </div>
                         <div className='content_article_right_text'>
-                            This project was initially just an excuse to showcase my professional experience, but I decided to push my thinking further and draw some valuable lessons from it. This reflection stems from my passion for the websites featured on the <Link to="https://www.awwwards.com/" className='content_article_right_text_link'  target="_blank" rel="noopener noreferrer">Awwwards.com</Link> platform.
+                            In France, the electricity and gas markets were opened to competition for all customers on July 1, 2007. Today, they are governed by Directives <Link to="https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2009:211:0055:0093:fr:PDF" className='content_article_right_text_link'  target="_blank" rel="noopener noreferrer">2009/72/EC</Link> and <Link to="https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2009:211:0094:0136:fr:PDF" className='content_article_right_text_link'  target="_blank" rel="noopener noreferrer">2009/73/EC</Link> of July 13, 2009. The goal was to transition from several independent national markets to a single, integrated European market. This measure aimed to dismantle the state monopoly on energy and allow private companies to thrive in the European market.
                         </div>
                         <div className='content_article_right_text'>
-                            I am far from having the skills of the artists whose sites grace the top spots every week, but I have taken the time to analyze them.
+                            By the end of 2021, TotalEnergies had no fewer than 5 million customers. I worked in the Key Accounts department, which dealt exclusively with public sector markets. Various organizations grouped together numerous French administrations to negotiate more favorable electricity supply prices. TotalEnergies had won the largest contract: <Link to="https://www.ugap.fr/" className='content_article_right_text_link'  target="_blank" rel="noopener noreferrer">UGAP</Link>.
                         </div>
                         <div className='content_article_right_text'>
-                            Each of these websites guides the user through an immersive experience or tells a story, ultimately aiming to lead them to purchase a product (whatever the product may be).
-                        </div>
-                        <div className='content_article_right_text'>
-                            My goal was simple: to tell my story through a <Link to="https://hadock404.github.io/app-bio-about_me/" className='content_article_right_text_link'  target="_blank" rel="noopener noreferrer">web page</Link>. This story needed to be concise, and the navigation had to be as smooth and intuitive as possible. The target user was a human resources director looking for talented profiles to recruit.
+                            Unfortunately, at that time, TotalEnergies lacked the necessary tools to process and analyze the thousands of energy supply points associated with public sector contracts. Handling this crucial information, which was essential to optimize electricity supply, proved to be extremely complicated and led to some rather unusual situations.
                         </div>
                         <div className='content_article_right_video'>
-                            <video src={animation} autoPlay loop muted playsInline preload="auto" />
+                            <video src={total} autoPlay loop muted playsInline preload="auto" />
                         </div>
                         <div className='content_article_right_subtitle'>
-                            Explanation of the navigation method to the user.
+                            TotalErnergie becomes an electricity and gas supplier.
                         </div>
 
                         <div className='content_article_right_title'>

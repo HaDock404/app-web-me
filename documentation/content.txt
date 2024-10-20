@@ -62,3 +62,13 @@ Before talking about interactivity, it's crucial to understand who the audience 
 In my case, I was speaking to HR managers—busy, uninterested, and accustomed to fast scrolling through Instagram feeds.
 
 So, I opted for a very simple navigation via scrolling, with various animations to illustrate my story, accompanied by explanatory text.
+
+________________________________________________
+
+Le marché s’est ouvert à la concurrence d’abord pour les industriels puis, progressivement, pour l’ensemble des consommateurs. Depuis le 1er juillet 2007, les marchés de l’électricité et du gaz sont ouverts à la concurrence pour l’ensemble des clients.
+
+En france les marchés de l’électricité et du gaz ont été ouverts à la concurrence pour l'ensemble des clients le 1er Juillet 2007. Ils sont aujourd'hui régis par les directives du 2009/72/CE et 2009/73/CE du 13 juillet 2009. L'objectif était de passer de plusieurs marchés nationaux fonctionnant indépendamment les uns des autres à un seul marché européen intégré. Cette disposition permettait de tuer le monopole d'état sur les énergies et permettre à des entreprises privés de prospérer sur le marché européen.
+
+Fin 2021 TotalEnergie comptait pas moins de 5 millions de clients. Je travaillais pour ma part pour le service Grand Compte qui s'occupait exclussivement de marché publique. Des organismes rassemblaient de nombreuses administration française afin de parvenir à obtenir des prix plus avantageux en fourniture d'électricité. TotalEnergie avait remporté le plus gros marché : UGAP.
+
+Malheureusement TotalEnergie à cette époque ne disposait pas des outils nécessaires pour le traitement et l'analyse de milliers de point de fourniture d'énergies lié au service publique. Le traitement d'information pourtant crucial pour parvenir à optimiser la fourniture d'électricité était très compliqué et a engendré des situations incongrues.
