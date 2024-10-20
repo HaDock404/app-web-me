@@ -126,6 +126,15 @@
     margin-bottom: 15px;
 }
 
+.content_article_right_text_bis {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    color: black;
+}
+
 .content_article_right_text_link {
     color: black;
 }
@@ -159,6 +168,19 @@
     margin-top: 5px;
 }
 
+.content_article_right_subtitle_bis {
+    width: 100%;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 11px;
+    line-height: 1.5;
+    color: black;
+    margin-bottom: 15px;
+    margin-top: 0px;
+}
+
 .content_article_right_text_footer {
     font-family: "Roboto", sans-serif;
     font-weight: 300;
@@ -167,4 +189,9 @@
     line-height: 1.5;
     color: black;
     margin-bottom: 100px;
+}
+
+.content_article_right_text_image {
+    width: 100%;
+    height: auto;
 }

@@ -4,6 +4,7 @@ import Icon8 from '../components/Icon8'
 import { Link } from 'react-router-dom'
 
 import animation from '../assets/animation.mp4'
+import scroll from '../assets/scroll.png'
 
 function Article01() {
     return (
@@ -52,7 +53,7 @@ function Article01() {
                             <video src={animation} autoPlay loop muted playsInline preload="auto" />
                         </div>
                         <div className='content_article_right_subtitle'>
-                            Explanation of the navigation method to the user
+                            Explanation of the navigation method to the user.
                         </div>
 
                         <div className='content_article_right_title'>
@@ -66,6 +67,32 @@ function Article01() {
                         </div>
                         <div className='content_article_right_text'>
                             So, I opted for a very simple navigation via scrolling, with various animations to illustrate my story, accompanied by explanatory text.
+                        </div>
+
+                        <div className='content_article_right_title'>
+                            The method
+                        </div>
+                        <div className='content_article_right_text'>
+                            Two variables are initialized to 0. They are used to adjust the start and end point of the scroll calculation and an event listener fires every time the user scrolls the page.
+                        </div>
+                        <div className='content_article_right_text'>
+                            The --scroll CSS variable updates in real time, allowing animations to be triggered based on the user's location on the page.
+                        </div>
+                        <div className='content_article_right_text_bis'>
+                            <img src={scroll} alt="image" className='content_article_right_text_image'/>
+                        </div>
+                        <div className='content_article_right_subtitle_bis'>
+                            Function to retrieve the user's location in the web page.
+                        </div>
+
+                        <div className='content_article_right_title'>
+                            The result
+                        </div>
+                        <div className='content_article_right_text'>
+                            My website was far from perfect. It likely lacked content, and it could have been more interactive. However, it still found some success with HR managers, who consistently seemed interested in my profile after browsing through my experience in this format. I wouldn’t necessarily recommend this type of website to everyone, but focusing on user interactivity to sell something (in my case, my profile) is always a winning strategy.
+                        </div>
+                        <div className='content_article_right_text'>
+                            After that, this project gave me a lot of ideas on how to best interact with users in order to offer them an enriching experience that would lead to success in other applications.
                         </div>
 
                         <div className='content_article_right_title'>
@@ -87,3 +114,6 @@ function Article01() {
 }
 
 export default Article01
+
+
+
