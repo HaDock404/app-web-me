@@ -37,7 +37,7 @@ function Article01() {
                             The project
                         </div>
                         <div className='content_article_right_text'>
-                            This project was initially just an excuse to showcase my professional experience, but I decided to push my thinking further and draw some valuable lessons from it. This reflection stems from my passion for the websites featured on the <Link to="https://www.awwwards.com/" className='content_article_right_text_link'>Awwwards</Link> platform.
+                            This project was initially just an excuse to showcase my professional experience, but I decided to push my thinking further and draw some valuable lessons from it. This reflection stems from my passion for the websites featured on the <Link to="https://www.awwwards.com/" className='content_article_right_text_link'  target="_blank" rel="noopener noreferrer">Awwwards.com</Link> platform.
                         </div>
                         <div className='content_article_right_text'>
                             I am far from having the skills of the artists whose sites grace the top spots every week, but I have taken the time to analyze them.
@@ -46,7 +46,7 @@ function Article01() {
                             Each of these websites guides the user through an immersive experience or tells a story, ultimately aiming to lead them to purchase a product (whatever the product may be).
                         </div>
                         <div className='content_article_right_text'>
-                            My goal was simple: to tell my story through a web page. This story needed to be concise, and the navigation had to be as smooth and intuitive as possible. The target user was a human resources director looking for talented profiles to recruit.
+                            My goal was simple: to tell my story through a <Link to="https://hadock404.github.io/app-bio-about_me/" className='content_article_right_text_link'  target="_blank" rel="noopener noreferrer">web page</Link>. This story needed to be concise, and the navigation had to be as smooth and intuitive as possible. The target user was a human resources director looking for talented profiles to recruit.
                         </div>
 
                         <div className='content_article_right_video'>
