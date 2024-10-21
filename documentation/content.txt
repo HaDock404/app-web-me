@@ -80,3 +80,23 @@ Mon service data et moi même avons rapidement fait ce constat lorsque nous trai
 Ces données étaient primordiales car elles permettaient au service commercial d'ajuster le prix de marché et au service Trading de réaliser l'achat de quantité suffisante d'énergie sur le marché européen au meilleur prix pour réaliser un bénéfice intéressant pour notre société.
 
 J'ai été chargé par les responsables business to business Benjamin Salemron et Ikram Farssi de réaliser un outil permettant de récupérer correctement les données de points de livraison puis de les stocker sur un serveur afin de permettre à mon équipe de les récuperer pour les analyser. 
+
+________________________________________________
+
+Cette architecture de traitement de la donnée a été réalisé afin d'être facilement scalable et accessible aux différentes équipes qui nécessitaient les informations en temps réel. 
+
+Notamment le gestionnaire du réseau électrique français Enedis qui se chargeait de la création, la modification et l'analyse de point de livraison électrique. Avec cette méthode d'acquisition de la donnée puis de sa transmission le temps de traitment d'une intervention sur un point de livraison électrique est passé d'une semaine à moins d'un journée.
+
+Mais également de nos services internes qui étaient nombreux à nécessiter une simplification de l'accès à l'information, comme le service commerciale qui pouvait ajuster plus facilement ses offres de marchés en fonction de la consommation réel des consommateurs ou l'ajuster selon les prédictions des adhérents n'ayant pas encore consommé. 
+
+Le service trading d'électricité, qui s'occupe de l'achat du stock d'énergie nécessaire durant l'année sur le marché européen avait également besoin d'information précise sur la quantité d'énervie nécessaire à chaque marché afin d'ajuster sa demande en fonction de la consommation des points répertoriés.
+
+D'autres service ont été également incoporé à cette architecture, comme le service comptable qui liait les données de points de livraison avec Chorus ainsi que le service juridique pour rapprocher les litiges avec les points répertoriés.
+
+________________________________________________
+
+Conclusion
+
+Une bonne architecture de données n'est pas seulement bénéfiques aux services data ou aux ingénieurs de donnée, de nombreuses autres entités d'une entreprise peuvent bénéficier d'une organisation simple et accessible des données. Cette amélioration de la collecte d'information relative à la fourniture d'électricité a permis de simplifier le travail et la satisfaction de nos clients.
+
+Organiser son architecture de données est une étape importante 

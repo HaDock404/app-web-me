@@ -75,6 +75,33 @@ function Article01() {
                         </div>
 
                         <div className='content_article_right_title'>
+                            Results
+                        </div>
+                        <div className='content_article_right_text'>
+                            This data processing architecture was designed to be easily scalable and accessible to the various teams that required real-time information.
+                        </div>
+                        <div className='content_article_right_text'>
+                            This included the French electricity grid operator, Enedis, responsible for the creation, modification, and analysis of delivery points. Thanks to this data acquisition and transmission method, the processing time for an intervention on a delivery point was reduced from one week to less than a day.
+                        </div>
+                        <div className='content_article_right_text'>
+                            Our internal teams also benefited from this streamlined access to information. For example, the sales department could more easily adjust its market offers based on actual consumption or adjust them according to the predictions of customers who had not yet consumed energy.
+                        </div>
+                        <div className='content_article_right_text'>
+                            The electricity trading department, responsible for purchasing the required energy on the European market, also needed precise information on the amount of energy required for each market to adjust their orders according to the consumption of listed points.
+                        </div>
+                        <div className='content_article_right_text'>
+                            Other departments were also incorporated into this architecture, such as the accounting department, which handled delivery point data with Chorus, and the legal department, which used it to resolve disputes related to the listed points.
+                        </div>
+
+                        <div className='content_article_right_title'>
+                            Conclusion
+                        </div>
+                        <div className='content_article_right_text'>
+                            A well-designed data architecture doesn’t only benefit data teams or data engineers; many other departments within a company can also gain from a simple and accessible data organization. The improvement in collecting electricity supply data has greatly streamlined the work across various teams and enhanced customer satisfaction.
+                        </div>
+
+
+                        <div className='content_article_right_title'>
                             Footnotes
                         </div>
                         <div className='content_article_right_text_footer'>
