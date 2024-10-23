@@ -18,7 +18,7 @@ const text4 = "How to quantify improvements? Using the right indicators and ensu
 const link1 = "/article_01"
 const link2 = "/article_02"
 const link3 = "/article_03"
-const link4 = "/"
+const link4 = "/article_04"
 
 function Articles() {
     return (
