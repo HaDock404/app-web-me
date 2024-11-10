@@ -1,9 +1,9 @@
 import '../styles/contribution.css'
-import Icon1 from './Icon1'
-import Icon3 from './Icon3'
+import Icon1 from './Icon1.jsx'
+import Icon3 from './Icon3.jsx'
 import Icon4 from './Icon4.jsx'
 
-function ContributionTitle() {
+function ContributionTitle1() {
     return (
         <div id='contribution_title_display'>
             <div id='contribution_title'>
@@ -18,4 +18,4 @@ function ContributionTitle() {
     )
 }
 
-export default ContributionTitle
+export default ContributionTitle1

@@ -2,7 +2,8 @@ import Header from '../components/Header'
 import Username from '../components/Username'
 import Intro from '../components/Intro'
 import Separation2 from '../components/Separation2'
-import ContributionTitle from '../components/ContributionTitle'
+import ContributionTitle1 from '../components/ContributionTitle1'
+import ContributionTitle2 from '../components/ContributionTitle2'
 import Articles from '../components/Articles'
 
 function Home() {
@@ -12,9 +13,10 @@ function Home() {
             <Username />
             <Intro />
             <Separation2 />
-            <ContributionTitle />
+            <ContributionTitle1 />
             <Articles />
             <Separation2 />
+            <ContributionTitle2 />
         </>
     )
 }
