@@ -8,7 +8,7 @@ function ContributionTitle2() {
                 <div id='contribution_title_icon2'>
                     <Icon9 />
                 </div>
-                <div id='contribution_title_text2'>Creation</div>
+                <div id='contribution_title_text2'>Creations</div>
             </div>
         </div>
     )
