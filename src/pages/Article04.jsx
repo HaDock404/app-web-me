@@ -4,7 +4,7 @@ import Icon8 from '../components/Icon8'
 import { Link } from 'react-router-dom'
 
 import animation from '../assets/animation.mp4'
-import total from '../assets/total.mp4'
+import baudry from '../assets/baudry.mp4'
 import scroll from '../assets/scroll.png'
 import total_figure from '../assets/total_figure.png'
 
@@ -64,10 +64,10 @@ function Article01() {
                             "To organize and effectively manage the routing of pallets along the rolling paths to improve their transitions and usage at the various workstations within the workshop."
                         </div>
                         <div className='content_article_right_video'>
-                            <video src={total} autoPlay loop muted playsInline preload="auto" />
+                            <video src={baudry} autoPlay loop muted playsInline preload="auto" />
                         </div>
                         <div className='content_article_right_subtitle'>
-                            TotalEnergies becomes an electricity and gas supplier.
+                            Baudry company specialized in the coating of wooden profiles.
                         </div>
 
                         <div className='content_article_right_title'>
