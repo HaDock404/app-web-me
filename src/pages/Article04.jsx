@@ -22,14 +22,14 @@ function Article01() {
                                 Quantified improvement
                             </div>
                             <div className='content_article_left_link'>
-                                <Link to="" className='content_title_link' target="_blank" rel="noopener noreferrer">
+                                <Link to="https://github.com/HaDock404/data-production-baudry" className='content_title_link' target="_blank" rel="noopener noreferrer">
                                     my Improvement
                                 </Link>
                                 <Icon8 />
                             </div>
                         </div>
                         <div className='content_article_left_date'>
-                            2015
+                            2016
                         </div>
                     </div>
                 </article>
@@ -40,13 +40,28 @@ function Article01() {
                             Context
                         </div>
                         <div className='content_article_right_text'>
-                            In France, the electricity and gas markets were opened to competition for all customers on July 1, 2007. Today, they are governed by Directives <Link to="https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2009:211:0055:0093:fr:PDF" className='content_article_right_text_link'  target="_blank" rel="noopener noreferrer">2009/72/EC</Link> and <Link to="https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2009:211:0094:0136:fr:PDF" className='content_article_right_text_link'  target="_blank" rel="noopener noreferrer">2009/73/EC</Link> of July 13, 2009. The goal was to transition from several independent national markets to a single, integrated European market. This measure aimed to dismantle the state monopoly on energy and allow private companies to thrive in the European market.
+                            Since 2011, the furniture market has experienced a significant decline in activity, forcing companies to rethink their production methods. Reducing costs while meeting deadlines tailored to increasingly demanding customers has become a major challenge, both now and in the future.
                         </div>
                         <div className='content_article_right_text'>
-                            By the end of 2021, <Link to="https://www.totalenergies.fr/" className='content_article_right_text_link'  target="_blank" rel="noopener noreferrer">TotalEnergies</Link> had no fewer than 5 million customers. I worked in the Key Accounts department, which dealt exclusively with public sector markets. Various organizations grouped together numerous French administrations to negotiate more favorable electricity supply prices. TotalEnergies had won the largest contract: <Link to="https://www.ugap.fr/" className='content_article_right_text_link'  target="_blank" rel="noopener noreferrer">UGAP</Link>.
+                            In this race against time, every inefficiency must be eliminated to ensure the company’s sustainability. Every employee must contribute to improving productivity, as even the smallest loss of time can hinder growth.
                         </div>
                         <div className='content_article_right_text'>
-                            Unfortunately, at that time, TotalEnergies lacked the necessary tools to process and analyze the thousands of energy supply points associated with public sector contracts. Handling this crucial information, which was essential to optimize electricity supply, proved to be extremely complicated and led to some rather unusual situations.
+                            To remain competitive and retain a customer base under pressure, Baudry needed to enhance the productivity of its main production workshop, which generated the majority of its revenue. This challenge was crucial to maintaining its market position by balancing quality and performance.
+                        </div>
+                        <div className='content_article_right_text'>
+                            In this context, the Production Director, Mr. Guiet, entrusted me with the task of building upon and furthering the analysis previously conducted by Ms. Marina Isavnina, a production management technician. Her study highlighted a key issue:
+                        </div>
+                        <div className='content_article_right_text' style={{textAlign: "center", fontStyle: "italic", fontWeight: "bold"}}>
+                            "The routing and use of pallets in the Enrobing Workshop must be better organized to optimize their flow and minimize unnecessary handling."
+                        </div>
+                        <div className='content_article_right_text'>
+                            Based on this observation, my mission was to eliminate all unnecessary handling operations, which not only waste time but also increase the risk of quality issues due to repeated manipulations.
+                        </div>
+                        <div className='content_article_right_text'>
+                            In collaboration with my manager, Mr. Desfontaines, we established a primary objective:
+                        </div>
+                        <div className='content_article_right_text' style={{textAlign: "center", fontStyle: "italic", fontWeight: "bold"}}>
+                            "To organize and effectively manage the routing of pallets along the rolling paths to improve their transitions and usage at the various workstations within the workshop."
                         </div>
                         <div className='content_article_right_video'>
                             <video src={total} autoPlay loop muted playsInline preload="auto" />
