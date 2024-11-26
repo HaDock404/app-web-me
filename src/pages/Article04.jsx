@@ -107,27 +107,30 @@ function Article01() {
                         <div className='content_article_right_title'>
                             Results
                         </div>
-                        <div className='content_article_right_text'>
-                            This data processing architecture was designed to be easily scalable and accessible to the various teams that required real-time information.
+                        <div className='content_article_right_text'>     
+                            The implemented improvements significantly reduced the challenges related to handling and flow management. Handling tasks were reduced by 6%, thanks to better task organization and optimized tools. Additionally, pallet flow decreased by 36%, primarily due to the reorganization of machines and a more coherent management of production flows.
                         </div>
                         <div className='content_article_right_text'>
-                            This included the French electricity grid operator, Enedis, responsible for the creation, modification, and analysis of delivery points. Thanks to this data acquisition and transmission method, the processing time for an intervention on a delivery point was reduced from one week to less than a day.
-                        </div>
-                        <div className='content_article_right_text'>
-                            Our internal teams also benefited from this streamlined access to information. For example, the sales department could more easily adjust its market offers based on actual consumption or adjust them according to the predictions of customers who had not yet consumed energy.
-                        </div>
-                        <div className='content_article_right_text'>
-                            The electricity trading department, responsible for purchasing the required energy on the European market, also needed precise information on the amount of energy required for each market to adjust their orders according to the consumption of listed points.
-                        </div>
-                        <div className='content_article_right_text'>
-                            Other departments were also incorporated into this architecture, such as the accounting department, which handled delivery point data with Chorus, and the legal department, which used it to resolve disputes related to the listed points.
+                            The total cost of these improvements amounted to €148,000, with an annual return on investment estimated at €100,000. While not all proposed improvements could be implemented, those that were deployed had a substantial impact not only on productivity but also on workers' well-being, creating a more ergonomic and enjoyable work environment.
                         </div>
 
                         <div className='content_article_right_title'>
                             Conclusion
                         </div>
                         <div className='content_article_right_text'>
-                            A well-designed data architecture doesn’t only benefit data teams or data engineers; many other departments within a company can also gain from a simple and accessible data organization. The improvement in collecting electricity supply data has greatly streamlined the work across various teams and enhanced customer satisfaction.
+                            In conclusion, having well-adapted production tracking tools is essential for accurately measuring improvements and ensuring continuous process optimization. These tools transform raw data into actionable insights, which are critical for making informed decisions. In this project, the use of key performance indicators such as Overall Equipment Effectiveness (OEE) was instrumental in objectively evaluating the impact of implemented changes. By measuring availability, performance, and quality, OEE provided a comprehensive and precise view of the gains achieved.
+                        </div>
+                        <div className='content_article_right_text'>
+                            Additionally, complementary methodologies like 5S proved invaluable in enhancing organization and workflow efficiency. By structuring production spaces around the principles of sorting, setting in order, shining, standardizing, and sustaining discipline, the 5S approach not only reduced time wastage but also significantly improved worker well-being and engagement by offering a more ergonomic and structured work environment. This type of approach serves as a powerful lever to boost both productivity and team satisfaction.
+                        </div>
+                        <div className='content_article_right_text'>
+                            Other tools, such as the Ishikawa diagram, also added significant value by identifying and categorizing the root causes of inefficiencies. This analytical method allowed us to prioritize actions based on their potential impact, ensuring an optimal allocation of resources.
+                        </div>
+                        <div className='content_article_right_text'>
+                            More broadly, implementing a rigorous tracking system and leveraging proven methodologies such as 5S and flow mapping provide a critical advantage in driving industrial process transformation. These approaches not only measure the effectiveness of improvements but also foster a culture of continuous improvement within teams. This creates a virtuous cycle where productivity gains, workplace well-being, and product quality reinforce one another.
+                        </div>
+                        <div className='content_article_right_text'>
+                            Ultimately, investing in the right tools and methodologies is not just an operational benefit but also a strategic opportunity to build efficient, sustainable production systems aligned with the expectations of both employees and customers.
                         </div>
 
 
