@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 import animation from '../assets/animation.mp4'
 import baudry from '../assets/baudry.mp4'
 import scroll from '../assets/scroll.png'
-import total_figure from '../assets/total_figure.png'
+import ishikawa from '../assets/ishikawa.png'
 
 function Article01() {
     return (
@@ -71,22 +71,37 @@ function Article01() {
                         </div>
 
                         <div className='content_article_right_title'>
-                            An observation
+                            Improvements
                         </div>
                         <div className='content_article_right_text'>
-                            My data team and I quickly identified this issue when processing data from previous, smaller public sector contracts. But when TotalEnergies won the largest French contract, we had to take action.
+                            After an in-depth analysis of production capacity, including detailed measurements for each task, the study of the Overall Equipment Effectiveness (OEE), and the identification of the need to reduce handling times during production, it became essential to implement significant improvements in the production process.
                         </div>
                         <div className='content_article_right_text'>
-                            These data were essential, as they allowed the sales department to adjust market prices and the Trading department to purchase sufficient quantities of energy on the European market at the best price, ensuring a profitable outcome for the company.
+                            A detailed study of task times proved to be a valuable tool for easily identifying anomalies and uncovering opportunities for improvement. By observing a representative production launch, I analyzed time losses at various stages. This analysis allowed me to propose relevant improvements aimed at optimizing production times.
                         </div>
                         <div className='content_article_right_text'>
-                            I was tasked by the business-to-business managers, <Link to="https://fr.linkedin.com/in/benjamin-salmeron-29ba783a" className='content_article_right_text_link'  target="_blank" rel="noopener noreferrer">Benjamin Salmeron</Link> and <Link to="https://fr.linkedin.com/in/ikrame-farssi-ba639ab1" className='content_article_right_text_link'  target="_blank" rel="noopener noreferrer">Ikram Farssi</Link>, with developing a tool to accurately retrieve delivery point data and store it on a server, allowing my team to access and analyze it.
+                            The conclusions of this study, which you can find in<Link to="https://github.com/HaDock404/data-production-baudry" className='content_article_right_text_link'  target="_blank" rel="noopener noreferrer"> detail</Link>, resulted in several concrete changes:
+                        </div>
+                        <div className='content_article_right_text'>
+                            <strong>- Reorganizing machinery:</strong> Certain machines were relocated to minimize unnecessary operator movement and streamline production flows.
+                        </div>
+                        <div className='content_article_right_text'>
+                            <strong>- Introducing new tools:</strong> Specific equipment was added to enhance ergonomics and reduce the physical strain on workers.
+                        </div>
+                        <div className='content_article_right_text'>
+                            <strong>- Optimizing production flows:</strong> The product workflow was reorganized to make it more logical and aligned with the sequence of operations to be performed.
+                        </div>
+                        <div className='content_article_right_text'>
+                            To analyze the root causes of excessive handling, I used the Ishikawa diagram, also known as the fishbone diagram. This tool, commonly used in quality management, graphically represents potential causes of a problem by categorizing them into key groups (methods, machines, materials, manpower, environment, etc.). This approach allowed me to structure my observations and prioritize improvement areas.
                         </div>
                         <div className='content_article_right_text_bis'>
-                            <img src={total_figure} alt="image" className='content_article_right_text_image'/>
+                            <img src={ishikawa} alt="image" className='content_article_right_text_image'/>
                         </div>
                         <div className='content_article_right_subtitle_bis'>
-                            My project data architecture diagram.
+                            Ishikawa Diagram Example of my project.
+                        </div>
+                        <div className='content_article_right_text'>
+                            The OEE, which measures the overall efficiency of a machine or process by considering availability, performance, and quality, was used as the primary indicator to evaluate the outcomes of the implemented changes. By tracking its evolution before and after the adjustments, I was able to demonstrate a significant increase in production efficiency, validating the relevance of the improvements made.
                         </div>
 
                         <div className='content_article_right_title'>
