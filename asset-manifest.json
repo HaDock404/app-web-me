@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/app-web-me/static/css/main.4e781998.css",
-    "main.js": "/app-web-me/static/js/main.a16f725f.js",
+    "main.js": "/app-web-me/static/js/main.a26bf8d4.js",
     "static/js/453.b3eaa977.chunk.js": "/app-web-me/static/js/453.b3eaa977.chunk.js",
     "static/media/baudry.mp4": "/app-web-me/static/media/baudry.f6040df4231d745a3184.mp4",
     "static/media/animation.mp4": "/app-web-me/static/media/animation.884e01e298d5dd690ae9.mp4",
@@ -15,11 +15,11 @@
     "static/media/flat.png": "/app-web-me/static/media/flat.ed69fb0c9ec4ef3a4373.png",
     "index.html": "/app-web-me/index.html",
     "main.4e781998.css.map": "/app-web-me/static/css/main.4e781998.css.map",
-    "main.a16f725f.js.map": "/app-web-me/static/js/main.a16f725f.js.map",
+    "main.a26bf8d4.js.map": "/app-web-me/static/js/main.a26bf8d4.js.map",
     "453.b3eaa977.chunk.js.map": "/app-web-me/static/js/453.b3eaa977.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4e781998.css",
-    "static/js/main.a16f725f.js"
+    "static/js/main.a26bf8d4.js"
   ]
 }
