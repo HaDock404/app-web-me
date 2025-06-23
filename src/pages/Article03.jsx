@@ -66,16 +66,19 @@ function Article01() {
                         </div>
 
                         <div className='content_article_right_title'>
-                            An observation
+                            Data Architecture
                         </div>
                         <div className='content_article_right_text'>
-                            My data team and I quickly identified this issue when processing data from previous, smaller public sector contracts. But when TotalEnergies won the largest French contract, we had to take action.
+                            At the core of this project lies a powerful and finely structured database, designed to represent the rich and complex landscape of IT consulting services. Each consulting firm is profiled with detailed attributes, including specialized domains, technical skills, business expertise, industry focus, and geographic footprint. This comprehensive data model allows for precise and contextualized matching between company capabilities and project needs.
                         </div>
                         <div className='content_article_right_text'>
-                            These data were essential, as they allowed the sales department to adjust market prices and the Trading department to purchase sufficient quantities of energy on the European market at the best price, ensuring a profitable outcome for the company.
+                            To enhance search and recommendation quality, the database integrates semantic vector embeddings and fuzzy search algorithms alongside traditional SQL queries. This hybrid approach enables the system to understand nuanced user intents even when queries are imprecise, incomplete, or expressed in natural language and return highly relevant results that go beyond exact keyword matches.
                         </div>
                         <div className='content_article_right_text'>
-                            I was tasked by the business-to-business managers, <Link to="https://fr.linkedin.com/in/benjamin-salmeron-29ba783a" className='content_article_right_text_link'  target="_blank" rel="noopener noreferrer">Benjamin Salmeron</Link> and <Link to="https://fr.linkedin.com/in/ikrame-farssi-ba639ab1" className='content_article_right_text_link'  target="_blank" rel="noopener noreferrer">Ikram Farssi</Link>, with developing a tool to accurately retrieve delivery point data and store it on a server, allowing my team to access and analyze it.
+                            The chatbot interface is directly connected to this database. It captures the user's expectations through natural conversation and translates them into intelligent queries. Whether a procurement team is looking for "a cybersecurity firm with public sector experience" or "a mid-sized data engineering consultancy based in Lyon," the system interprets the request, navigates the structured and vectorized data, and proposes the most aligned consulting firms available.
+                        </div>
+                        <div className='content_article_right_text'>
+                            This intelligent backend transforms the chatbot into more than just a search tool, it becomes a strategic sourcing assistant, capable of uncovering opportunities, revealing hidden expertise across the market, and ultimately accelerating and securing the selection process for IT consulting partners.
                         </div>
                         <div className='content_article_right_text_bis'>
                             <img src={mcd} alt="image" className='content_article_right_text_image'/>
@@ -85,29 +88,13 @@ function Article01() {
                         </div>
 
                         <div className='content_article_right_title'>
-                            Results
-                        </div>
-                        <div className='content_article_right_text'>
-                            This data processing architecture was designed to be easily scalable and accessible to the various teams that required real-time information.
-                        </div>
-                        <div className='content_article_right_text'>
-                            This included the French electricity grid operator, Enedis, responsible for the creation, modification, and analysis of delivery points. Thanks to this data acquisition and transmission method, the processing time for an intervention on a delivery point was reduced from one week to less than a day.
-                        </div>
-                        <div className='content_article_right_text'>
-                            Our internal teams also benefited from this streamlined access to information. For example, the sales department could more easily adjust its market offers based on actual consumption or adjust them according to the predictions of customers who had not yet consumed energy.
-                        </div>
-                        <div className='content_article_right_text'>
-                            The electricity trading department, responsible for purchasing the required energy on the European market, also needed precise information on the amount of energy required for each market to adjust their orders according to the consumption of listed points.
-                        </div>
-                        <div className='content_article_right_text'>
-                            Other departments were also incorporated into this architecture, such as the accounting department, which handled delivery point data with Chorus, and the legal department, which used it to resolve disputes related to the listed points.
-                        </div>
-
-                        <div className='content_article_right_title'>
                             Conclusion
                         </div>
                         <div className='content_article_right_text'>
-                            A well-designed data architecture doesn’t only benefit data teams or data engineers; many other departments within a company can also gain from a simple and accessible data organization. The improvement in collecting electricity supply data has greatly streamlined the work across various teams and enhanced customer satisfaction.
+                            The chatbot interface transforms access to this data into a smooth and intuitive experience, allowing users to describe their needs in natural language. It guides them toward the most relevant partners, bridging the gap between business expectations and market offerings.
+                        </div>
+                        <div className='content_article_right_text'>
+                            This solution significantly reduces the time and effort required to identify the right firms, while improving the strategic quality of sourcing decisions. It levels the playing field by surfacing specialized consulting firms that might otherwise go unnoticed.
                         </div>
 
 
