@@ -1,12 +1,14 @@
 {
   "files": {
     "main.css": "/app-web-me/static/css/main.4e781998.css",
-    "main.js": "/app-web-me/static/js/main.a26bf8d4.js",
+    "main.js": "/app-web-me/static/js/main.a24e5b60.js",
     "static/js/453.b3eaa977.chunk.js": "/app-web-me/static/js/453.b3eaa977.chunk.js",
     "static/media/baudry.mp4": "/app-web-me/static/media/baudry.f6040df4231d745a3184.mp4",
     "static/media/animation.mp4": "/app-web-me/static/media/animation.884e01e298d5dd690ae9.mp4",
     "static/media/total.mp4": "/app-web-me/static/media/total.b7a6d2415ade7b3c0acf.mp4",
+    "static/media/MCD.png": "/app-web-me/static/media/MCD.0663b7b2528b912d4126.png",
     "static/media/total_figure.png": "/app-web-me/static/media/total_figure.9bcd218de36a94a9d888.png",
+    "static/media/flowchart.png": "/app-web-me/static/media/flowchart.f519a49aa8e535dfb61d.png",
     "static/media/total.png": "/app-web-me/static/media/total.2678c1c5e62cdd9ac307.png",
     "static/media/ishikawa.png": "/app-web-me/static/media/ishikawa.192565d41bee958cba26.png",
     "static/media/AI.png": "/app-web-me/static/media/AI.2bb878d4d89d17313bef.png",
@@ -15,11 +17,11 @@
     "static/media/flat.png": "/app-web-me/static/media/flat.ed69fb0c9ec4ef3a4373.png",
     "index.html": "/app-web-me/index.html",
     "main.4e781998.css.map": "/app-web-me/static/css/main.4e781998.css.map",
-    "main.a26bf8d4.js.map": "/app-web-me/static/js/main.a26bf8d4.js.map",
+    "main.a24e5b60.js.map": "/app-web-me/static/js/main.a24e5b60.js.map",
     "453.b3eaa977.chunk.js.map": "/app-web-me/static/js/453.b3eaa977.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4e781998.css",
-    "static/js/main.a26bf8d4.js"
+    "static/js/main.a24e5b60.js"
   ]
 }
