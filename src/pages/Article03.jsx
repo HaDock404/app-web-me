@@ -3,10 +3,8 @@ import Icon6 from '../components/Icon6'
 import Icon8 from '../components/Icon8'
 import { Link } from 'react-router-dom'
 
-import animation from '../assets/animation.mp4'
-import total from '../assets/total.mp4'
-import scroll from '../assets/scroll.png'
-import total_figure from '../assets/total_figure.png'
+import flowchart from '../assets/flowchart.png'
+import mcd from '../assets/MCD.png'
 
 function Article01() {
     return (
@@ -19,17 +17,17 @@ function Article01() {
                     <div className='content_article_left_placement'>
                         <div className='content_article_left_placement2'>
                             <div className='content_article_left_title'>
-                                AI Everywhere
+                                Chatbot + AI
                             </div>
                             <div className='content_article_left_link'>
-                                <Link to="" className='content_title_link' target="_blank" rel="noopener noreferrer">
-                                    my AI
+                                <Link to="https://werner.erwin-labs.com/" className='content_title_link' target="_blank" rel="noopener noreferrer">
+                                    Werner Chatbot
                                 </Link>
                                 <Icon8 />
                             </div>
                         </div>
                         <div className='content_article_left_date'>
-                            2024
+                            2025
                         </div>
                     </div>
                 </article>
@@ -40,19 +38,31 @@ function Article01() {
                             Context
                         </div>
                         <div className='content_article_right_text'>
-                            In France, the electricity and gas markets were opened to competition for all customers on July 1, 2007. Today, they are governed by Directives <Link to="https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2009:211:0055:0093:fr:PDF" className='content_article_right_text_link'  target="_blank" rel="noopener noreferrer">2009/72/EC</Link> and <Link to="https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2009:211:0094:0136:fr:PDF" className='content_article_right_text_link'  target="_blank" rel="noopener noreferrer">2009/73/EC</Link> of July 13, 2009. The goal was to transition from several independent national markets to a single, integrated European market. This measure aimed to dismantle the state monopoly on energy and allow private companies to thrive in the European market.
+                            The IT services market is highly complex and saturated. Companies often struggle to identify providers with the precise skills and experience required for their projects. At the same time, many consulting firms, especially smaller or more specialized ones, find it difficult to stand out against large industry players that dominate market visibility.
                         </div>
                         <div className='content_article_right_text'>
-                            By the end of 2021, <Link to="https://www.totalenergies.fr/" className='content_article_right_text_link'  target="_blank" rel="noopener noreferrer">TotalEnergies</Link> had no fewer than 5 million customers. I worked in the Key Accounts department, which dealt exclusively with public sector markets. Various organizations grouped together numerous French administrations to negotiate more favorable electricity supply prices. TotalEnergies had won the largest contract: <Link to="https://www.ugap.fr/" className='content_article_right_text_link'  target="_blank" rel="noopener noreferrer">UGAP</Link>.
+                            In this context, <Link to="https://www.totalenergies.fr/" className='content_article_right_text_link'  target="_blank" rel="noopener noreferrer">Erwin Labs</Link> offers an innovative solution: an intelligent, structured, and optimized directory that maps all the key players in the IT consulting ecosystem. The goal is to simplify and accelerate the connection between business needs and the right expertise.
                         </div>
                         <div className='content_article_right_text'>
-                            Unfortunately, at that time, TotalEnergies lacked the necessary tools to process and analyze the thousands of energy supply points associated with public sector contracts. Handling this crucial information, which was essential to optimize electricity supply, proved to be extremely complicated and led to some rather unusual situations.
+                            To build this tool, I designed a data extraction pipeline capable of automatically collecting information from thousands of consulting firms. The pipeline includes several key stages:
                         </div>
-                        <div className='content_article_right_video'>
-                            <video src={total} autoPlay loop muted playsInline preload="auto" />
+                        <div className='content_article_right_text' style={{textAlign: "center", fontStyle: "italic", fontWeight: "bold"}}>
+                            Scraping websites to extract company descriptions and unique value propositions,
+                        </div>
+                        <div className='content_article_right_text' style={{textAlign: "center", fontStyle: "italic", fontWeight: "bold"}}>
+                            Structuring and enriching the data to build a reliable and searchable database,
+                        </div>
+                        <div className='content_article_right_text' style={{textAlign: "center", fontStyle: "italic", fontWeight: "bold"}}>
+                            Querying government APIs (e.g., Sirene, Insee) to retrieve official details such as legal structure, contact information, company size, and revenue.
+                        </div>
+                        <div className='content_article_right_text'>
+                            The flowchart below illustrates the overall workflow of the data extraction and processing pipeline.
+                        </div>
+                        <div className='content_article_right_text_bis'>
+                            <img src={flowchart} alt="image" className='content_article_right_text_image'/>
                         </div>
                         <div className='content_article_right_subtitle'>
-                            TotalEnergies becomes an electricity and gas supplier.
+                            Flowchart to diagram the data extraction pipeline.
                         </div>
 
                         <div className='content_article_right_title'>
@@ -68,7 +78,7 @@ function Article01() {
                             I was tasked by the business-to-business managers, <Link to="https://fr.linkedin.com/in/benjamin-salmeron-29ba783a" className='content_article_right_text_link'  target="_blank" rel="noopener noreferrer">Benjamin Salmeron</Link> and <Link to="https://fr.linkedin.com/in/ikrame-farssi-ba639ab1" className='content_article_right_text_link'  target="_blank" rel="noopener noreferrer">Ikram Farssi</Link>, with developing a tool to accurately retrieve delivery point data and store it on a server, allowing my team to access and analyze it.
                         </div>
                         <div className='content_article_right_text_bis'>
-                            <img src={total_figure} alt="image" className='content_article_right_text_image'/>
+                            <img src={mcd} alt="image" className='content_article_right_text_image'/>
                         </div>
                         <div className='content_article_right_subtitle_bis'>
                             My project data architecture diagram.
