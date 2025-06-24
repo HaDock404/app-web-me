@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/app-web-me/static/css/main.4e781998.css",
-    "main.js": "/app-web-me/static/js/main.a24e5b60.js",
+    "main.css": "/app-web-me/static/css/main.8fe531d9.css",
+    "main.js": "/app-web-me/static/js/main.701eb0d5.js",
     "static/js/453.b3eaa977.chunk.js": "/app-web-me/static/js/453.b3eaa977.chunk.js",
     "static/media/baudry.mp4": "/app-web-me/static/media/baudry.f6040df4231d745a3184.mp4",
     "static/media/animation.mp4": "/app-web-me/static/media/animation.884e01e298d5dd690ae9.mp4",
+    "static/media/hieroglyphs.mp4": "/app-web-me/static/media/hieroglyphs.61b12da5b8ebea90cad5.mp4",
     "static/media/total.mp4": "/app-web-me/static/media/total.b7a6d2415ade7b3c0acf.mp4",
     "static/media/MCD.png": "/app-web-me/static/media/MCD.0663b7b2528b912d4126.png",
     "static/media/total_figure.png": "/app-web-me/static/media/total_figure.9bcd218de36a94a9d888.png",
@@ -15,13 +16,14 @@
     "static/media/scroll.png": "/app-web-me/static/media/scroll.8bd86bf31fba5e52e2a3.png",
     "static/media/numbers.png": "/app-web-me/static/media/numbers.d559d64233de96c5bae9.png",
     "static/media/flat.png": "/app-web-me/static/media/flat.ed69fb0c9ec4ef3a4373.png",
+    "static/media/hieroglyphs.png": "/app-web-me/static/media/hieroglyphs.7bbef4876cad95462a5e.png",
     "index.html": "/app-web-me/index.html",
-    "main.4e781998.css.map": "/app-web-me/static/css/main.4e781998.css.map",
-    "main.a24e5b60.js.map": "/app-web-me/static/js/main.a24e5b60.js.map",
+    "main.8fe531d9.css.map": "/app-web-me/static/css/main.8fe531d9.css.map",
+    "main.701eb0d5.js.map": "/app-web-me/static/js/main.701eb0d5.js.map",
     "453.b3eaa977.chunk.js.map": "/app-web-me/static/js/453.b3eaa977.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4e781998.css",
-    "static/js/main.a24e5b60.js"
+    "static/css/main.8fe531d9.css",
+    "static/js/main.701eb0d5.js"
   ]
 }
