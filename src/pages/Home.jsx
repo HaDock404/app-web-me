@@ -2,9 +2,11 @@ import Header from '../components/Header'
 import Username from '../components/Username'
 import Intro from '../components/Intro'
 import Separation2 from '../components/Separation2'
+import Separation3 from '../components/Separation3'
 import ContributionTitle1 from '../components/ContributionTitle1'
 import ContributionTitle2 from '../components/ContributionTitle2'
 import Articles from '../components/Articles'
+import Banner from '../components/Banner'
 
 function Home() {
     return (
@@ -17,6 +19,8 @@ function Home() {
             <Articles />
             <Separation2 />
             <ContributionTitle2 />
+            <Banner />
+            <Separation3 />
         </>
     )
 }
