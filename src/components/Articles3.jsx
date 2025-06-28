@@ -1,7 +1,7 @@
 import '../styles/articles.css'
 import Article from './Article'
-import Car from '../assets/car-vision.png';
-import Youtube from '../assets/youtube.svg'
+import Controller from '../assets/controller.svg';
+import Plancha from '../assets/plancha.svg'
 import Emoxion from '../assets/emoxion.svg'
 import Cars from '../assets/cars.svg'
 
@@ -20,13 +20,13 @@ const link2 = "/article_02"
 const link3 = "/article_03"
 const link4 = "/article_04"
 
-function Articles() {
+function Articles3() {
     return (
         <section id='articles_display'>
             <article id='articles'>
-                <Article placement="left" image={Car} title={title1} text={text1} link={link1}/>
+                <Article placement="left" image={Controller} title={title1} text={text1} link={link1}/>
                 <hr className='vertical_hr'/>
-                <Article  placement="center" image={Youtube} title={title2} text={text2} link={link2}/>
+                <Article  placement="center" image={Plancha} title={title2} text={text2} link={link2}/>
                 <hr className='vertical_hr'/>
                 <Article  placement="center" image={Emoxion} title={title3} text={text3} link={link3}/>
                 <hr className='vertical_hr'/>
@@ -37,4 +37,4 @@ function Articles() {
     )
 }
 
-export default Articles
+export default Articles3
