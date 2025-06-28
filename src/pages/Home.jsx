@@ -6,6 +6,7 @@ import Separation3 from '../components/Separation3'
 import ContributionTitle1 from '../components/ContributionTitle1'
 import ContributionTitle2 from '../components/ContributionTitle2'
 import Articles from '../components/Articles'
+import Articles2 from '../components/Articles2'
 import Banner from '../components/Banner'
 
 function Home() {
@@ -21,6 +22,11 @@ function Home() {
             <ContributionTitle2 />
             <Banner />
             <Separation3 />
+            <Articles2 />
+            <Separation2 />
+            <ContributionTitle2 />
+            <Articles />
+            <Separation2 />
         </>
     )
 }
