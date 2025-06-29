@@ -27,6 +27,17 @@
     justify-content: space-between;
 }
 
+.content_banner_link {
+    width: calc(100% - 24px);
+    height: 100%;
+    margin-left: 12px;
+    margin-right: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
 .content_box_banner {
     width: 350px;
     height: auto;

@@ -10,6 +10,7 @@ import Articles from '../components/Articles'
 import Articles2 from '../components/Articles2'
 import Articles3 from '../components/Articles3'
 import Banner from '../components/Banner'
+import Banner2 from '../components/Banner2'
 
 function Home() {
     return (
@@ -25,6 +26,8 @@ function Home() {
             <Banner />
             <Separation3 />
             <Articles2 />
+            <Separation3 />
+            <Banner2 />
             <Separation3 />
             <Articles />
             <Separation2 />
