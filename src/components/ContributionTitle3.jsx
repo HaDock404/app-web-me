@@ -10,7 +10,7 @@ function ContributionTitle3() {
                     
                     <Icon10 />
                 </div>
-                <div id='contribution_title_text'>Hobbies</div>
+                <div id='contribution_title_text'>Activities</div>
             </div>
         </div>
     )

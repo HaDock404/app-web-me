@@ -2,8 +2,8 @@ import '../styles/articles.css'
 import Article from './Article'
 import Controller from '../assets/controller.svg';
 import Plancha from '../assets/plancha.svg'
-import Emoxion from '../assets/emoxion.svg'
-import Cars from '../assets/cars.svg'
+import Saw from '../assets/saw.svg'
+import Hat from '../assets/hat.svg'
 
 const title1 = "Learning to See for a Smoother Ride"
 const title2 = "Watching Without the Noise"
@@ -28,9 +28,9 @@ function Articles3() {
                 <hr className='vertical_hr'/>
                 <Article  placement="center" image={Plancha} title={title2} text={text2} link={link2}/>
                 <hr className='vertical_hr'/>
-                <Article  placement="center" image={Emoxion} title={title3} text={text3} link={link3}/>
+                <Article  placement="center" image={Saw} title={title3} text={text3} link={link3}/>
                 <hr className='vertical_hr'/>
-                <Article  placement="right" image={Cars} title={title4} text={text4} link={link4}/>
+                <Article  placement="right" image={Hat} title={title4} text={text4} link={link4}/>
             </article>
             
         </section>
