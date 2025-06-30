@@ -1,0 +1,25 @@
+#footer_articles_display {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: "Roboto Mono", monospace;
+    font-size: 13px;
+}
+
+#footer_articles {
+    width: 100%;
+    max-width: 1300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.footer_article {
+    height: 380px;
+    background-color: yellow;
+}

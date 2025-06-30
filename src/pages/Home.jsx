@@ -12,6 +12,7 @@ import Articles3 from '../components/Articles3'
 import Articles4 from '../components/Articles4'
 import Banner from '../components/Banner'
 import Banner2 from '../components/Banner2'
+import Footer from '../components/Footer'
 
 function Home() {
     return (
@@ -35,6 +36,7 @@ function Home() {
             <ContributionTitle3 />
             <Articles3 />
             <Separation2 />
+            <Footer />
         </>
     )
 }
