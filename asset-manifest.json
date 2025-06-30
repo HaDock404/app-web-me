@@ -1,29 +1,42 @@
 {
   "files": {
-    "main.css": "/app-web-me/static/css/main.8fe531d9.css",
-    "main.js": "/app-web-me/static/js/main.701eb0d5.js",
+    "main.css": "/app-web-me/static/css/main.958377f4.css",
+    "main.js": "/app-web-me/static/js/main.6d8c74be.js",
     "static/js/453.b3eaa977.chunk.js": "/app-web-me/static/js/453.b3eaa977.chunk.js",
     "static/media/baudry.mp4": "/app-web-me/static/media/baudry.f6040df4231d745a3184.mp4",
     "static/media/animation.mp4": "/app-web-me/static/media/animation.884e01e298d5dd690ae9.mp4",
     "static/media/hieroglyphs.mp4": "/app-web-me/static/media/hieroglyphs.61b12da5b8ebea90cad5.mp4",
     "static/media/total.mp4": "/app-web-me/static/media/total.b7a6d2415ade7b3c0acf.mp4",
+    "static/media/testxx.svg": "/app-web-me/static/media/testxx.30f17089efb49909134a65493519035f.svg",
     "static/media/MCD.png": "/app-web-me/static/media/MCD.0663b7b2528b912d4126.png",
     "static/media/total_figure.png": "/app-web-me/static/media/total_figure.9bcd218de36a94a9d888.png",
     "static/media/flowchart.png": "/app-web-me/static/media/flowchart.f519a49aa8e535dfb61d.png",
+    "static/media/banner3.png": "/app-web-me/static/media/banner3.c94fb024c3f17b718f64.png",
+    "static/media/car-vision.png": "/app-web-me/static/media/car-vision.5bf9fe328f832eff597e.png",
     "static/media/total.png": "/app-web-me/static/media/total.2678c1c5e62cdd9ac307.png",
     "static/media/ishikawa.png": "/app-web-me/static/media/ishikawa.192565d41bee958cba26.png",
+    "static/media/emoxion.svg": "/app-web-me/static/media/emoxion.43383f6cee3e30aebc4e4fbade4b33b3.svg",
+    "static/media/cars.svg": "/app-web-me/static/media/cars.299b1c748d49b7e825a543ab272f751a.svg",
     "static/media/AI.png": "/app-web-me/static/media/AI.2bb878d4d89d17313bef.png",
     "static/media/scroll.png": "/app-web-me/static/media/scroll.8bd86bf31fba5e52e2a3.png",
     "static/media/numbers.png": "/app-web-me/static/media/numbers.d559d64233de96c5bae9.png",
     "static/media/flat.png": "/app-web-me/static/media/flat.ed69fb0c9ec4ef3a4373.png",
     "static/media/hieroglyphs.png": "/app-web-me/static/media/hieroglyphs.7bbef4876cad95462a5e.png",
+    "static/media/brain.svg": "/app-web-me/static/media/brain.72d860849992a7ba12118ab20008acb5.svg",
+    "static/media/gitlab.svg": "/app-web-me/static/media/gitlab.430e1fa2f9115e96b393bcb24111d369.svg",
+    "static/media/rocket.svg": "/app-web-me/static/media/rocket.1d05831a7b1422b3183a90b7bd766b69.svg",
+    "static/media/plancha.svg": "/app-web-me/static/media/plancha.f43feafa47076c586577ad3bdc208d14.svg",
+    "static/media/controller.svg": "/app-web-me/static/media/controller.1fa2630738dfcffa86380a034ca33e17.svg",
+    "static/media/hat.svg": "/app-web-me/static/media/hat.1d9cf14ee24d48877ff4006d0ffcc33e.svg",
+    "static/media/saw.svg": "/app-web-me/static/media/saw.7a2c94a2a1ef1d83bcbd8a9d2c5ff2db.svg",
     "index.html": "/app-web-me/index.html",
-    "main.8fe531d9.css.map": "/app-web-me/static/css/main.8fe531d9.css.map",
-    "main.701eb0d5.js.map": "/app-web-me/static/js/main.701eb0d5.js.map",
+    "static/media/youtube.svg": "/app-web-me/static/media/youtube.3be9c3753f19fed920fa5581ca671bfb.svg",
+    "main.958377f4.css.map": "/app-web-me/static/css/main.958377f4.css.map",
+    "main.6d8c74be.js.map": "/app-web-me/static/js/main.6d8c74be.js.map",
     "453.b3eaa977.chunk.js.map": "/app-web-me/static/js/453.b3eaa977.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8fe531d9.css",
-    "static/js/main.701eb0d5.js"
+    "static/css/main.958377f4.css",
+    "static/js/main.6d8c74be.js"
   ]
 }
