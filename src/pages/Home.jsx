@@ -9,6 +9,7 @@ import ContributionTitle3 from '../components/ContributionTitle3'
 import Articles from '../components/Articles'
 import Articles2 from '../components/Articles2'
 import Articles3 from '../components/Articles3'
+import Articles4 from '../components/Articles4'
 import Banner from '../components/Banner'
 import Banner2 from '../components/Banner2'
 
@@ -29,7 +30,7 @@ function Home() {
             <Separation3 />
             <Banner2 />
             <Separation3 />
-            <Articles />
+            <Articles4 />
             <Separation2 />
             <ContributionTitle3 />
             <Articles3 />

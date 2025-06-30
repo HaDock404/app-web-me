@@ -5,15 +5,15 @@ import Plancha from '../assets/plancha.svg'
 import Saw from '../assets/saw.svg'
 import Hat from '../assets/hat.svg'
 
-const title1 = "Learning to See for a Smoother Ride"
-const title2 = "Watching Without the Noise"
-const title3 = "Teaching a Model to Feel"
-const title4 = "Recommending Luxury, One Car at a Time"
+const title1 = "Building Bonds Through Games"
+const title2 = "Learning to Lead on the Water"
+const title3 = "Woodworking Taught Me Project Management"
+const title4 = "Building My Second Brain"
 
-const text1 = "Training a U-Net model to detect cars on dashcam footage."
-const text2 = "I built a Chrome extension to block YouTube ads, for uninterrupted watching."
-const text3 = "Fine-tuning BERT to understand tweet sentiment, positive or negative."
-const text4 = "Building a luxury car recommendation algorithm for a premium rental company."
+const text1 = "Using video games to build stronger team bonds and collaboration."
+const text2 = "Gaining management skills through coaching at a watersport center."
+const text3 = "Crafting complex wood projects taught me to structure software projects."
+const text4 = "I collect and share my knowledge to reuse and teach effectively."
 
 const link1 = "/article_01"
 const link2 = "/article_02"
