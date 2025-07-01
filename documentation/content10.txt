@@ -1,0 +1,22 @@
+Context
+
+Une des difficultés majeur d'un Data Scientist est de trouver des données et des projets innovants sur lesquel travailler, explorer, tester ou tout simplement parfois s'amuser.
+Durant ma scolarité j'ai eu l'occasion de réaliser de nombreux petits jeux pour apprendre et parfaire ma maitrise de différents langages de programmation. Mais chacun de ces jeux s'arrêtaient une fois les mécaniques et le design réalisé. 
+
+Je n'ai jamais vraiment souhaité poursuivre dans l'univers du jeu vidéo, je suis plus un consommateur qu'un créateur, mais j'adore collecter des données afin de les exploiter.
+
+J'ai donc décidé d'utiliser un ancien projet scolaire pour l'intégrer dans un écosystème complet de production.
+
+Le fonctionnement
+
+L'application de jeu Snake est une application que j'ai réalisé en React et déployé sur une githubPage. Elle permet à l'utilisateur d'avoir une interface simple et responsive qui s'adapte facilement aux écrans des utilisateurs. Le joueurs doit déplacer un serpent dans un plan en 2D afin de manger une pomme. Au fur et à mesure qu'il mange la pomme, le serpent s'aggrandi et la vitesse augmente. 
+
+J'ai accompagné cette application d'une API FastApi déployé sur un server local qui permet de récuperer les données des joueurs. En effet, lorsque le joueur perd, sa position, son temps de jeu ainsi que son score sont récupéré et envoyé dans une database afin de réaliser un traitement ultérieur.
+
+De cette manière il m'est donc facilement possible de réaliser une exploration de données grâce aux joueurs qui tentent de battre leur score. 
+
+Le projet n'a pas pour but d'être mis en production et d'obtenir un public important, il est particulièrement intéressant pour réaliser une CI/CD complète et un suivi de données pour permettre leur analyse et les reporting attenant. 
+
+Conclusion
+
+J'ai apprcié partager ce projet avec mes amis fin d'obtenir facilement de la données et pouvoir explorer le niveau de chacun. Ce projet est particulièrement important car un Data Scientist n'a parfois pas accès à toute la chaine de production, il est important de comprendre l'architecture complète d'un projet afin de s'adapter aux fonctionnement d'une application

@@ -4,9 +4,7 @@ import Icon8 from '../components/Icon8'
 import { Link } from 'react-router-dom'
 
 import SnakeGame from '../assets/SnakeGame.mp4'
-import unet from '../assets/unet.png'
-import schema from '../assets/schema.png'
-import accuracy from '../assets/accuracy.png'
+import graph from '../assets/graph.png'
 
 function Article10() {
     return (
@@ -40,92 +38,49 @@ function Article10() {
                             Context
                         </div>
                         <div className='content_article_right_text'>
-                            Computer vision allows for the segmentation of features in images and plays a crucial role in many applications, such as medicine, surveillance, and autonomous driving. The use of convolutional neural networks (CNNs) has proven particularly effective for this task. Among the most efficient architectures, U-Net has emerged as a powerful solution for semantic segmentation.
+                            One of the main challenges data scientists face is finding relevant, high-quality data on which to experiment, iterate, and build new skills. It is often difficult to access dynamic, evolving datasets that allow end-to-end pipeline exploration while maintaining the playful, exploratory mindset that drives technical curiosity.
                         </div>
                         <div className='content_article_right_text'>
-                            Among the most effective architectures for semantic segmentation, the U-Net model has established itself as a standard thanks to its ability to capture both the global context and the fine details of an image.
+                            During my studies, I developed numerous small games to strengthen my skills across different languages and frameworks, from Python to JavaScript. However, these projects typically ended once the mechanics and design were functional, without evolving into tools capable of generating data or supporting experimentation on analytic pipelines. Although I never aimed to become a game developer, I firmly believe that games are a powerful way to generate dynamic datasets while providing a motivating, structured environment for experimentation.
+                        </div>
+                        <div className='content_article_right_text'>
+                            To bridge this gap, I decided to transform an old school project into a fully integrated data collection and analysis environment, leveraging modern CI/CD, observability, and monitoring practices.
                         </div>
 
                         <div className='content_article_right_video'>
                             <video src={SnakeGame} autoPlay loop muted playsInline preload="auto" id=''/>
                         </div>
                         <div className='content_article_right_subtitle'>
-                            Video captured in Valencia (Spain) in my own car and processed with my trained model.
-                        </div>
-                        <div className='content_article_right_text'>
-                            In this project, I focused on training a U-Net model to segment images captured by on-board cameras in order to assist an autonomous driving system.
-                        </div>
-                        <div className='content_article_right_text'>
-                            In-vehicle cameras provide a continuous stream of images requiring rapid and reliable analysis to enable the vehicle to make real-time decisions, while ensuring the safety of passengers and other road users.
-                        </div>
-                        <div className='content_article_right_text'>
-                            My model was trained using the open-source <Link to="https://www.cityscapes-dataset.com/" className='content_article_right_text_link'  target="_blank" rel="noopener noreferrer">CityScapes</Link> dataset, which provides carefully annotated urban images. I used 6,000 annotated dashcam images, where a colored mask indicates, pixel by pixel, the segment to which each element belongs (road, car, sky, vegetation, building, etc.).
+                            My Snake Game
                         </div>
 
                         <div className='content_article_right_title'>
-                            U-Net
+                            Architecture
                         </div>
                         <div className='content_article_right_text'>
-                            Its structure consists of a contracting path (Encoder), a series of convolutions and max-pooling that allow to extract contextual features from an image while reducing its size. And an expansive path (Decoder), a series of convolutions and up-sampling that allows to reconstruct the segmented image while recovering fine details.
+                            The project revolves around a <Link to="https://github.com/HaDock404/app-game-snake/tree/master" className='content_article_right_text_link'  target="_blank" rel="noopener noreferrer">Snake Game</Link> built with React and deployed on GitHub Pages, providing a responsive interface that adapts seamlessly to various screen formats. The user controls the snake within a 2D plane, eating apples to grow in size while the game speed increases progressively. This simple mechanic offers a natural increase in difficulty, encouraging players to retry and improve their scores.
+                        </div>
+                        <div className='content_article_right_text'>
+                            To complement the game, I developed a <Link to="https://github.com/HaDock404/api-game-snake" className='content_article_right_text_link'  target="_blank" rel="noopener noreferrer">FastApi backend</Link> deployed on a local server, which automatically collects game data after each session, including the player’s final position, game duration, score, and user actions during the session. This data is then stored in a PostgreSQL database, ready for analysis and visualization.
+                        </div>
+                        <div className='content_article_right_text'>
+                            With this architecture, I can now perform real behavioral <Link to="https://hadock404.github.io/ai-game-snake/" className='content_article_right_text_link'  target="_blank" rel="noopener noreferrer">data exploration, identify gameplay trends, evaluate user strategies, and analyze patterns</Link> in user abandonment or progression across attempts. Although this project is not intended to scale as a public product, it serves as an excellent playground for implementing full CI/CD pipelines, production-grade data monitoring, and automated reporting via notebooks and dashboards.
                         </div>
                         <div className='content_article_right_text_bis'>
-                            <img src={unet} alt="image" className='content_article_right_text_image'/>
-                        </div>
-                        <div className='content_article_right_text'>
-                            The unique feature of U-Net is the skip connections (bridges) connecting the same-sized layers between the encoder and the decoder, allowing to transfer local details lost during downsampling directly into the reconstruction phase.
-                        </div>
-                        <div className='content_article_right_text'>
-                            This ability to combine global context and local accuracy is what makes U-Net so effective for image segmentation in autonomous driving. 
+                            <img src={graph} alt="image" className='content_article_right_text_image'/>
                         </div>
 
-                        <div className='content_article_right_title'>
-                            One-Hot Encoding vs LabelEncoder
-                        </div>
-                        <div className='content_article_right_text'>     
-                            To achieve effective segmentation, it is essential that each pixel in the image is associated with a class label (road, vehicle, sky, vegetation, etc.).
-                        </div>
+                        
                         <div className='content_article_right_text'>
-                            Usually, in this type of project, the One-Hot Encoding method is preferred, which consists of creating, for each pixel, a vector of length equal to the number of classes. Thus, for a 1024x512 image with 5 classes, this generates a tensor of dimension 1024x512x5. This method facilitates the training of the model because it clearly explains the presence of each class, pixel by pixel, and allows the use of the categorical_crossentropy loss function, suitable for multi-class classifications. However, this approach is expensive in memory, because it requires managing several channels in parallel, which can quickly become limiting when processing large volumes of high-definition images.
-                        </div>
-                        <div className='content_article_right_text'>
-                            In my project, I chose to use an alternative approach based on LabelEncoder encoding for segmentation masks. This method assigns each pixel a unique integer corresponding to the pixel's class, which allows to keep the same size as the original image while representing all classes in a single mask. This compact representation allows the use of the loss function sparse_categorical_crossentropy, which is equivalent to categorical_crossentropy but adapted to integer labels.
-                        </div>
-                        <div className='content_article_right_text_bis'>
-                            <img src={schema} alt="image" className='content_article_right_text_image'/>
-                        </div>
-                        <div className='content_article_right_text'>
-                            Using LabelEncoder allowed me to simplify data management while optimizing GPU memory usage, making it possible to train my U-Net model on a large number of dashcam images without compromising performance. This approach is particularly useful for in-car segmentation projects in autonomous driving, where memory and inference speed are strong constraints to respect while maintaining satisfactory segmentation quality.
-                        </div>
-                        <div className='content_article_right_title'>
-                            Results
-                        </div>
-                        <div className='content_article_right_text'>
-                            To evaluate the model's performance, I tested U-Net on a dashcam dataset captured in environments similar to the training set (German urban environments).
-                        </div>
-                        <div className='content_article_right_text'>
-                            Here are the class accuracy obtained from the test data:
-                        </div>
-                        <div className='content_article_right_text_bis'>
-                            <img src={accuracy} alt="image" className='content_article_right_text_image'/>
-                        </div>
-                        <div className='content_article_right_text'>
-                            These results show that my U-Net trained model performs particularly well on large, homogeneous surfaces such as roads and buildings, but has more difficulty with small moving objects such as vehicles, particularly due to the low number of pixels representing them and variations in shape.
+                            This project also allowed me to share the game with friends, collecting real user data while adding a social and playful dimension to the technical experiment. More than just a game, this project enabled me to simulate the complete data lifecycle, from generation and collection to analysis and reporting, while incorporating monitoring, optimization, and continuous testing challenges along the way.
                         </div>
 
                         <div className='content_article_right_title'>
                             Conclusion
                         </div>
                         <div className='content_article_right_text'>
-                            This project allowed me to immerse myself in computer vision by thoroughly exploring the U-Net architecture and the detailed workings of an image at the pixel level. I was also able to deploy this model as a serverless API on Cloud Run, making the pipeline accessible and reproducible in production.
-                            Using LabelEncoder significantly reduced memory consumption while maintaining good performance, which proved particularly valuable when processing large volumes of dashcam images.
+                            This experience reinforced my belief that data scientists greatly benefit from understanding and interacting with the entire data production pipeline, from the data-generating application to analytic pipelines, enabling them to design solutions that are truly aligned with production constraints. Exercises like this, seemingly simple but rich in cross-functional learning, are invaluable for sharpening your understanding of modern data architectures and workflows.
                         </div>
-                        <div className='content_article_right_text'>
-                            Despite a relatively small dataset, the results obtained are very encouraging and open up many avenues for improvement, such as the use of image tiling to refine the detection of small objects, experimentation with variants such as U-Net++ or Attention U-Net, and optimization of the model with TensorRT or ONNX for real-time deployment on embedded systems.
-                        </div>
-                        <div className='content_article_right_text'>
-                            Ce projet m’a non seulement permis d'acquérir des compétences techniques solides en segmentation d'images, mais il me donne également l’envie de poursuivre l’exploration de l'IA embarquée pour la perception visuelle dans les véhicules autonomes.
-                        </div>
-
 
                         <div className='content_article_right_title'>
                             Footnotes
