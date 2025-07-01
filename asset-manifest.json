@@ -1,17 +1,21 @@
 {
   "files": {
-    "main.css": "/app-web-me/static/css/main.49350b42.css",
-    "main.js": "/app-web-me/static/js/main.9f7c5257.js",
+    "main.css": "/app-web-me/static/css/main.feec6c1f.css",
+    "main.js": "/app-web-me/static/js/main.075d6fc9.js",
     "static/js/453.b3eaa977.chunk.js": "/app-web-me/static/js/453.b3eaa977.chunk.js",
     "static/media/baudry.mp4": "/app-web-me/static/media/baudry.f6040df4231d745a3184.mp4",
     "static/media/computer-vision.mp4": "/app-web-me/static/media/computer-vision.3426e6f5d51140902ab8.mp4",
+    "static/media/SnakeGame.mp4": "/app-web-me/static/media/SnakeGame.b04afef99d0d139d72da.mp4",
     "static/media/animation.mp4": "/app-web-me/static/media/animation.884e01e298d5dd690ae9.mp4",
     "static/media/hieroglyphs.mp4": "/app-web-me/static/media/hieroglyphs.61b12da5b8ebea90cad5.mp4",
+    "static/media/gitlab.mp4": "/app-web-me/static/media/gitlab.3adac2808428bdee9036.mp4",
     "static/media/total.mp4": "/app-web-me/static/media/total.b7a6d2415ade7b3c0acf.mp4",
     "static/media/MCD.png": "/app-web-me/static/media/MCD.0663b7b2528b912d4126.png",
     "static/media/total_figure.png": "/app-web-me/static/media/total_figure.9bcd218de36a94a9d888.png",
     "static/media/flowchart.png": "/app-web-me/static/media/flowchart.f519a49aa8e535dfb61d.png",
     "static/media/banner3.png": "/app-web-me/static/media/banner3.c94fb024c3f17b718f64.png",
+    "static/media/gitlab.png": "/app-web-me/static/media/gitlab.666e1d962d5ff2433909.png",
+    "static/media/graph.png": "/app-web-me/static/media/graph.cbec24af43fa8d934aed.png",
     "static/media/total.png": "/app-web-me/static/media/total.2678c1c5e62cdd9ac307.png",
     "static/media/ishikawa.png": "/app-web-me/static/media/ishikawa.192565d41bee958cba26.png",
     "static/media/emoxion.svg": "/app-web-me/static/media/emoxion.43383f6cee3e30aebc4e4fbade4b33b3.svg",
@@ -35,12 +39,12 @@
     "static/media/saw.svg": "/app-web-me/static/media/saw.7a2c94a2a1ef1d83bcbd8a9d2c5ff2db.svg",
     "index.html": "/app-web-me/index.html",
     "static/media/youtube.svg": "/app-web-me/static/media/youtube.3be9c3753f19fed920fa5581ca671bfb.svg",
-    "main.49350b42.css.map": "/app-web-me/static/css/main.49350b42.css.map",
-    "main.9f7c5257.js.map": "/app-web-me/static/js/main.9f7c5257.js.map",
+    "main.feec6c1f.css.map": "/app-web-me/static/css/main.feec6c1f.css.map",
+    "main.075d6fc9.js.map": "/app-web-me/static/js/main.075d6fc9.js.map",
     "453.b3eaa977.chunk.js.map": "/app-web-me/static/js/453.b3eaa977.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.49350b42.css",
-    "static/js/main.9f7c5257.js"
+    "static/css/main.feec6c1f.css",
+    "static/js/main.075d6fc9.js"
   ]
 }
