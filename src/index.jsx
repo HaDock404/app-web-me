@@ -16,6 +16,7 @@ import Article02 from './pages/Article02';
 import Article03 from './pages/Article03';
 import Article04 from './pages/Article04';
 import Article05 from './pages/Article05';
+import Article06 from './pages/Article06';
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -28,6 +29,7 @@ root.render(
           <Route path="/article_03" element={<Article03 />}/>
           <Route path="/article_04" element={<Article04 />}/>
           <Route path="/article_05" element={<Article05 />}/>
+          <Route path="/article_06" element={<Article06 />}/>
         </Routes>
     <React.StrictMode></React.StrictMode>
   </HashRouter>,

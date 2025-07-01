@@ -15,7 +15,7 @@ const text2 = "I built a Chrome extension to block YouTube ads, for uninterrupte
 const text3 = "Fine-tuning BERT to understand tweet sentiment, positive or negative."
 const text4 = "Building a luxury car recommendation algorithm for a premium rental company."
 
-const link1 = "/article_01"
+const link1 = "/article_06"
 const link2 = "/article_02"
 const link3 = "/article_03"
 const link4 = "/article_04"

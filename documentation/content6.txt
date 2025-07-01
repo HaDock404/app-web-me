@@ -1,0 +1,127 @@
+In the field of computer vision, image segmentation plays a crucial role in many applications, such as medicine, surveillance, and autonomous driving. The use of convolutional neural networks (CNN) has proven to be particularly effective in this task. Among the most efficient architectures, U-Net has emerged as a solution powerful for semantic segmentation.
+
+In this project I focused on training a U-net neural network to carry out image segmentation taken from a dashcam camera.
+
+Dans le domaine de la vision par ordinateur, la segmentation d'images joue un rôle crucial dans de nombreuses applications, telles que la médecine, la surveillance et la conduite autonome. L'utilisation de réseaux de neurones convolutifs (CNN) s'est avérée particulièrement efficace pour cette tâche. Parmi les architectures les plus performantes, U-Net s'est imposée comme une solution performante pour la segmentation sémantique.
+
+Je me suis concentré ici sur l'entraînement d'un réseau de neurone U-net pour de la segementation d'images capturé par une caméra embarqué dans l'objectif 
+
+
+
+
+La vision par ordinateur permet de segmenter des éléments dans des images et joue un rôle crucial dans de nombreuses applications, comme la médecine, la surveillance et la conduite autonome. L'utilisation de réseaux de neurones convolutifs (CNN) s'est avérée particulièrement efficace pour cette tâche. Parmi les architectures les plus performantes, U-Net s'est imposée comme une solution performante pour la segmentation sémantique.
+
+Je me suis concentré ici sur l'entraînement d'un réseau de neurone U-net pour de la segmentation d'images capturé par une caméra embarqué dans l'objectif d'accompagner un système embarqué de conduite autonome.
+
+Les images des caméras embarquées dans les véhicules autonomes fournissent un flux continu de données visuelles, nécessitant une analyse rapide et précise pour permettre le transport du véhicule jusqu'à sa destination. J'ai réalisé un entrainement de modèle afin de répondre à ce flux de données et de garantir la sécurité du véhicule.
+
+L'entraînement du modèle à pu être réalisé grâce au travail formidable et open source d'annotation du site CityScapes. L'entrainement à été réalisé sur 6.000 images de Dashcam ou un masque de couleur à été appliqué permettant de déterminer pour chaque élément d'une image le segment auquel il appartient.
+
+Explication complète de U-net
+
+Explication de mon utilisation de la méthode LabelEncoder en comparaison avec la méthode One-hot Encoding
+
+Explication des métriques sur des données de test (similarité avec la caméra de capture et l'environnement allemand identique) précision de 0.52 voiture, 0.91 route, 0.9 batiment, 0.78 nature, 0.8 ciel
+
+Donner une conclusion sur l'utilisation de U-net et ma méthode, et des propositions d'améliorations
+
+
+
+
+
+
+
+
+
+La vision par ordinateur permet de segmenter des éléments dans des images et joue un rôle crucial dans de nombreuses applications, notamment en médecine, en surveillance et dans les véhicules autonomes. Grâce à l'utilisation de réseaux de neurones convolutifs (CNN), nous pouvons identifier et délimiter des objets dans des images avec une précision remarquable.
+
+Parmi les architectures les plus efficaces pour la segmentation sémantique, le modèle U-Net s’est imposé comme un standard grâce à sa capacité à capturer à la fois le contexte global et les détails fins d’une image.
+
+
+
+Dans ce projet, je me suis concentré sur l’entraînement d’un modèle U-Net pour segmenter des images capturées par caméra embarquée dans le but d’assister un système de conduite autonome.
+
+Les caméras embarquées dans les véhicules fournissent un flux continu d’images nécessitant une analyse rapide et fiable afin de permettre au véhicule de prendre des décisions en temps réel, tout en garantissant la sécurité des passagers et des autres usagers de la route.
+
+L'entraînement de mon modèle a été rendu possible grâce au jeu de données open source Cityscapes, qui fournit des images urbaines annotées avec soin. J’ai utilisé 6 000 images dashcam annotées où un masque coloré indique, pixel par pixel, le segment auquel chaque élément appartient (route, voiture, ciel, végétation, bâtiment, etc.).
+
+
+
+U-Net est une architecture de réseau de neurones convolutifs conçue initialement pour la segmentation d’images médicales, mais particulièrement adaptée aux tâches nécessitant une précision pixel par pixel.
+
+Sa structure en forme de U se compose de deux parties :
+
+Chemin contractant (encoder) : série de convolutions et de max-pooling qui permettent d’extraire les caractéristiques contextuelles de l’image tout en réduisant sa taille.
+
+Chemin expansif (decoder) : séries de convolutions et d’up-sampling permettant de reconstruire l’image segmentée tout en récupérant les détails fins.
+
+La particularité de U-Net réside dans les connexions skip (ponts) reliant les couches de même taille entre l’encodeur et le décodeur, permettant de transférer les détails locaux perdus pendant le downsampling directement dans la phase de reconstruction.
+
+Cette capacité à combiner contexte global et précision locale est ce qui rend U-Net si performant pour la segmentation d’images en conduite autonome.
+
+
+
+Pour la segmentation, chaque pixel doit être associé à un label de classe. Deux méthodes principales existent :
+
+One-Hot Encoding :
+
+Crée un vecteur de longueur égale au nombre de classes pour chaque pixel.
+
+Plus coûteux en mémoire (par exemple, pour une image 1024x512 avec 5 classes, cela donne 1024x512x5).
+
+Nécessite de travailler avec des canaux multiples et des fonctions de perte adaptées comme categorical_crossentropy.
+
+LabelEncoder (avec encodage entier) :
+
+Associe à chaque pixel un entier représentant la classe.
+
+Moins gourmand en mémoire.
+
+Permet l'utilisation de sparse_categorical_crossentropy tout en conservant des performances comparables.
+
+Dans mon cas, j’ai utilisé LabelEncoder pour encoder les masques de segmentation en entiers afin de simplifier la gestion des données tout en permettant un entraînement efficace sur GPU, notamment pour traiter le volume élevé d’images dashcam tout en conservant de bonnes performances mémoire.
+
+
+
+Pour évaluer les performances du modèle, j’ai testé U-Net sur un jeu de données dashcam capturées dans des environnements similaires à ceux du jeu d'entraînement (environnements urbains allemands).
+
+Voici les précisions par classe obtenues sur les données de test :
+
+🚗 Voiture : 0.52
+
+🛣️ Route : 0.91
+
+🏢 Bâtiment : 0.90
+
+🌳 Nature : 0.78
+
+☁️ Ciel : 0.80
+
+Ces résultats montrent que U-Net est particulièrement performant sur les surfaces larges et homogènes comme les routes et les bâtiments, mais rencontre plus de difficulté sur des objets mobiles de petite taille comme les véhicules, notamment en raison du faible nombre de pixels les représentant et des variations de forme.
+
+
+
+L’utilisation de U-Net pour la segmentation d’images dashcam s’est révélée efficace pour la préparation de données de perception en conduite autonome. L’utilisation de LabelEncoder a permis de réduire la consommation mémoire tout en conservant de bonnes performances.
+
+
+
+
+
+////////////////////////////////////////////////
+U-Net est une architecture de réseau de neurones convolutifs conçue initialement pour la segmentation d’images médicales, mais particulièrement adaptée aux tâches nécessitant une précision pixel par pixel.
+
+Sa structure se compose d'un chemin contractant (Encoder), une série de convolutions et de max-pooling qui permettent d'extraire les caractéristiques contextuelles d'une image tout en réduisant sa taille. Et d'un chemin expansif (Decoder), une séries de convolutions et d'up-sampling qui permet de reconstruire l'image segmentée tout en récupérant les détails fins.
+
+La particularité de U-Net réside dans les connexions skip (ponts) reliant les couches de même taille entre l’encodeur et le décodeur, permettant de transférer les détails locaux perdus pendant le downsampling directement dans la phase de reconstruction.
+
+Cette capacité à combiner contexte global et précision locale est ce qui rend U-Net si performant pour la segmentation d’images en conduite autonome.
+
+
+//////////////////////////////////////////////
+Pour réaliser une segmentation efficace, il est essentiel que chaque pixel de l’image soit associé à un label de classe (route, véhicule, ciel, végétation, etc.).
+
+Habituellement, dans ce type de projet, on privilégie la méthode One-Hot Encoding, qui consiste à créer, pour chaque pixel, un vecteur de longueur égale au nombre de classes. Ainsi, pour une image 1024x512 avec 5 classes, cela génère un tenseur de dimension 1024x512x5. Cette méthode facilite l’apprentissage du modèle car elle explicite clairement la présence de chaque classe, pixel par pixel, et permet l’utilisation de la fonction de perte categorical_crossentropy, adaptée aux classifications multi-classes. Cependant, cette approche est coûteuse en mémoire, car elle nécessite de gérer plusieurs canaux en parallèle, ce qui peut rapidement devenir limitant lorsque l’on traite de grands volumes d’images haute définition.
+
+Dans mon projet, j'ai choisi d’utiliser une approche alternative basée sur l'encodage LabelEncoder pour les masques de segmentation. Cette méthode attribue à chaque pixel un entier unique correspondant à la classe du pixel, ce qui permet de conserver la même taille que l'image d'origine (par exemple 1024x512x1 au lieu de 1024x512x5), tout en représentant l’ensemble des classes dans un masque unique. Cette représentation compacte autorise l’utilisation de la fonction de perte sparse_categorical_crossentropy, qui est équivalente à categorical_crossentropy mais adaptée aux labels sous forme d’entiers.
+
+L’utilisation de LabelEncoder m’a permis de simplifier la gestion des données tout en optimisant l’utilisation de la mémoire GPU, rendant possible l'entraînement de mon modèle U-Net sur un grand nombre d'images dashcam sans compromis sur les performances. Cette approche est particulièrement utile pour les projets de segmentation embarquée en conduite autonome, où la mémoire et la rapidité d'inférence sont des contraintes fortes à respecter tout en maintenant une qualité de segmentation satisfaisante.

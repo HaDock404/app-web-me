@@ -1,7 +1,7 @@
 import '../styles/articles.css'
 import Article from './Article'
 import Gitlab from '../assets/gitlab.svg';
-import Testxx from '../assets/testxx.svg'
+import Board from '../assets/board.svg'
 import Brain from '../assets/brain.svg'
 import Rocket from '../assets/rocket.svg'
 
@@ -26,7 +26,7 @@ function Articles4() {
             <article id='articles'>
                 <Article placement="left" image={Gitlab} title={title1} text={text1} link={link1}/>
                 <hr className='vertical_hr'/>
-                <Article  placement="center" image={Testxx} title={title2} text={text2} link={link2}/>
+                <Article  placement="center" image={Board} title={title2} text={text2} link={link2}/>
                 <hr className='vertical_hr'/>
                 <Article  placement="center" image={Rocket} title={title3} text={text3} link={link3}/>
                 <hr className='vertical_hr'/>
