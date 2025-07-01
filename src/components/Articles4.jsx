@@ -2,7 +2,7 @@ import '../styles/articles.css'
 import Article from './Article'
 import Gitlab from '../assets/gitlab.svg';
 import Testxx from '../assets/testxx.svg'
-import Testyy from '../assets/testyy.svg'
+import Brain from '../assets/brain.svg'
 import Rocket from '../assets/rocket.svg'
 
 const title1 = "Letting Pipelines Do the Work"
@@ -30,7 +30,7 @@ function Articles4() {
                 <hr className='vertical_hr'/>
                 <Article  placement="center" image={Rocket} title={title3} text={text3} link={link3}/>
                 <hr className='vertical_hr'/>
-                <Article  placement="right" image={Testyy} title={title4} text={text4} link={link4}/>
+                <Article  placement="right" image={Brain} title={title4} text={text4} link={link4}/>
             </article>
             
         </section>

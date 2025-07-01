@@ -1,6 +1,6 @@
 import '../styles/articles.css'
 import Article from './Article'
-import Car from '../assets/car-vision.png';
+import Car from '../assets/car-vision.svg';
 import Youtube from '../assets/youtube.svg'
 import Emoxion from '../assets/emoxion.svg'
 import Cars from '../assets/cars.svg'
