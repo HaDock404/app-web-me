@@ -40,6 +40,11 @@
     background-color: #ff5b5b;
 }
 
+
+#article_10 {
+    background-color: #5cd05e;
+}
+
 .content_article_right {
     width: 50%;
     height: 100vh; /* La hauteur de l'élément droit est également sur tout l'écran */
