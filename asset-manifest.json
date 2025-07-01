@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/app-web-me/static/css/main.958377f4.css",
-    "main.js": "/app-web-me/static/js/main.e4c131d4.js",
+    "main.css": "/app-web-me/static/css/main.49350b42.css",
+    "main.js": "/app-web-me/static/js/main.9f7c5257.js",
     "static/js/453.b3eaa977.chunk.js": "/app-web-me/static/js/453.b3eaa977.chunk.js",
     "static/media/baudry.mp4": "/app-web-me/static/media/baudry.f6040df4231d745a3184.mp4",
+    "static/media/computer-vision.mp4": "/app-web-me/static/media/computer-vision.3426e6f5d51140902ab8.mp4",
     "static/media/animation.mp4": "/app-web-me/static/media/animation.884e01e298d5dd690ae9.mp4",
     "static/media/hieroglyphs.mp4": "/app-web-me/static/media/hieroglyphs.61b12da5b8ebea90cad5.mp4",
     "static/media/total.mp4": "/app-web-me/static/media/total.b7a6d2415ade7b3c0acf.mp4",
-    "static/media/testxx.svg": "/app-web-me/static/media/testxx.30f17089efb49909134a65493519035f.svg",
     "static/media/MCD.png": "/app-web-me/static/media/MCD.0663b7b2528b912d4126.png",
     "static/media/total_figure.png": "/app-web-me/static/media/total_figure.9bcd218de36a94a9d888.png",
     "static/media/flowchart.png": "/app-web-me/static/media/flowchart.f519a49aa8e535dfb61d.png",
@@ -17,6 +17,10 @@
     "static/media/emoxion.svg": "/app-web-me/static/media/emoxion.43383f6cee3e30aebc4e4fbade4b33b3.svg",
     "static/media/cars.svg": "/app-web-me/static/media/cars.299b1c748d49b7e825a543ab272f751a.svg",
     "static/media/AI.png": "/app-web-me/static/media/AI.2bb878d4d89d17313bef.png",
+    "static/media/board.svg": "/app-web-me/static/media/board.c54cf26f341af3f1aef80e65df42cdc5.svg",
+    "static/media/unet.png": "/app-web-me/static/media/unet.f0e9aa890b967da85a7b.png",
+    "static/media/schema.png": "/app-web-me/static/media/schema.71f36e3542c0f72ba407.png",
+    "static/media/accuracy.png": "/app-web-me/static/media/accuracy.e14c48fb09eacb72254b.png",
     "static/media/scroll.png": "/app-web-me/static/media/scroll.8bd86bf31fba5e52e2a3.png",
     "static/media/numbers.png": "/app-web-me/static/media/numbers.d559d64233de96c5bae9.png",
     "static/media/flat.png": "/app-web-me/static/media/flat.ed69fb0c9ec4ef3a4373.png",
@@ -31,12 +35,12 @@
     "static/media/saw.svg": "/app-web-me/static/media/saw.7a2c94a2a1ef1d83bcbd8a9d2c5ff2db.svg",
     "index.html": "/app-web-me/index.html",
     "static/media/youtube.svg": "/app-web-me/static/media/youtube.3be9c3753f19fed920fa5581ca671bfb.svg",
-    "main.958377f4.css.map": "/app-web-me/static/css/main.958377f4.css.map",
-    "main.e4c131d4.js.map": "/app-web-me/static/js/main.e4c131d4.js.map",
+    "main.49350b42.css.map": "/app-web-me/static/css/main.49350b42.css.map",
+    "main.9f7c5257.js.map": "/app-web-me/static/js/main.9f7c5257.js.map",
     "453.b3eaa977.chunk.js.map": "/app-web-me/static/js/453.b3eaa977.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.958377f4.css",
-    "static/js/main.e4c131d4.js"
+    "static/css/main.49350b42.css",
+    "static/js/main.9f7c5257.js"
   ]
 }
