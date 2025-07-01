@@ -125,3 +125,25 @@ Habituellement, dans ce type de projet, on privilégie la méthode One-Hot Encod
 Dans mon projet, j'ai choisi d’utiliser une approche alternative basée sur l'encodage LabelEncoder pour les masques de segmentation. Cette méthode attribue à chaque pixel un entier unique correspondant à la classe du pixel, ce qui permet de conserver la même taille que l'image d'origine (par exemple 1024x512x1 au lieu de 1024x512x5), tout en représentant l’ensemble des classes dans un masque unique. Cette représentation compacte autorise l’utilisation de la fonction de perte sparse_categorical_crossentropy, qui est équivalente à categorical_crossentropy mais adaptée aux labels sous forme d’entiers.
 
 L’utilisation de LabelEncoder m’a permis de simplifier la gestion des données tout en optimisant l’utilisation de la mémoire GPU, rendant possible l'entraînement de mon modèle U-Net sur un grand nombre d'images dashcam sans compromis sur les performances. Cette approche est particulièrement utile pour les projets de segmentation embarquée en conduite autonome, où la mémoire et la rapidité d'inférence sont des contraintes fortes à respecter tout en maintenant une qualité de segmentation satisfaisante.
+
+
+
+
+//////////////////////////////////////////
+J'ai appris beaucoup avec ce projet, j'ai exploré l'architecture U-net, j'ai décrypté le fonctionnement d'une image. J'ai également eu l'occasion de déployer cette api sur Cloud Run pour obtenir une api serverless. L’utilisation de LabelEncoder m'a permis de réduire la consommation mémoire tout en conservant de bonnes performances. Malgré un lot de données relativement restreint, les résultats sont très encourageant et permettent d'envisager de nombreuses amélioration avec notammanet l'image tiling pour améliorer la détection des petits objets, tester des variantes de U-net comme U-net++ ou Attention U-net et enfin optimiser le modèle avec TensorRT ou ONNX pour un déploiement en temps réel sur des systèmes embarqués.
+
+L’utilisation de U-Net pour la segmentation d’images dashcam s’est révélée efficace pour la préparation de données de perception en conduite autonome. L’utilisation de LabelEncoder a permis de réduire la consommation mémoire tout en conservant de bonnes performances.
+
+
+Ce projet m’a permis de m’immerger concrètement dans la vision par ordinateur en explorant en profondeur l’architecture U-Net et le fonctionnement détaillé d’une image au niveau pixel. J'ai également pu déployer ce modèle sous forme d'API serverless sur Cloud Run, rendant le pipeline accessible et reproductible en production.
+L’utilisation de LabelEncoder a considérablement réduit la consommation mémoire tout en maintenant de bonnes performances, ce qui s'est avéré particulièrement précieux dans le traitement de volumes importants d'images dashcam.
+
+Malgré un jeu de données relativement restreint, les résultats obtenus sont très encourageants et ouvrent de nombreuses perspectives d'amélioration. Parmi celles-ci :
+✅ l’utilisation de l’image tiling pour affiner la détection des petits objets,
+✅ l'expérimentation de variantes telles que U-Net++ ou Attention U-Net,
+✅ et l'optimisation du modèle avec TensorRT ou ONNX pour un déploiement en temps réel sur des systèmes embarqués.
+
+Ce projet m’a non seulement permis d'acquérir des compétences techniques solides en segmentation d'images, mais il me donne également l’envie de poursuivre l’exploration de l'IA embarquée pour la perception visuelle dans les véhicules autonomes.
+
+
+Malgré un jeu de données relativement restreint, les résultats obtenus sont très encourageants et ouvrent de nombreuses perspectives d'amélioration, comme l’utilisation de l’image tiling pour affiner la détection des petits objets l'expérimentation de variantes telles que U-Net++ ou Attention U-Net, et l'optimisation du modèle avec TensorRT ou ONNX pour un déploiement en temps réel sur des systèmes embarqués.
