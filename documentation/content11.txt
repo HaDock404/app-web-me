@@ -1,0 +1,12 @@
+Context 
+
+Un Data Scientist est parfois enfermé dans son environnement de travail et ne contribue pas à la cohésion des projets et à leur fonctionnement. J'ai toujours apprécié le DevOps, la manière d'organiser et d'architecturer le fonctionnement complet d'un projet pour qu'une succession d'étape interviennent les unes après les autres afin d'obtenir une déploiement réussi. 
+Pour m'aider à réaliser un CI/CD et prendre le rôle de DevOps et suivre le déroulé complet d'un déploiement d'un outil IA de prédiction de prix d'habitation je me suis aidé de Gitlab. 
+
+Explication
+Le projet est une application simple de prédiction avec de l'IA du prix d'une habitation en fonction de divers facteurs. Pour réaliser l'entierté du projet je me suis glissé dans le rôle de divers intervenants dans un projet complexe de machine Learning. J'ai d'abord eu le rôle de (je ne connais pas le nom du rôle) en créant un server gitlab CI/CD sur un server hébergé localement, dans lequel j'ai créé différents rôles et autorisations en fonction des prérogative de chacun. 
+J'ai pris le rôle de développeur en réalisant l'application react, dans un projet dédié, avec des branch developpement et production. J'ai pris le rôle du Data Scientist, avec la récupération de données, l'exploration, l'analyse et enfin l'entrainement d'un modèle de régression linéaire afin d'obtenir un modèle simple mais efficace de prédiction. J'ai pris le rôle de développeur BackEnd en réalisant l'api faisant appel au modèle et permettant à l'application de fournir un résultat à l'utilisateur. Et j'ai également pris le rôle de DevOps ou chef de projet, en autorisant les merge des différentes branch de développement sur les branch de production, tout en s'assurant du déploiement progressif CI/CD en réalisant différents tests de déploiement tout au long du processus avec des fichier YAML.
+
+Ce projet est particulièrement intéressant car il permet de comprendre toutes les imbrications et les rôles des différents acteurs d'un projet afin de livrer un produit focntionnel. Il m'a permis de mieux cerner l'importance de l'utilisation des branch et des fichiers YAML.
+
+Je suis très satisfait de la réalisation de ce projet car j'ai pu explorer un rôle qui n'est pas dédié aux data scientist mais qui permet de manager tout un projet et d'avoir une vision d'ensemble.
