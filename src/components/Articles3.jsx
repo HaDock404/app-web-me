@@ -15,7 +15,7 @@ const text2 = "Gaining management skills through coaching at a watersport center
 const text3 = "Crafting complex wood projects taught me to structure software projects."
 const text4 = "I collect and share my knowledge to reuse and teach effectively."
 
-const link1 = "/article_01"
+const link1 = "/article_15"
 const link2 = "/article_02"
 const link3 = "/article_03"
 const link4 = "/article_04"
