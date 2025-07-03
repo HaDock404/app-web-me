@@ -1,0 +1,8 @@
+Contexte
+Pouvoir prédir le sentiment assorti au contenu d'un post sur les réseaux sociaux est un atout majeur dans notre économie. Certaines sociétés ont besoin de comprendre le sentiment du marché les concernants, anticiper les bad buzz, maitriser les flux d'informations constants pour organiser leur communication, leur mouvement financier ou même leur stratégie commerciale. Les réseaux sociaux produisent une quantité importante de texte avec une qualité parfois très médiocre voir difficilement compréhensible pour les humains voir même pour des intelligences artificielles. Pour répondre à cette problèmatique j'ai entrainé un modèle BERT sur 1.6millions tweets identifié en fonction du sentiment positif ou négatif du tweet.
+
+Explication détaillé du fonctionnement de BERT
+
+Explication du déploiement de l'API sur cloud run
+
+Conclusion

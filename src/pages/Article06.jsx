@@ -122,10 +122,6 @@ function Article06() {
                         <div className='content_article_right_text'>
                             Despite a relatively small dataset, the results obtained are very encouraging and open up many avenues for improvement, such as the use of image tiling to refine the detection of small objects, experimentation with variants such as U-Net++ or Attention U-Net, and optimization of the model with TensorRT or ONNX for real-time deployment on embedded systems.
                         </div>
-                        <div className='content_article_right_text'>
-                            Ce projet m’a non seulement permis d'acquérir des compétences techniques solides en segmentation d'images, mais il me donne également l’envie de poursuivre l’exploration de l'IA embarquée pour la perception visuelle dans les véhicules autonomes.
-                        </div>
-
 
                         <div className='content_article_right_title'>
                             Footnotes

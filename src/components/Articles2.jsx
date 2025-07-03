@@ -17,7 +17,7 @@ const text4 = "Building a luxury car recommendation algorithm for a premium rent
 
 const link1 = "/article_06"
 const link2 = "/article_02"
-const link3 = "/article_03"
+const link3 = "/article_08"
 const link4 = "/article_04"
 
 function Articles() {
