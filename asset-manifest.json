@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/app-web-me/static/css/main.42c4c3cc.css",
-    "main.js": "/app-web-me/static/js/main.485ab546.js",
+    "main.css": "/app-web-me/static/css/main.b5e6e778.css",
+    "main.js": "/app-web-me/static/js/main.ca54a0bd.js",
     "static/js/453.b3eaa977.chunk.js": "/app-web-me/static/js/453.b3eaa977.chunk.js",
     "static/media/baudry.mp4": "/app-web-me/static/media/baudry.f6040df4231d745a3184.mp4",
     "static/media/computer-vision.mp4": "/app-web-me/static/media/computer-vision.3426e6f5d51140902ab8.mp4",
     "static/media/SnakeGame.mp4": "/app-web-me/static/media/SnakeGame.b04afef99d0d139d72da.mp4",
     "static/media/Fortnite.mp4": "/app-web-me/static/media/Fortnite.95d420af15c096840616.mp4",
     "static/media/animation.mp4": "/app-web-me/static/media/animation.884e01e298d5dd690ae9.mp4",
+    "static/media/twitter.mp4": "/app-web-me/static/media/twitter.0bab023b7a035740ff76.mp4",
     "static/media/hieroglyphs.mp4": "/app-web-me/static/media/hieroglyphs.61b12da5b8ebea90cad5.mp4",
     "static/media/gitlab.mp4": "/app-web-me/static/media/gitlab.3adac2808428bdee9036.mp4",
     "static/media/fortnite.png": "/app-web-me/static/media/fortnite.4d1ab38fea4f78550920.png",
@@ -22,6 +23,7 @@
     "static/media/ishikawa.png": "/app-web-me/static/media/ishikawa.192565d41bee958cba26.png",
     "static/media/emoxion.svg": "/app-web-me/static/media/emoxion.43383f6cee3e30aebc4e4fbade4b33b3.svg",
     "static/media/cars.svg": "/app-web-me/static/media/cars.299b1c748d49b7e825a543ab272f751a.svg",
+    "static/media/BERT.png": "/app-web-me/static/media/BERT.b49cf5850a7c6d14d6c0.png",
     "static/media/AI.png": "/app-web-me/static/media/AI.2bb878d4d89d17313bef.png",
     "static/media/board.svg": "/app-web-me/static/media/board.c54cf26f341af3f1aef80e65df42cdc5.svg",
     "static/media/unet.png": "/app-web-me/static/media/unet.f0e9aa890b967da85a7b.png",
@@ -41,12 +43,12 @@
     "static/media/saw.svg": "/app-web-me/static/media/saw.7a2c94a2a1ef1d83bcbd8a9d2c5ff2db.svg",
     "index.html": "/app-web-me/index.html",
     "static/media/youtube.svg": "/app-web-me/static/media/youtube.3be9c3753f19fed920fa5581ca671bfb.svg",
-    "main.42c4c3cc.css.map": "/app-web-me/static/css/main.42c4c3cc.css.map",
-    "main.485ab546.js.map": "/app-web-me/static/js/main.485ab546.js.map",
+    "main.b5e6e778.css.map": "/app-web-me/static/css/main.b5e6e778.css.map",
+    "main.ca54a0bd.js.map": "/app-web-me/static/js/main.ca54a0bd.js.map",
     "453.b3eaa977.chunk.js.map": "/app-web-me/static/js/453.b3eaa977.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.42c4c3cc.css",
-    "static/js/main.485ab546.js"
+    "static/css/main.b5e6e778.css",
+    "static/js/main.ca54a0bd.js"
   ]
 }
