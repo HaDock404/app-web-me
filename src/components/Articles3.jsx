@@ -18,7 +18,7 @@ const text4 = "I collect and share my knowledge to reuse and teach effectively."
 const link1 = "/article_15"
 const link2 = "/article_02"
 const link3 = "/article_03"
-const link4 = "/article_04"
+const link4 = "/article_18"
 
 function Articles3() {
     return (

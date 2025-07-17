@@ -1,0 +1,8 @@
+Contexte
+Au fur et à mesure de mon apprentissage, j'ai eu besoin de retourner dans mes notes, où les informations que j'ai utilisé, les logiciels et les services que j'ai utilisé pour utiliser les commandes spécifiques à une problématique. J'ai utilisé différents services pour stocker mes connaissances, mais j'ai eu besoin d'avoir une base que je pourrais utiliser et partager à d'autres personnes. J'ai donc créé ma propre base de connaissance.
+
+explication du projet
+Ce projet est une application réalisé en react qui se décompose en une page d'accueil listant différents outils, avec une fonction de recherche pour trouver un outil en particulier. Chaque article détaille les différentes utilisations des outils ainsi que les commandes utiles ou celles dont j'ai l'habitude d'utiliser. C'est une application dans laquel j'ajoute et modifie des informations régulièrement. Elle est toujours utilisé par moi même pour mes commandes un peu longue et journalière, et je l'ai également partagé à d'autre data scientist ou étudiant qui on de cette manière un outil simple et efficace pour retrouver certaines commandes récurrentes dans notre domaine. C'est progressivement devenu un four tout des connaissances que j'ai pu acquérir dans différents domaines et ça me fait toujours plaisir de la partager si cela peut aider d'autres personnes.
+
+Conclusion
+Notre profession nécessite de chercher régulièrement des informations et elle est aidé par les nombreux contributeurs à ce travail de fourmi, ici j'ai tenté de contribuer à ce travail collaboratif en partageant mes connaissances à travers une base de connaissance ouverte à tous.
