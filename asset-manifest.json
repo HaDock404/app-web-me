@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/app-web-me/static/css/main.b5e6e778.css",
-    "main.js": "/app-web-me/static/js/main.ca54a0bd.js",
+    "main.css": "/app-web-me/static/css/main.11f8bd23.css",
+    "main.js": "/app-web-me/static/js/main.ffed2756.js",
     "static/js/453.b3eaa977.chunk.js": "/app-web-me/static/js/453.b3eaa977.chunk.js",
     "static/media/baudry.mp4": "/app-web-me/static/media/baudry.f6040df4231d745a3184.mp4",
     "static/media/computer-vision.mp4": "/app-web-me/static/media/computer-vision.3426e6f5d51140902ab8.mp4",
@@ -16,6 +16,7 @@
     "static/media/MCD.png": "/app-web-me/static/media/MCD.0663b7b2528b912d4126.png",
     "static/media/total_figure.png": "/app-web-me/static/media/total_figure.9bcd218de36a94a9d888.png",
     "static/media/flowchart.png": "/app-web-me/static/media/flowchart.f519a49aa8e535dfb61d.png",
+    "static/media/knowledge.png": "/app-web-me/static/media/knowledge.9036887b9d1e97ced1f4.png",
     "static/media/banner3.png": "/app-web-me/static/media/banner3.c94fb024c3f17b718f64.png",
     "static/media/gitlab.png": "/app-web-me/static/media/gitlab.666e1d962d5ff2433909.png",
     "static/media/graph.png": "/app-web-me/static/media/graph.cbec24af43fa8d934aed.png",
@@ -43,12 +44,12 @@
     "static/media/saw.svg": "/app-web-me/static/media/saw.7a2c94a2a1ef1d83bcbd8a9d2c5ff2db.svg",
     "index.html": "/app-web-me/index.html",
     "static/media/youtube.svg": "/app-web-me/static/media/youtube.3be9c3753f19fed920fa5581ca671bfb.svg",
-    "main.b5e6e778.css.map": "/app-web-me/static/css/main.b5e6e778.css.map",
-    "main.ca54a0bd.js.map": "/app-web-me/static/js/main.ca54a0bd.js.map",
+    "main.11f8bd23.css.map": "/app-web-me/static/css/main.11f8bd23.css.map",
+    "main.ffed2756.js.map": "/app-web-me/static/js/main.ffed2756.js.map",
     "453.b3eaa977.chunk.js.map": "/app-web-me/static/js/453.b3eaa977.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b5e6e778.css",
-    "static/js/main.ca54a0bd.js"
+    "static/css/main.11f8bd23.css",
+    "static/js/main.ffed2756.js"
   ]
 }
