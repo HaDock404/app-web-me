@@ -9,7 +9,7 @@ function Article18() {
     return (
         <>
             <section className="content_section_display">
-                <article className='content_article_left' id='article_15'>
+                <article className='content_article_left' id='article_18'>
                     <Link to="/" className='content_article_left_icon'>
                         <Icon6 />
                     </Link>
@@ -42,15 +42,13 @@ function Article18() {
                         <div className='content_article_right_text'>
                             At first, I used notebooks, then scattered notes across my computer or cloud services, but these fragments of knowledge would inevitably get lost, impossible to reconnect when I needed to revisit a topic or share a solution with a colleague.
                         </div>
-                        <div className='content_article_right_text'>
-                            It was from this need to easily find what I had learned, and to make it available to others, that the idea of building my own knowledge base was born.
-                        </div>
-
-
                         <div className='content_article_right_text_bis'>
                             <img src={knowledge} alt="image" className='content_article_right_text_image'/>
                         </div>
-
+                        <div className='content_article_right_text'>
+                            It was from this need to easily find what I had learned, and to make it available to others, that the idea of building my own knowledge base was born.
+                        </div>
+                        
                         <div className='content_article_right_title'>
                             The Project
                         </div>
