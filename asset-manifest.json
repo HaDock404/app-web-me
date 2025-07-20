@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/app-web-me/static/css/main.c3a4b686.css",
-    "main.js": "/app-web-me/static/js/main.58370eb9.js",
+    "main.js": "/app-web-me/static/js/main.0089404f.js",
     "static/js/453.b3eaa977.chunk.js": "/app-web-me/static/js/453.b3eaa977.chunk.js",
     "static/media/baudry.mp4": "/app-web-me/static/media/baudry.f6040df4231d745a3184.mp4",
     "static/media/computer-vision.mp4": "/app-web-me/static/media/computer-vision.3426e6f5d51140902ab8.mp4",
     "static/media/SnakeGame.mp4": "/app-web-me/static/media/SnakeGame.b04afef99d0d139d72da.mp4",
     "static/media/Fortnite.mp4": "/app-web-me/static/media/Fortnite.95d420af15c096840616.mp4",
+    "static/media/skatepress.png": "/app-web-me/static/media/skatepress.ceee4747ee3c757cfbab.png",
     "static/media/animation.mp4": "/app-web-me/static/media/animation.884e01e298d5dd690ae9.mp4",
     "static/media/cispa.mp4": "/app-web-me/static/media/cispa.56bfc1224a88a0cfe87d.mp4",
     "static/media/twitter.mp4": "/app-web-me/static/media/twitter.0bab023b7a035740ff76.mp4",
@@ -32,6 +33,7 @@
     "static/media/schema.png": "/app-web-me/static/media/schema.71f36e3542c0f72ba407.png",
     "static/media/accuracy.png": "/app-web-me/static/media/accuracy.e14c48fb09eacb72254b.png",
     "static/media/scroll.png": "/app-web-me/static/media/scroll.8bd86bf31fba5e52e2a3.png",
+    "static/media/skatepressplan.png": "/app-web-me/static/media/skatepressplan.f691fb57c2a845eecb91.png",
     "static/media/numbers.png": "/app-web-me/static/media/numbers.d559d64233de96c5bae9.png",
     "static/media/flat.png": "/app-web-me/static/media/flat.ed69fb0c9ec4ef3a4373.png",
     "static/media/hieroglyphs.png": "/app-web-me/static/media/hieroglyphs.7bbef4876cad95462a5e.png",
@@ -46,11 +48,11 @@
     "index.html": "/app-web-me/index.html",
     "static/media/youtube.svg": "/app-web-me/static/media/youtube.3be9c3753f19fed920fa5581ca671bfb.svg",
     "main.c3a4b686.css.map": "/app-web-me/static/css/main.c3a4b686.css.map",
-    "main.58370eb9.js.map": "/app-web-me/static/js/main.58370eb9.js.map",
+    "main.0089404f.js.map": "/app-web-me/static/js/main.0089404f.js.map",
     "453.b3eaa977.chunk.js.map": "/app-web-me/static/js/453.b3eaa977.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c3a4b686.css",
-    "static/js/main.58370eb9.js"
+    "static/js/main.0089404f.js"
   ]
 }
