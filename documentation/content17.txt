@@ -1,0 +1,36 @@
+Contexte
+Le problème avec les skateboards c'est qu'ils coutent cher et sont bien souvent de très faible qualité. J'avais donc pour ambitions de créer mes propres skateboard de qualité et à faible coût. Je me suis intéréssé aux différentes méthodes de production de skateboard et comment je pouvais reproduire la méthodologie de fabrication. Nombreuses des méthodes étaient hors de ma portée. J'ai donc imaginé ma propre presse de skateboard pour faciliter la réalisation de mon projet. Au lieu d'utiliser des moules complets et lourd, des systèmes complexe de presse, j'ai créé une presse utilisant des gabarits et des tiges filleté qui permettent de serrer progressivement les planches du skateboard afin de finaliser l'assemblage.
+
+Le projet
+J'ai décidé d'organiser au maximum ce projet de manière industrielle pour permettre sa reproductabilité. J'ai créé les modes opératoires de chaque pièces, les nomenclatures et les plan détaillés de la presse pour permettre sa fabrication facilité par un atelier de menuiserie. La presse se décompose en 10 gabarits usiné qui reproduisent la forme d'une planche de skate. Ces gabarits sont fixés sur deux planches percés et 12 tiges filetés muni de rondelle et d'écrou papillons permettent le serrage des planches enduite de colle à bois. La planche de skateboard est fabriqué à partir de différentes couche de contre plaqué qui permettent d'épouser la forme de la presse. (Bien expliquer les différents types de bois possible à utiliser et les épaisseurs de planches et le nombre de planche)
+
+Conclure sur l'importance d'organiser les projets, ce qui m'a permis d'apprendre dans l'organisation de projet et le parallèle avec l'organisation de projet complexe avec de nombreuses étapes
+
+---------------------------------------------------------------------------------------------------------------------
+
+
+Le skateboard est un objet de liberté, de créativité, et aussi, malheureusement, un objet souvent coûteux et de mauvaise qualité. Avec ce constat, j’ai décidé de me lancer dans un nouveau projet, fabriquer mes propres skateboards de qualité, à faible coût, tout en gardant la possibilité de reproduire le processus si l’expérience s’avérait concluante.
+
+Je me suis donc intéressé aux méthodes de fabrication industrielle de skateboards, découvrant que la plupart nécessitaient des moules lourds, des presses hydrauliques complexes et des ateliers entièrement équipés. Ces contraintes n'étaient pas à ma portée. Plutôt que d’abandonner, j’ai décidé de concevoir ma propre presse à skateboard, adaptée à mes moyens tout en garantissant un résultat professionnel.
+
+
+Mon objectif n’était pas simplement de réaliser un skateboard, mais de construire un système réplicable pour en fabriquer plusieurs, avec la même qualité et le même shape.
+
+Les skateboards sont traditionnellement fabriqués à partir de feuilles de contreplaqué d’érable canadien, réputé pour sa solidité et sa légèreté. Cependant, d’autres bois peuvent être utilisés selon les besoins et les disponibilités, comme le bouleau ou le hêtre, offrant des rigidités variées selon le style de glisse recherché. Ce sont des matériaux à faible coûts que l'ont trouve facilement dans les magasins de bricolage, permettant la fabrication à grande échelle de mes planches de skateboard.
+
+En général, un skateboard est constitué de 7 à 9 plis de contreplaqué de 1,5 mm d’épaisseur chacun, collés avec une colle à bois de qualité extérieure. Le collage couche par couche permet d’épouser parfaitement la forme donnée par la presse, tout en assurant la solidité et la réactivité de la planche.
+
+Au lieu d’utiliser un moule monobloc, j’ai imaginé un système basé sur 10 gabarits usinés reproduisant le shape souhaité de la planche. Ces gabarits sont fixés sur deux planches percées, et 12 tiges filetées équipées de rondelles et d’écrous papillon permettent d’appliquer une pression progressive sur l’ensemble, assurant une courbure régulière lors du collage.
+
+Les plis de contreplaqué sont enduit de colle et positionné entre les deux parties de la presse. Pour obtenir la forme souhaité du skateboard, il est alors nécessaire de serrer progressivement les écrous papillons, puis patienter 48h pour que le collage soit terminé.
+
+Pour rendre ce projet reproductible, j’ai appliqué une démarche quasi-industrielle. J'ai réalisé des plans détaillés de chaque gabarit, permettant un usinage précis, même dans un petit atelier de menuiserie. Une nomenclature permet avec le mode opératoire de suivre chaque étape de création de la presse.
+
+Cette organisation m’a permis d’éviter de nombreux imprévus, de mieux gérer le coût du projet, mais aussi de documenter précisément chaque étape pour pouvoir partager cette méthode à d’autres makers souhaitant se lancer dans la fabrication de leurs planches.
+
+
+Ce projet de presse à skateboard m’a appris qu’un projet complexe, même dans un atelier personnel, peut être mené à bien à condition d’être bien organisé. Chaque étape doit être réfléchie, planifiée et testée avant d’être validée pour garantir le résultat final.
+
+Cette approche est directement transposable à d’autres projets, notamment dans les sciences des données où de nombreuses étapes s’enchaînent. Elle m’a appris à découper les problèmes en petites tâches, à anticiper les besoins en matériel, à documenter mon avancement et à garder une vision d’ensemble tout en avançant par étapes concrètes.
+
+Fabriquer ses skateboards, ce n’est pas seulement fabriquer un objet. C’est apprendre à structurer un projet, résoudre des problèmes techniques, et vivre la satisfaction de créer un objet que l’on utilisera au quotidien, en ayant compris chaque étape de sa réalisation.
