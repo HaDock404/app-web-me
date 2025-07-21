@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/app-web-me/static/css/main.21bc9c97.css",
-    "main.js": "/app-web-me/static/js/main.daff95ee.js",
+    "main.css": "/app-web-me/static/css/main.5570146d.css",
+    "main.js": "/app-web-me/static/js/main.993a924b.js",
     "static/js/453.b3eaa977.chunk.js": "/app-web-me/static/js/453.b3eaa977.chunk.js",
     "static/media/baudry.mp4": "/app-web-me/static/media/baudry.f6040df4231d745a3184.mp4",
     "static/media/computer-vision.mp4": "/app-web-me/static/media/computer-vision.3426e6f5d51140902ab8.mp4",
@@ -16,6 +16,7 @@
     "static/media/hieroglyphs.mp4": "/app-web-me/static/media/hieroglyphs.61b12da5b8ebea90cad5.mp4",
     "static/media/gitlab.mp4": "/app-web-me/static/media/gitlab.3adac2808428bdee9036.mp4",
     "static/media/fortnite.png": "/app-web-me/static/media/fortnite.4d1ab38fea4f78550920.png",
+    "static/media/projects.png": "/app-web-me/static/media/projects.65c88644de70f3e60614.png",
     "static/media/total.mp4": "/app-web-me/static/media/total.b7a6d2415ade7b3c0acf.mp4",
     "static/media/MCD.png": "/app-web-me/static/media/MCD.0663b7b2528b912d4126.png",
     "static/media/total_figure.png": "/app-web-me/static/media/total_figure.9bcd218de36a94a9d888.png",
@@ -49,12 +50,12 @@
     "static/media/saw.svg": "/app-web-me/static/media/saw.7a2c94a2a1ef1d83bcbd8a9d2c5ff2db.svg",
     "index.html": "/app-web-me/index.html",
     "static/media/youtube.svg": "/app-web-me/static/media/youtube.3be9c3753f19fed920fa5581ca671bfb.svg",
-    "main.21bc9c97.css.map": "/app-web-me/static/css/main.21bc9c97.css.map",
-    "main.daff95ee.js.map": "/app-web-me/static/js/main.daff95ee.js.map",
+    "main.5570146d.css.map": "/app-web-me/static/css/main.5570146d.css.map",
+    "main.993a924b.js.map": "/app-web-me/static/js/main.993a924b.js.map",
     "453.b3eaa977.chunk.js.map": "/app-web-me/static/js/453.b3eaa977.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.21bc9c97.css",
-    "static/js/main.daff95ee.js"
+    "static/css/main.5570146d.css",
+    "static/js/main.993a924b.js"
   ]
 }
