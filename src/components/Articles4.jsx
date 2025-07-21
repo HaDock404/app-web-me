@@ -16,7 +16,7 @@ const text3 = "On starting projects and pushing them toward success, one idea at
 const text4 = "Exploring RoBERTa for advanced text understanding in personal NLP projects."
 
 const link1 = "/article_11"
-const link2 = "/article_02"
+const link2 = "/article_12"
 const link3 = "/article_03"
 const link4 = "/article_04"
 
