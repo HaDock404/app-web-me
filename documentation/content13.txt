@@ -1,0 +1,17 @@
+Data scientist de formation je n'ai cessé de chercher à planifier, organiser, utiliser les données pour améliorer les process ou les produits grâce aux connaissances que j'avais acquis. Désormais dans le dommaine de l’intelligence artificielle, j’ai vite compris qu’apprendre ne se limitait pas à rester dans sa zone de confort. 
+
+J'ai donc décidé d'explorer sans cesse de nouveaux domaines : Python, React, Cypher, C++, développement de SaaS, automatisation de workflows, création d’outils pour aider les utilisateurs à travailler ou à se divertir. Cette soif de création n’est pas un simple hobby, elle est devenue un véritable mode de fonctionnement pour progresser dans mon métier.
+
+
+Expérimenter, c’est accepter de partir d’une idée vague et d’avancer sans certitude, d'échouer, de recommencer, de n'arriver à rien mais de toujours progresser, de ses succès ou de ses erreurs, je prends toujours énormément de plaisir à faire, même si je n'ai pas de produit à la fin. J’ai monté des SaaS complets et automatisés, parfois pour un besoin précis, parfois simplement pour tester un concept qui me trottait dans la tête. J’ai développé des bots qui extraient et structurent l’information pour alimenter des dashboards, des petites applications qui résolvent un problème précis, des outils de génération de contenu, ou encore des jeux minimalistes pour expérimenter des mécaniques d'interaction. 
+
+Toutes ces expérimentations ne sont pas des succès commerciaux. Et ce n’est pas grave. Car à chaque projet, je découvre une nouvelle bibliothèque, une méthode d’organisation plus efficace, une façon de gérer des erreurs, un mode de déploiement plus rapide ou une meilleure manière de structurer le code. Parfois, c’est en expérimentant un outil que je découvre un nouveau besoin, un autre angle d’approche ou un levier que je n’aurais jamais imaginé sans avoir mis les mains dedans. Le plus important est que ces projets ne me donnent jamais envie d'abandonner, j'apprends de mes erreurs et je suis persuadé de trouver le produit qui sera parfaitement adapté au besoin du grand public.
+
+Dans un monde où l’IA évolue chaque jour, cette capacité à expérimenter est une assurance, elle permet de rester adaptable, de comprendre rapidement de nouvelles technologies et de transformer une idée en prototype concret. Savoir que l'on peut construire, tester, déployer seul une idée en quelques jours change radicalement la manière d'aborder un projet.
+
+Toutes ces expériences sont bien souvent transposable dans le monde professionnel, elles m'inspirent et m'aident à proposer des solutions novatrices pour les différents projets sur lesquelles je travaille en entreprise.
+
+
+Ce que j’ai compris au fil de ces projets, c’est qu’expérimenter est le meilleur moyen de progresser. Peu importe que le projet aboutisse ou non, chaque ligne de code écrite, chaque outil testé, chaque échec rencontré construit une compétence, un réflexe, une compréhension plus fine du monde technologique dans lequel je travaille.
+
+Créer, c’est se former en continu, mais c’est aussi se donner la liberté d’oser, de rater, de recommencer. Cette dynamique est précieuse, car elle nourrit la curiosité et rend chaque journée stimulante. Si je devais résumer ma démarche en une phrase c'est ne jamais arrêter d’expérimenter, car c’est ainsi que l’on avance, même quand on ne s’en rend pas compte.
