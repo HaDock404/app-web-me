@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/app-web-me/static/css/main.c3a4b686.css",
-    "main.js": "/app-web-me/static/js/main.0089404f.js",
+    "main.css": "/app-web-me/static/css/main.21bc9c97.css",
+    "main.js": "/app-web-me/static/js/main.0118da61.js",
     "static/js/453.b3eaa977.chunk.js": "/app-web-me/static/js/453.b3eaa977.chunk.js",
     "static/media/baudry.mp4": "/app-web-me/static/media/baudry.f6040df4231d745a3184.mp4",
     "static/media/computer-vision.mp4": "/app-web-me/static/media/computer-vision.3426e6f5d51140902ab8.mp4",
@@ -9,7 +9,9 @@
     "static/media/Fortnite.mp4": "/app-web-me/static/media/Fortnite.95d420af15c096840616.mp4",
     "static/media/skatepress.png": "/app-web-me/static/media/skatepress.ceee4747ee3c757cfbab.png",
     "static/media/animation.mp4": "/app-web-me/static/media/animation.884e01e298d5dd690ae9.mp4",
+    "static/media/arduino.png": "/app-web-me/static/media/arduino.46382e06dbc0f91cd34a.png",
     "static/media/cispa.mp4": "/app-web-me/static/media/cispa.56bfc1224a88a0cfe87d.mp4",
+    "static/media/hack.mp4": "/app-web-me/static/media/hack.a47b3bb15cdd8a0c8376.mp4",
     "static/media/twitter.mp4": "/app-web-me/static/media/twitter.0bab023b7a035740ff76.mp4",
     "static/media/hieroglyphs.mp4": "/app-web-me/static/media/hieroglyphs.61b12da5b8ebea90cad5.mp4",
     "static/media/gitlab.mp4": "/app-web-me/static/media/gitlab.3adac2808428bdee9036.mp4",
@@ -47,12 +49,12 @@
     "static/media/saw.svg": "/app-web-me/static/media/saw.7a2c94a2a1ef1d83bcbd8a9d2c5ff2db.svg",
     "index.html": "/app-web-me/index.html",
     "static/media/youtube.svg": "/app-web-me/static/media/youtube.3be9c3753f19fed920fa5581ca671bfb.svg",
-    "main.c3a4b686.css.map": "/app-web-me/static/css/main.c3a4b686.css.map",
-    "main.0089404f.js.map": "/app-web-me/static/js/main.0089404f.js.map",
+    "main.21bc9c97.css.map": "/app-web-me/static/css/main.21bc9c97.css.map",
+    "main.0118da61.js.map": "/app-web-me/static/js/main.0118da61.js.map",
     "453.b3eaa977.chunk.js.map": "/app-web-me/static/js/453.b3eaa977.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c3a4b686.css",
-    "static/js/main.0089404f.js"
+    "static/css/main.21bc9c97.css",
+    "static/js/main.0118da61.js"
   ]
 }
