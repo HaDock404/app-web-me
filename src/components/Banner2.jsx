@@ -1,4 +1,6 @@
 import '../styles/banner.css'
+import { useState, useEffect } from 'react';
+import Icon2 from './Icon2';
 import { Link } from 'react-router-dom';
 import Banner from '../assets/banner3.png'
 
