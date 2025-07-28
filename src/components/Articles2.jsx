@@ -11,12 +11,12 @@ const title3 = "Teaching a Model to Feel"
 const title4 = "Recommending Luxury, One Car at a Time"
 
 const text1 = "Training a U-Net model to detect cars on dashcam footage."
-const text2 = "I built a Chrome extension to block YouTube ads, for uninterrupted watching."
+const text2 = "A simple, serverless API for downloading YouTube videos."
 const text3 = "Fine-tuning BERT to understand tweet sentiment, positive or negative."
 const text4 = "Building a luxury car recommendation algorithm for a premium rental company."
 
 const link1 = "/article_06"
-const link2 = "/article_02"
+const link2 = "/article_07"
 const link3 = "/article_08"
 const link4 = "/article_04"
 

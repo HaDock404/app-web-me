@@ -17,7 +17,7 @@ import Article03 from './pages/Article03';
 import Article04 from './pages/Article04';
 import Article05 from './pages/Article05';
 import Article06 from './pages/Article06';
-
+import Article07 from './pages/Article07';
 import Article08 from './pages/Article08';
 
 import Article10 from './pages/Article10';
@@ -42,7 +42,7 @@ root.render(
           <Route path="/article_04" element={<Article04 />}/>
           <Route path="/article_05" element={<Article05 />}/>
           <Route path="/article_06" element={<Article06 />}/>
-
+          <Route path="/article_07" element={<Article07 />}/>
           <Route path="/article_08" element={<Article08 />}/>
 
           <Route path="/article_10" element={<Article10 />}/>
