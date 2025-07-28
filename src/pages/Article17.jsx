@@ -46,7 +46,7 @@ function Article17() {
                         </div>
 
                         <div className='content_article_right_text_bis'>
-                            <img src={skatepress} alt="image" className='content_article_right_text_image'/>
+                            <img src={skatepress} alt="" className='content_article_right_text_image'/>
                         </div>
 
                         <div className='content_article_right_title'>
@@ -62,7 +62,7 @@ function Article17() {
                             In general, a skateboard consists of 7 to 9 layers of plywood, each around 1.5 mm thick, glued together with high-quality outdoor wood glue. Layer-by-layer gluing allows the plywood to perfectly match the shape given by the press while ensuring the board’s strength and responsiveness.
                         </div>
                         <div className='content_article_right_text_bis'>
-                            <img src={skatepressplan} alt="image" className='content_article_right_text_image'/>
+                            <img src={skatepressplan} alt="" className='content_article_right_text_image'/>
                         </div>
                         <div className='content_article_right_text'>
                             Instead of using a monoblock mold, I designed a system based on 10 machined templates that replicate the desired skateboard shape. These templates are fixed between two drilled boards, and 12 threaded rods equipped with washers and wing nuts allow progressive pressure to be applied across the assembly, ensuring a consistent curve during the gluing process.

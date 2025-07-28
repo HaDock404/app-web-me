@@ -4,7 +4,6 @@ import Icon8 from '../components/Icon8'
 import { Link } from 'react-router-dom'
 
 import CISPA from '../assets/cispa.mp4'
-import fortnite from '../assets/fortnite.png'
 
 function Article16() {
     return (

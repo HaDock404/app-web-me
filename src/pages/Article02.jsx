@@ -3,9 +3,7 @@ import Icon6 from '../components/Icon6'
 import Icon8 from '../components/Icon8'
 import { Link } from 'react-router-dom'
 
-import animation from '../assets/animation.mp4'
 import total from '../assets/total.mp4'
-import scroll from '../assets/scroll.png'
 import total_figure from '../assets/total_figure.png'
 
 function Article01() {
@@ -68,7 +66,7 @@ function Article01() {
                             I was tasked by the business-to-business managers, <Link to="https://fr.linkedin.com/in/benjamin-salmeron-29ba783a" className='content_article_right_text_link'  target="_blank" rel="noopener noreferrer">Benjamin Salmeron</Link> and <Link to="https://fr.linkedin.com/in/ikrame-farssi-ba639ab1" className='content_article_right_text_link'  target="_blank" rel="noopener noreferrer">Ikram Farssi</Link>, with developing a tool to accurately retrieve delivery point data and store it on a server, allowing my team to access and analyze it.
                         </div>
                         <div className='content_article_right_text_bis'>
-                            <img src={total_figure} alt="image" className='content_article_right_text_image'/>
+                            <img src={total_figure} alt="" className='content_article_right_text_image'/>
                         </div>
                         <div className='content_article_right_subtitle_bis'>
                             My project data architecture diagram.

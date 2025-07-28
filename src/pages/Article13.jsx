@@ -3,7 +3,6 @@ import Icon6 from '../components/Icon6'
 import Icon8 from '../components/Icon8'
 import { Link } from 'react-router-dom'
 
-import Hack from '../assets/hack.mp4'
 import projects from '../assets/projects.png'
 
 function Article13() {
@@ -45,7 +44,7 @@ function Article13() {
                         </div>
 
                         <div className='content_article_right_text_bis'>
-                            <img src={projects} alt="image" className='content_article_right_text_image'/>
+                            <img src={projects} alt="" className='content_article_right_text_image'/>
                         </div>
 
                         <div className='content_article_right_title'>

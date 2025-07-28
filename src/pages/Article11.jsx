@@ -70,7 +70,7 @@ function Article10() {
                             Finally, as DevOps Engineer and Project Lead, I managed the merging of feature branches into production while overseeing the progressive deployment of the application using CI/CD pipelines. I designed and iterated on YAML configuration files to automate testing, containerization, and deployment to a local server, ensuring that each push triggered validation steps, linting, and deployment checks before going live.
                         </div>
                         <div className='content_article_right_text_bis'>
-                            <img src={gitlab} alt="image" className='content_article_right_text_image'/>
+                            <img src={gitlab} alt="" className='content_article_right_text_image'/>
                         </div>
 
                         <div className='content_article_right_title'>

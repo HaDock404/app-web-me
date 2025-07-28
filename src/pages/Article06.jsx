@@ -106,7 +106,7 @@ function Article06() {
                             Here are the class accuracy obtained from the test data:
                         </div>
                         <div className='content_article_right_text_bis'>
-                            <img src={accuracy} alt="image" className='content_article_right_text_image'/>
+                            <img src={accuracy} alt="" className='content_article_right_text_image'/>
                         </div>
                         <div className='content_article_right_text'>
                             These results show that my U-Net trained model performs particularly well on large, homogeneous surfaces such as roads and buildings, but has more difficulty with small moving objects such as vehicles, particularly due to the low number of pixels representing them and variations in shape.

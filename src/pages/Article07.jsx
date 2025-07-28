@@ -19,7 +19,7 @@ function Article06() {
                                 Youtube Downloader 
                             </div>
                             <div className='content_article_left_link'>
-                                <Link to="https://api-vision-computer-782672784164.northamerica-northeast1.run.app/docs" className='content_title_link' target="_blank" rel="noopener noreferrer">
+                                <Link to="https://api-youtube-782672784164.northamerica-northeast1.run.app/docs" className='content_title_link' target="_blank" rel="noopener noreferrer">
                                     Serverless API
                                 </Link>
                                 <Icon8 />
@@ -44,7 +44,7 @@ function Article06() {
                         </div>
 
                         <div className='content_article_right_text_bis'>
-                            <img src={fastapi} alt="image" className='content_article_right_text_image'/>
+                            <img src={fastapi} alt="" className='content_article_right_text_image'/>
                         </div>
 
                         <div className='content_article_right_title'>

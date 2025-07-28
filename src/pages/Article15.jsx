@@ -64,7 +64,7 @@ function Article15() {
                             Beyond the gameplay itself, Fortnite’s colorful graphics, relaxed atmosphere, and creative possibilities, ranging from obstacle course design to collaborative mini-games, transform each session into a moment of shared creativity rather than mere competition. In the context of remote work, where creating moments of informal connection is often challenging, Fortnite provides a practical, scalable solution for building and maintaining relationships across the team. These sessions allow employees to interact in a different context, fostering spontaneous discussions, building empathy, and strengthening trust that translates back into their day-to-day professional interactions.
                         </div>
                         <div className='content_article_right_text_bis'>
-                            <img src={fortnite} alt="image" className='content_article_right_text_image'/>
+                            <img src={fortnite} alt="" className='content_article_right_text_image'/>
                         </div>
                         <div className='content_article_right_text'>
                             At Erwin Labs, our Fortnite sessions have created a space for employees to get to know each other beyond their roles, unlocking new ways to communicate and collaborate while reducing the sense of isolation that can come with remote work.

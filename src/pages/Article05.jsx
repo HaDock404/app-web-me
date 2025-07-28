@@ -4,7 +4,6 @@ import Icon8 from '../components/Icon8'
 import { Link } from 'react-router-dom'
 
 import hieroglyphs from '../assets/hieroglyphs.mp4'
-import ishikawa from '../assets/ishikawa.png'
 
 function Article01() {
     return (

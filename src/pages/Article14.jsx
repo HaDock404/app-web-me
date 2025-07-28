@@ -44,7 +44,7 @@ function Article14() {
                         </div>
 
                         <div className='content_article_right_text_bis'>
-                            <img src={memgraph} alt="image" className='content_article_right_text_image'/>
+                            <img src={memgraph} alt="" className='content_article_right_text_image'/>
                         </div>
 
                         <div className='content_article_right_title'>

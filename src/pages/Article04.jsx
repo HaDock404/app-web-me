@@ -3,9 +3,7 @@ import Icon6 from '../components/Icon6'
 import Icon8 from '../components/Icon8'
 import { Link } from 'react-router-dom'
 
-import animation from '../assets/animation.mp4'
 import baudry from '../assets/baudry.mp4'
-import scroll from '../assets/scroll.png'
 import ishikawa from '../assets/ishikawa.png'
 
 function Article01() {
@@ -95,7 +93,7 @@ function Article01() {
                             To analyze the root causes of excessive handling, I used the Ishikawa diagram, also known as the fishbone diagram. This tool, commonly used in quality management, graphically represents potential causes of a problem by categorizing them into key groups (methods, machines, materials, manpower, environment, etc.). This approach allowed me to structure my observations and prioritize improvement areas.
                         </div>
                         <div className='content_article_right_text_bis'>
-                            <img src={ishikawa} alt="image" className='content_article_right_text_image'/>
+                            <img src={ishikawa} alt="" className='content_article_right_text_image'/>
                         </div>
                         <div className='content_article_right_subtitle_bis'>
                             Ishikawa Diagram Example of my project.

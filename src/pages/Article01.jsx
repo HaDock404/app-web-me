@@ -79,7 +79,7 @@ function Article01() {
                             The --scroll CSS variable updates in real time, allowing animations to be triggered based on the user's location on the page.
                         </div>
                         <div className='content_article_right_text_bis'>
-                            <img src={scroll} alt="image" className='content_article_right_text_image'/>
+                            <img src={scroll} alt="" className='content_article_right_text_image'/>
                         </div>
                         <div className='content_article_right_subtitle_bis'>
                             Function to retrieve the user's location in the web page.
