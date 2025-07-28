@@ -1,6 +1,5 @@
 import '../styles/articles.css'
 import Article from './Article'
-import Flat from '../assets/flat.png';
 import Total from '../assets/total.png'
 import AI from '../assets/AI.png'
 import Numbers from '../assets/numbers.png'

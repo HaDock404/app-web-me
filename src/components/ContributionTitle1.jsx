@@ -1,6 +1,4 @@
 import '../styles/contribution.css'
-import Icon1 from './Icon1.jsx'
-import Icon3 from './Icon3.jsx'
 import Icon4 from './Icon4.jsx'
 
 function ContributionTitle1() {

@@ -2,7 +2,6 @@ import '../styles/articles.css'
 import Article from './Article'
 import Gitlab from '../assets/gitlab.svg';
 import Board from '../assets/board.svg'
-import Brain from '../assets/brain.svg'
 import Rocket from '../assets/rocket.svg'
 import Youtube from '../assets/youtube.svg'
 
