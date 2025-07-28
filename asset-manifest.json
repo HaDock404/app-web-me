@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/app-web-me/static/css/main.5570146d.css",
-    "main.js": "/app-web-me/static/js/main.993a924b.js",
+    "main.css": "/app-web-me/static/css/main.f34ef734.css",
+    "main.js": "/app-web-me/static/js/main.490cc133.js",
     "static/js/453.b3eaa977.chunk.js": "/app-web-me/static/js/453.b3eaa977.chunk.js",
     "static/media/baudry.mp4": "/app-web-me/static/media/baudry.f6040df4231d745a3184.mp4",
     "static/media/computer-vision.mp4": "/app-web-me/static/media/computer-vision.3426e6f5d51140902ab8.mp4",
@@ -26,8 +26,10 @@
     "static/media/gitlab.png": "/app-web-me/static/media/gitlab.666e1d962d5ff2433909.png",
     "static/media/graph.png": "/app-web-me/static/media/graph.cbec24af43fa8d934aed.png",
     "static/media/total.png": "/app-web-me/static/media/total.2678c1c5e62cdd9ac307.png",
+    "static/media/memgraph.png": "/app-web-me/static/media/memgraph.af2a10eb0a4dc07b3608.png",
     "static/media/ishikawa.png": "/app-web-me/static/media/ishikawa.192565d41bee958cba26.png",
     "static/media/emoxion.svg": "/app-web-me/static/media/emoxion.43383f6cee3e30aebc4e4fbade4b33b3.svg",
+    "static/media/fastapi.png": "/app-web-me/static/media/fastapi.328f7a87e896a4ff61b8.png",
     "static/media/cars.svg": "/app-web-me/static/media/cars.299b1c748d49b7e825a543ab272f751a.svg",
     "static/media/BERT.png": "/app-web-me/static/media/BERT.b49cf5850a7c6d14d6c0.png",
     "static/media/AI.png": "/app-web-me/static/media/AI.2bb878d4d89d17313bef.png",
@@ -50,12 +52,12 @@
     "static/media/saw.svg": "/app-web-me/static/media/saw.7a2c94a2a1ef1d83bcbd8a9d2c5ff2db.svg",
     "index.html": "/app-web-me/index.html",
     "static/media/youtube.svg": "/app-web-me/static/media/youtube.3be9c3753f19fed920fa5581ca671bfb.svg",
-    "main.5570146d.css.map": "/app-web-me/static/css/main.5570146d.css.map",
-    "main.993a924b.js.map": "/app-web-me/static/js/main.993a924b.js.map",
+    "main.f34ef734.css.map": "/app-web-me/static/css/main.f34ef734.css.map",
+    "main.490cc133.js.map": "/app-web-me/static/js/main.490cc133.js.map",
     "453.b3eaa977.chunk.js.map": "/app-web-me/static/js/453.b3eaa977.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5570146d.css",
-    "static/js/main.993a924b.js"
+    "static/css/main.f34ef734.css",
+    "static/js/main.490cc133.js"
   ]
 }
