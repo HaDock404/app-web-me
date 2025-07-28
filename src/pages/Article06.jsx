@@ -23,7 +23,7 @@ function Article06() {
                             </div>
                             <div className='content_article_left_link'>
                                 <Link to="https://api-vision-computer-782672784164.northamerica-northeast1.run.app/docs" className='content_title_link' target="_blank" rel="noopener noreferrer">
-                                    API
+                                    Serverless API
                                 </Link>
                                 <Icon8 />
                             </div>
