@@ -18,10 +18,10 @@ const text3 = "I created the perfect chatbot to find the IT consultant for your 
 const text4 = "How to quantify improvements? Using the right indicators and ensuring effective maintenance."
 
 //const link1 = "/article_01"
-const link1 = "/article_14"
-const link2 = "/article_02"
-const link3 = "/article_03"
-const link4 = "/article_04"
+const link1 = "/memgraph"
+const link2 = "/total-energies"
+const link3 = "/chatbot_ai"
+const link4 = "/baudry"
 
 function Articles() {
     return (

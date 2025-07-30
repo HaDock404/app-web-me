@@ -19,7 +19,7 @@ function Banner() {
                             <div className='icon_box_link'>
                                 <Icon2 />
                             </div>
-                            <Link to="/article_05" className='link text_box_banner_link' target="" rel="noopener noreferrer">
+                            <Link to="/hieroglyphs" className='link text_box_banner_link' target="" rel="noopener noreferrer">
                                 Read more about
                             </Link>
                         </div>

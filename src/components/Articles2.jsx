@@ -17,10 +17,10 @@ const text2 = "I tried to present my journey through an interactive page using d
 const text3 = "Fine-tuning BERT to understand tweet sentiment, positive or negative."
 const text4 = "Building a luxury car recommendation algorithm for a premium rental company."
 
-const link1 = "/article_06"
+const link1 = "/u-net_model"
 //const link2 = "/article_07"
-const link2 = "/article_01"
-const link3 = "/article_08"
+const link2 = "/about-me"
+const link3 = "/bert-tweet"
 const link4 = "/"
 
 function Articles() {

@@ -15,10 +15,10 @@ const text2 = "Gaining management skills through coaching at a watersport center
 const text3 = "Crafting complex wood projects taught me to structure software projects."
 const text4 = "I collect and share my knowledge to reuse and teach effectively."
 
-const link1 = "/article_15"
-const link2 = "/article_16"
-const link3 = "/article_17"
-const link4 = "/article_18"
+const link1 = "/team-cohesion"
+const link2 = "/water-sport"
+const link3 = "/woodworking"
+const link4 = "/knowledge-base"
 
 function Articles3() {
     return (

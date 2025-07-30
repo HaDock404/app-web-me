@@ -8,7 +8,7 @@ function Banner2() {
     return (
         <section id='banner_display'>
             <article id='banner'>
-                <Link to="/article_10" className="content_banner_link">
+                <Link to="/data-snake-game" className="content_banner_link">
 
                     <img className='Logotest_banner' src={Banner} alt="" />
                     

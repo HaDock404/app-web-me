@@ -17,11 +17,11 @@ const text3 = "On starting projects and pushing them toward success, one idea at
 //const text4 = "Memgraph allowed us detect talent trends, anticipate client needs and identify market gaps."
 const text4 = "A simple, serverless API for downloading YouTube videos."
 
-const link1 = "/article_11"
-const link2 = "/article_12"
-const link3 = "/article_13"
+const link1 = "/gitlab-CI_CD"
+const link2 = "/arduino"
+const link3 = "/saas"
 //const link4 = "/article_14"
-const link4 = "/article_07"
+const link4 = "/youtube-downloader"
 
 function Articles4() {
     return (

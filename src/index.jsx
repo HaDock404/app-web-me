@@ -9,6 +9,7 @@ import reportWebVitals from './reportWebVitals';
 
 import './styles/normalize.css'
 import GlobalStyle from './styles/createGlobalStyle.jsx'
+import ScrollToTop from "./styles/ScrollToTop";
 
 import Home from './pages/Home';
 import Article01 from './pages/Article01';
@@ -34,26 +35,27 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <HashRouter>
         <GlobalStyle/>
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />}/>
-          <Route path="/article_01" element={<Article01 />}/>
-          <Route path="/article_02" element={<Article02 />}/>
-          <Route path="/article_03" element={<Article03 />}/>
-          <Route path="/article_04" element={<Article04 />}/>
-          <Route path="/article_05" element={<Article05 />}/>
-          <Route path="/article_06" element={<Article06 />}/>
-          <Route path="/article_07" element={<Article07 />}/>
-          <Route path="/article_08" element={<Article08 />}/>
+          <Route path="/about-me" element={<Article01 />}/>
+          <Route path="/total-energies" element={<Article02 />}/>
+          <Route path="/chatbot_ai" element={<Article03 />}/>
+          <Route path="/baudry" element={<Article04 />}/>
+          <Route path="/hieroglyphs" element={<Article05 />}/>
+          <Route path="/u-net_model" element={<Article06 />}/>
+          <Route path="/youtube-downloader" element={<Article07 />}/>
+          <Route path="/bert-tweet" element={<Article08 />}/>
 
-          <Route path="/article_10" element={<Article10 />}/>
-          <Route path="/article_11" element={<Article11 />}/>
-          <Route path="/article_12" element={<Article12 />}/>
-          <Route path="/article_13" element={<Article13 />}/>
-          <Route path="/article_14" element={<Article14 />}/>
-          <Route path="/article_15" element={<Article15 />}/>
-          <Route path="/article_16" element={<Article16 />}/>
-          <Route path="/article_17" element={<Article17 />}/>
-          <Route path="/article_18" element={<Article18 />}/>
+          <Route path="/data-snake-game" element={<Article10 />}/>
+          <Route path="/gitlab-CI_CD" element={<Article11 />}/>
+          <Route path="/arduino" element={<Article12 />}/>
+          <Route path="/saas" element={<Article13 />}/>
+          <Route path="/memgraph" element={<Article14 />}/>
+          <Route path="/team-cohesion" element={<Article15 />}/>
+          <Route path="/water-sport" element={<Article16 />}/>
+          <Route path="/woodworking" element={<Article17 />}/>
+          <Route path="/knowledge-base" element={<Article18 />}/>
         </Routes>
     <React.StrictMode></React.StrictMode>
   </HashRouter>,
