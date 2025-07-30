@@ -141,4 +141,15 @@
     #banner .Logotest_banner {
     filter: grayscale(0%);
     }
+
+    .content_banner_link {
+        width: calc(100% - 24px);
+        height: 190px;
+        margin-left: 12px;
+        margin-right: 12px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
+
 }
