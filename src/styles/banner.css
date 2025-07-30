@@ -138,4 +138,7 @@
         height: 250px; 
         margin-left: 0px;
     }
+    #banner .Logotest_banner {
+    filter: grayscale(0%);
+    }
 }

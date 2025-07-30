@@ -171,6 +171,9 @@
         border: none;
         width: 100%;
     }
+    .article .Logotest {
+    filter: grayscale(0%);
+    }
 }
 
 @media screen and (max-width: 387px){
@@ -192,5 +195,8 @@
         height: 1px;
         border: none;
         width: 100%;
+    }
+    .article .Logotest {
+    filter: grayscale(0%);
     }
 }
