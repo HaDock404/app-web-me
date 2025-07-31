@@ -44,7 +44,10 @@ function Article06() {
                         </div>
 
                         <div className='content_article_right_text_bis'>
-                            <img src={fastapi} alt="" className='content_article_right_text_image'/>
+                            <img src={fastapi} alt="FastAPI Interface" className='content_article_right_text_image'/>
+                        </div>
+                        <div className='content_article_right_subtitle'>
+                            FastAPI Interface.
                         </div>
 
                         <div className='content_article_right_title'>

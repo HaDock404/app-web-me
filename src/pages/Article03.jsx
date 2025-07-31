@@ -59,7 +59,7 @@ function Article01() {
                             The flowchart below illustrates the overall workflow of the data extraction and processing pipeline.
                         </div>
                         <div className='content_article_right_text_bis'>
-                            <img src={flowchart} alt="" className='content_article_right_text_image'/>
+                            <img src={flowchart} alt="Flowchart" className='content_article_right_text_image'/>
                         </div>
                         <div className='content_article_right_subtitle'>
                             Flowchart to diagram the data extraction pipeline.
@@ -81,7 +81,7 @@ function Article01() {
                             This intelligent backend transforms the chatbot into more than just a search tool, it becomes a strategic sourcing assistant, capable of uncovering opportunities, revealing hidden expertise across the market, and ultimately accelerating and securing the selection process for IT consulting partners.
                         </div>
                         <div className='content_article_right_text_bis'>
-                            <img src={mcd} alt="" className='content_article_right_text_image'/>
+                            <img src={mcd} alt="data architecture diagram" className='content_article_right_text_image'/>
                         </div>
                         <div className='content_article_right_subtitle_bis'>
                             My project data architecture diagram.

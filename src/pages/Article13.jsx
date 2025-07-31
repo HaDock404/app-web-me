@@ -44,7 +44,10 @@ function Article13() {
                         </div>
 
                         <div className='content_article_right_text_bis'>
-                            <img src={projects} alt="" className='content_article_right_text_image'/>
+                            <img src={projects} alt="Data projects examples" className='content_article_right_text_image'/>
+                        </div>
+                        <div className='content_article_right_subtitle'>
+                            Some projects.
                         </div>
 
                         <div className='content_article_right_title'>

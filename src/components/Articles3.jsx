@@ -24,13 +24,13 @@ function Articles3() {
     return (
         <section id='articles_display'>
             <article id='articles'>
-                <Article placement="left" image={Controller} title={title1} text={text1} link={link1}/>
+                <Article placement="left" image={Controller} title={title1} text={text1} link={link1} alt="Controller"/>
                 <hr className='vertical_hr'/>
-                <Article  placement="center" image={Plancha} title={title2} text={text2} link={link2}/>
+                <Article  placement="center" image={Plancha} title={title2} text={text2} link={link2} alt="Board"/>
                 <hr className='vertical_hr'/>
-                <Article  placement="center" image={Saw} title={title3} text={text3} link={link3}/>
+                <Article  placement="center" image={Saw} title={title3} text={text3} link={link3} alt="Saw"/>
                 <hr className='vertical_hr'/>
-                <Article  placement="right" image={Hat} title={title4} text={text4} link={link4}/>
+                <Article  placement="right" image={Hat} title={title4} text={text4} link={link4} alt="Hat"/>
             </article>
             
         </section>

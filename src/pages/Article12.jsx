@@ -45,7 +45,7 @@ function Article10() {
                         </div>
 
                         <div className='content_article_right_video'>
-                            <video src={Hack} autoPlay loop muted playsInline preload="auto" id=''/>
+                            <video src={Hack} autoPlay loop muted playsInline preload="auto" alt="Terminal video"/>
                         </div>
                         <div className='content_article_right_subtitle'>
                             POV: BadUSB is connected in your computer
@@ -67,7 +67,10 @@ function Article10() {
                             In my case, I leveraged this concept to automate repetitive actions in a video game, allowing me to execute a sequence of actions repeatedly to gain experience points autonomously. I have also used this device for more complex tasks, such as automated software installations and file transfers between machines.
                         </div>
                         <div className='content_article_right_text_bis'>
-                            <img src={arduino} alt="" className='content_article_right_text_image'/>
+                            <img src={arduino} alt="Arduino projects" className='content_article_right_text_image'/>
+                        </div>
+                        <div className='content_article_right_subtitle'>
+                            Some projects with Arduino.
                         </div>
                         <div className='content_article_right_text'>
                             Arduino is not limited to simple or playful automation tasks. It serves as a bridge between data science and embedded systems engineering. With Arduino, it becomes possible to deploy AI models onto physical devices, enabling the testing of their effectiveness in real-world conditions and facilitating the creation of intelligent connected objects adapted to specific environments.

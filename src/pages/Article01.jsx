@@ -50,7 +50,7 @@ function Article01() {
                             My goal was simple: to tell my story through a <Link to="https://hadock404.github.io/app-bio-about_me/" className='content_article_right_text_link'  target="_blank" rel="noopener noreferrer">web page</Link>. This story needed to be concise, and the navigation had to be as smooth and intuitive as possible. The target user was a human resources director looking for talented profiles to recruit.
                         </div>
                         <div className='content_article_right_video'>
-                            <video src={animation} autoPlay loop muted playsInline preload="auto" />
+                            <video src={animation} autoPlay loop muted playsInline preload="auto" alt="navigation method"/>
                         </div>
                         <div className='content_article_right_subtitle'>
                             Explanation of the navigation method to the user.
@@ -79,7 +79,7 @@ function Article01() {
                             The --scroll CSS variable updates in real time, allowing animations to be triggered based on the user's location on the page.
                         </div>
                         <div className='content_article_right_text_bis'>
-                            <img src={scroll} alt="" className='content_article_right_text_image'/>
+                            <img src={scroll} alt="javascript function" className='content_article_right_text_image'/>
                         </div>
                         <div className='content_article_right_subtitle_bis'>
                             Function to retrieve the user's location in the web page.

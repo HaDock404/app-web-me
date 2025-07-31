@@ -44,7 +44,7 @@ function Article16() {
                         </div>
 
                         <div className='content_article_right_video'>
-                            <video src={CISPA} autoPlay loop muted playsInline preload="auto" id=''/>
+                            <video src={CISPA} autoPlay loop muted playsInline preload="auto" alt='Ribou Lake video'/>
                         </div>
                         <div className='content_article_right_subtitle'>
                             Ribou Lake - Cholet

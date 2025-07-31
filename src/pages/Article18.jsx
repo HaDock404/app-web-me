@@ -43,7 +43,10 @@ function Article18() {
                             At first, I used notebooks, then scattered notes across my computer or cloud services, but these fragments of knowledge would inevitably get lost, impossible to reconnect when I needed to revisit a topic or share a solution with a colleague.
                         </div>
                         <div className='content_article_right_text_bis'>
-                            <img src={knowledge} alt="" className='content_article_right_text_image'/>
+                            <img src={knowledge} alt="Knowledge Base homepage" className='content_article_right_text_image'/>
+                        </div>
+                        <div className='content_article_right_subtitle'>
+                            Knowledge Base homepage.
                         </div>
                         <div className='content_article_right_text'>
                             It was from this need to easily find what I had learned, and to make it available to others, that the idea of building my own knowledge base was born.

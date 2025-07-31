@@ -27,13 +27,13 @@ function Articles() {
     return (
         <section id='articles_display'>
             <article id='articles'>
-                <Article placement="left" image={Brain} title={title1} text={text1} link={link1}/>
+                <Article placement="left" image={Brain} title={title1} text={text1} link={link1} alt="Brain"/>
                 <hr className='vertical_hr'/>
-                <Article  placement="center" image={Total} title={title2} text={text2} link={link2}/>
+                <Article  placement="center" image={Total} title={title2} text={text2} link={link2} alt="Total-energies"/>
                 <hr className='vertical_hr'/>
-                <Article  placement="center" image={AI} title={title3} text={text3} link={link3}/>
+                <Article  placement="center" image={AI} title={title3} text={text3} link={link3} alt="AI"/>
                 <hr className='vertical_hr'/>
-                <Article  placement="right" image={Numbers} title={title4} text={text4} link={link4}/>
+                <Article  placement="right" image={Numbers} title={title4} text={text4} link={link4} alt="Pi numbers"/>
             </article>
             
         </section>

@@ -47,7 +47,7 @@ function Article06() {
                         </div>
 
                         <div className='content_article_right_video'>
-                            <video src={Vision} autoPlay loop muted playsInline preload="auto" id=''/>
+                            <video src={Vision} autoPlay loop muted playsInline preload="auto" alt="Dashcam video"/>
                         </div>
                         <div className='content_article_right_subtitle'>
                             Video captured in Valencia (Spain) in my own car and processed with my trained model.
@@ -69,7 +69,10 @@ function Article06() {
                             Its structure consists of a contracting path (Encoder), a series of convolutions and max-pooling that allow to extract contextual features from an image while reducing its size. And an expansive path (Decoder), a series of convolutions and up-sampling that allows to reconstruct the segmented image while recovering fine details.
                         </div>
                         <div className='content_article_right_text_bis'>
-                            <img src={unet} alt="" className='content_article_right_text_image'/>
+                            <img src={unet} alt="U-net diagram" className='content_article_right_text_image'/>
+                        </div>
+                        <div className='content_article_right_subtitle'>
+                            U-net Diagram.
                         </div>
                         <div className='content_article_right_text'>
                             The unique feature of U-Net is the skip connections (bridges) connecting the same-sized layers between the encoder and the decoder, allowing to transfer local details lost during downsampling directly into the reconstruction phase.
@@ -91,7 +94,10 @@ function Article06() {
                             In my project, I chose to use an alternative approach based on LabelEncoder encoding for segmentation masks. This method assigns each pixel a unique integer corresponding to the pixel's class, which allows to keep the same size as the original image while representing all classes in a single mask. This compact representation allows the use of the loss function sparse_categorical_crossentropy, which is equivalent to categorical_crossentropy but adapted to integer labels.
                         </div>
                         <div className='content_article_right_text_bis'>
-                            <img src={schema} alt="" className='content_article_right_text_image'/>
+                            <img src={schema} alt="Label & One-Hot Encoding methods" className='content_article_right_text_image'/>
+                        </div>
+                        <div className='content_article_right_subtitle'>
+                            Label & One-Hot Encoding methods.
                         </div>
                         <div className='content_article_right_text'>
                             Using LabelEncoder allowed me to simplify data management while optimizing GPU memory usage, making it possible to train my U-Net model on a large number of dashcam images without compromising performance. This approach is particularly useful for in-car segmentation projects in autonomous driving, where memory and inference speed are strong constraints to respect while maintaining satisfactory segmentation quality.
@@ -106,7 +112,10 @@ function Article06() {
                             Here are the class accuracy obtained from the test data:
                         </div>
                         <div className='content_article_right_text_bis'>
-                            <img src={accuracy} alt="" className='content_article_right_text_image'/>
+                            <img src={accuracy} alt="Accuracy per class" className='content_article_right_text_image'/>
+                        </div>
+                        <div className='content_article_right_subtitle'>
+                            Accuracy per class.
                         </div>
                         <div className='content_article_right_text'>
                             These results show that my U-Net trained model performs particularly well on large, homogeneous surfaces such as roads and buildings, but has more difficulty with small moving objects such as vehicles, particularly due to the low number of pixels representing them and variations in shape.

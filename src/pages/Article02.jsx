@@ -47,7 +47,7 @@ function Article01() {
                             Unfortunately, at that time, TotalEnergies lacked the necessary tools to process and analyze the thousands of energy supply points associated with public sector contracts. Handling this crucial information, which was essential to optimize electricity supply, proved to be extremely complicated and led to some rather unusual situations.
                         </div>
                         <div className='content_article_right_video'>
-                            <video src={total} autoPlay loop muted playsInline preload="auto" />
+                            <video src={total} autoPlay loop muted playsInline preload="auto" alt="electricity and gas supplier"/>
                         </div>
                         <div className='content_article_right_subtitle'>
                             TotalEnergies becomes an electricity and gas supplier.
@@ -66,7 +66,7 @@ function Article01() {
                             I was tasked by the business-to-business managers, <Link to="https://fr.linkedin.com/in/benjamin-salmeron-29ba783a" className='content_article_right_text_link'  target="_blank" rel="noopener noreferrer">Benjamin Salmeron</Link> and <Link to="https://fr.linkedin.com/in/ikrame-farssi-ba639ab1" className='content_article_right_text_link'  target="_blank" rel="noopener noreferrer">Ikram Farssi</Link>, with developing a tool to accurately retrieve delivery point data and store it on a server, allowing my team to access and analyze it.
                         </div>
                         <div className='content_article_right_text_bis'>
-                            <img src={total_figure} alt="" className='content_article_right_text_image'/>
+                            <img src={total_figure} alt="data architecture diagram" className='content_article_right_text_image'/>
                         </div>
                         <div className='content_article_right_subtitle_bis'>
                             My project data architecture diagram.

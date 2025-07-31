@@ -10,7 +10,7 @@ function Banner2() {
             <article id='banner'>
                 <Link to="/data-snake-game" className="content_banner_link">
 
-                    <img className='Logotest_banner' src={Banner} alt="" />
+                    <img className='Logotest_banner' src={Banner} alt="data snake game" />
                     
                 </Link>
             </article>

@@ -45,7 +45,7 @@ function Article08() {
                         </div>
 
                         <div className='content_article_right_video'>
-                            <video src={Twitter} autoPlay loop muted playsInline preload="auto" id=''/>
+                            <video src={Twitter} autoPlay loop muted playsInline preload="auto" alt="API results of my BERT Trained Model"/>
                         </div>
                         <div className='content_article_right_subtitle'>
                             API results of my BERT Trained Model
@@ -58,7 +58,10 @@ function Article08() {
                             BERT, which stands for Bidirectional Encoder Representations from Transformers, is a language representation model developed by Google that pre-trains deep bidirectional representations by jointly conditioning on both left and right context in all layers. This architecture allows BERT to deeply understand the contextual relationships between words, which is particularly critical for sentiment analysis, where the polarity of a statement often depends on its context within the sentence.
                         </div>
                         <div className='content_article_right_text_bis'>
-                            <img src={bert} alt="" className='content_article_right_text_image'/>
+                            <img src={bert} alt="BERT Diagram" className='content_article_right_text_image'/>
+                        </div>
+                        <div className='content_article_right_subtitle'>
+                            BERT Diagram.
                         </div>
                         <div className='content_article_right_text'>
                             For this project, I fine-tuned a pre-trained BERT base model specifically for the sentiment classification task, optimizing it on the labeled dataset while applying data cleaning and augmentation strategies to improve the robustness of the model. Tweets were pre-processed to handle hashtags, user mentions, links, and emojis, converting them into formats that preserved semantic information while remaining compatible with the tokenizer used by BERT.

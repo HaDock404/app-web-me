@@ -26,7 +26,7 @@ function Banner() {
                     </div>
                     
                     <div className='content_box_image_banner'>
-                        <img className='Logotest_banner' src={Hieroglyph} alt="" />
+                        <img className='Logotest_banner' src={Hieroglyph} alt="Hieroglyph.io" />
                     </div>
                 </div>
             </article>

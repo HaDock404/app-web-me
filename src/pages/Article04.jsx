@@ -62,7 +62,7 @@ function Article01() {
                             "To organize and effectively manage the routing of pallets along the rolling paths to improve their transitions and usage at the various workstations within the workshop."
                         </div>
                         <div className='content_article_right_video'>
-                            <video src={baudry} autoPlay loop muted playsInline preload="auto" />
+                            <video src={baudry} autoPlay loop muted playsInline preload="auto" alt="Baudry video"/>
                         </div>
                         <div className='content_article_right_subtitle'>
                             Baudry company specialized in the coating of wooden profiles.
@@ -93,7 +93,7 @@ function Article01() {
                             To analyze the root causes of excessive handling, I used the Ishikawa diagram, also known as the fishbone diagram. This tool, commonly used in quality management, graphically represents potential causes of a problem by categorizing them into key groups (methods, machines, materials, manpower, environment, etc.). This approach allowed me to structure my observations and prioritize improvement areas.
                         </div>
                         <div className='content_article_right_text_bis'>
-                            <img src={ishikawa} alt="" className='content_article_right_text_image'/>
+                            <img src={ishikawa} alt="Ishikawa Diagram" className='content_article_right_text_image'/>
                         </div>
                         <div className='content_article_right_subtitle_bis'>
                             Ishikawa Diagram Example of my project.

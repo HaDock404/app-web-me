@@ -27,13 +27,13 @@ function Articles4() {
     return (
         <section id='articles_display'>
             <article id='articles'>
-                <Article placement="left" image={Gitlab} title={title1} text={text1} link={link1}/>
+                <Article placement="left" image={Gitlab} title={title1} text={text1} link={link1} alt="Gitlab CI/CD"/>
                 <hr className='vertical_hr'/>
-                <Article  placement="center" image={Board} title={title2} text={text2} link={link2}/>
+                <Article  placement="center" image={Board} title={title2} text={text2} link={link2} alt="Arduino"/>
                 <hr className='vertical_hr'/>
-                <Article  placement="center" image={Rocket} title={title3} text={text3} link={link3}/>
+                <Article  placement="center" image={Rocket} title={title3} text={text3} link={link3} alt="Rocket"/>
                 <hr className='vertical_hr'/>
-                <Article  placement="right" image={Youtube} title={title4} text={text4} link={link4}/>
+                <Article  placement="right" image={Youtube} title={title4} text={text4} link={link4} alt="Youtube logo"/>
             </article>
             
         </section>

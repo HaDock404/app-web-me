@@ -45,7 +45,7 @@ function Article10() {
                         </div>
 
                         <div className='content_article_right_video'>
-                            <video src={Gitlab} autoPlay loop muted playsInline preload="auto" id=''/>
+                            <video src={Gitlab} autoPlay loop muted playsInline preload="auto" alt='GitLab Project explaination video'/>
                         </div>
                         <div className='content_article_right_subtitle'>
                             GitLab Server & Project
@@ -70,7 +70,10 @@ function Article10() {
                             Finally, as DevOps Engineer and Project Lead, I managed the merging of feature branches into production while overseeing the progressive deployment of the application using CI/CD pipelines. I designed and iterated on YAML configuration files to automate testing, containerization, and deployment to a local server, ensuring that each push triggered validation steps, linting, and deployment checks before going live.
                         </div>
                         <div className='content_article_right_text_bis'>
-                            <img src={gitlab} alt="" className='content_article_right_text_image'/>
+                            <img src={gitlab} alt="Project architecture" className='content_article_right_text_image'/>
+                        </div>
+                        <div className='content_article_right_subtitle'>
+                            Project architecture.
                         </div>
 
                         <div className='content_article_right_title'>

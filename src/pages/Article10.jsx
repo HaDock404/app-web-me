@@ -48,7 +48,7 @@ function Article10() {
                         </div>
 
                         <div className='content_article_right_video'>
-                            <video src={SnakeGame} autoPlay loop muted playsInline preload="auto" id=''/>
+                            <video src={SnakeGame} autoPlay loop muted playsInline preload="auto" alt='Snake Game video'/>
                         </div>
                         <div className='content_article_right_subtitle'>
                             My Snake Game
@@ -67,7 +67,10 @@ function Article10() {
                             With this architecture, I can now perform real behavioral <Link to="https://hadock404.github.io/ai-game-snake/" className='content_article_right_text_link'  target="_blank" rel="noopener noreferrer">data exploration, identify gameplay trends, evaluate user strategies, and analyze patterns</Link> in user abandonment or progression across attempts. Although this project is not intended to scale as a public product, it serves as an excellent playground for implementing full CI/CD pipelines, production-grade data monitoring, and automated reporting via notebooks and dashboards.
                         </div>
                         <div className='content_article_right_text_bis'>
-                            <img src={graph} alt="" className='content_article_right_text_image'/>
+                            <img src={graph} alt="Data diagrams" className='content_article_right_text_image'/>
+                        </div>
+                        <div className='content_article_right_subtitle'>
+                            Data diagrams.
                         </div>
 
                         

@@ -57,7 +57,7 @@ function Article(props) {
                 }}>
                 <div className='content_box'>
                     <div className='content_box_image_article'>
-                        <img className='Logotest' src={props.image} alt="" />
+                        <img className='Logotest' src={props.image} alt={props.alt} />
                     </div>
                     <div className='content_box_title'>
                         {props.title}
