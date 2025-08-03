@@ -47,7 +47,7 @@ function Article14() {
                             <img src={memgraph} alt="Memgraph diagram" className='content_article_right_text_image'/>
                         </div>
                         <div className='content_article_right_subtitle'>
-                            Memgraph diagram.
+                            Architecture of our graph database.
                         </div>
 
                         <div className='content_article_right_title'>
