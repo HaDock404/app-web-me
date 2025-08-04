@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a2523a40.css",
-    "main.js": "/static/js/main.872f0103.js",
+    "main.js": "/static/js/main.9b402265.js",
     "static/js/453.b3eaa977.chunk.js": "/static/js/453.b3eaa977.chunk.js",
     "static/media/baudry.mp4": "/static/media/baudry.f6040df4231d745a3184.mp4",
     "static/media/computer-vision.mp4": "/static/media/computer-vision.3426e6f5d51140902ab8.mp4",
@@ -24,6 +24,7 @@
     "static/media/knowledge.png": "/static/media/knowledge.9036887b9d1e97ced1f4.png",
     "static/media/banner3.png": "/static/media/banner3.c94fb024c3f17b718f64.png",
     "static/media/gitlab.png": "/static/media/gitlab.666e1d962d5ff2433909.png",
+    "static/media/erwin-rates.png": "/static/media/erwin-rates.aed9dccb69819d646bf9.png",
     "static/media/graph.png": "/static/media/graph.cbec24af43fa8d934aed.png",
     "static/media/memgraph.png": "/static/media/memgraph.93b10e42726e2463355f.png",
     "static/media/total.png": "/static/media/total.2678c1c5e62cdd9ac307.png",
@@ -53,11 +54,11 @@
     "static/media/saw.svg": "/static/media/saw.7a2c94a2a1ef1d83bcbd8a9d2c5ff2db.svg",
     "static/media/youtube.svg": "/static/media/youtube.3be9c3753f19fed920fa5581ca671bfb.svg",
     "main.a2523a40.css.map": "/static/css/main.a2523a40.css.map",
-    "main.872f0103.js.map": "/static/js/main.872f0103.js.map",
+    "main.9b402265.js.map": "/static/js/main.9b402265.js.map",
     "453.b3eaa977.chunk.js.map": "/static/js/453.b3eaa977.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a2523a40.css",
-    "static/js/main.872f0103.js"
+    "static/js/main.9b402265.js"
   ]
 }
