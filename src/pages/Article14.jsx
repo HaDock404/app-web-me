@@ -4,6 +4,7 @@ import Icon8 from '../components/Icon8'
 import { Link } from 'react-router-dom'
 
 import memgraph from '../assets/memgraph.png'
+import erwin from '../assets/erwin-rates.png'
 
 function Article14() {
     return (
@@ -91,6 +92,12 @@ function Article14() {
                         </div>
                         <div className='content_article_right_text'>
                             This web of connections allows us to ask questions that would be nearly impossible, or unbearably slow with SQL. We can, for example, search for profiles who know both Kafka and Snowflake, have banking sector experience, are available in Paris, have a daily rate under €750, and have worked with a firm that’s a BNP Paribas supplier. This kind of multi-dimensional query can be resolved in milliseconds through Cypher.
+                        </div>
+                        <div className='content_article_right_text_bis'>
+                            <img src={erwin} alt="Erwin-rates" className='content_article_right_text_image'/>
+                        </div>
+                        <div className='content_article_right_subtitle'>
+                            Front-end of our tool.
                         </div>
                         <div className='content_article_right_text'>
                             Beyond information retrieval, our graph has become a true tool for analysis and strategy. We use centrality algorithms to identify key skills across profiles. For instance, with PageRank, we evaluate which technologies are most connected across industries and roles. We use community detection algorithms to surface natural clusters of consultants with similar paths or tools. With shortest path algorithms, we can determine how closely linked two companies are based on shared talent, clients, or projects.
