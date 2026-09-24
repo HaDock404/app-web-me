@@ -10,10 +10,10 @@ function Banner() {
                 <div className="content_banner">
                     <div className='content_box_banner'>
                         <div className='content_box_banner_title'>
-                            Hieroglyphs.io
+                            Doough.app
                         </div>
                         <div className='content_box_banner_text'>
-                            Hieroglyphs.io is a passion project. Its primary goal is to make it easy and fast for web developers to access a wide range of optimized icons, ensuring high-quality graphic rendering. Automation is a key component of this project. With a fully automated CI/CD pipeline, project management and deployment are seamless and efficient.
+                            Doough is a passion project. Its primary goal is to bring people together around food: households and roommates plan their weekly meals as a group, vote on dishes, share their own recipes, and generate shopping lists automatically. It blends smart meal recommendations with a social feed, making cooking together simple and fun.
                         </div>
                         <div className='link_box_banner'>
                             <div className='icon_box_link'>
@@ -26,7 +26,7 @@ function Banner() {
                     </div>
                     
                     <div className='content_box_image_banner'>
-                        <img className='Logotest_banner' src={Hieroglyph} alt="Hieroglyph.io" />
+                        <img className='Logotest_banner' src={Hieroglyph} alt="doough.app" />
                     </div>
                 </div>
             </article>
